@@ -1,0 +1,163 @@
+{
+ "arms": {
+  "construct": {
+   "file": "construct__apo_pH7.5.pdb",
+   "chain": "A",
+   "first": 26,
+   "last": 457,
+   "residues": 432,
+   "formal_charge": 2,
+   "n_cysteine": 9,
+   "cysteines": [
+    72,
+    96,
+    172,
+    195,
+    237,
+    306,
+    336,
+    405,
+    410
+   ],
+   "disulfides": [
+    {
+     "pair": [
+      72,
+      306
+     ],
+     "distance": 2.027019733500411
+    }
+   ],
+   "titratable": {
+    "HIS": 7,
+    "ASP": 11,
+    "GLU": 15,
+    "LYS": 9,
+    "ARG": 19,
+    "CYS": 9,
+    "TYR": 15
+   }
+  },
+  "primaries": {
+   "file": "primaries__apo_pH7.5.pdb",
+   "chain": "A",
+   "first": 26,
+   "last": 457,
+   "residues": 432,
+   "formal_charge": 1,
+   "n_cysteine": 9,
+   "cysteines": [
+    72,
+    96,
+    172,
+    195,
+    237,
+    306,
+    336,
+    405,
+    410
+   ],
+   "disulfides": [
+    {
+     "pair": [
+      72,
+      306
+     ],
+     "distance": 2.027019733500411
+    }
+   ],
+   "titratable": {
+    "HIS": 7,
+    "ASP": 10,
+    "GLU": 15,
+    "LYS": 9,
+    "ARG": 17,
+    "CYS": 9,
+    "TYR": 15
+   }
+  },
+  "wt": {
+   "file": "wt__apo_pH7.5.pdb",
+   "chain": "A",
+   "first": 26,
+   "last": 457,
+   "residues": 432,
+   "formal_charge": 1,
+   "n_cysteine": 9,
+   "cysteines": [
+    72,
+    96,
+    172,
+    195,
+    237,
+    306,
+    336,
+    405,
+    410
+   ],
+   "disulfides": [
+    {
+     "pair": [
+      72,
+      306
+     ],
+     "distance": 2.027019733500411
+    }
+   ],
+   "titratable": {
+    "HIS": 6,
+    "ASP": 10,
+    "GLU": 16,
+    "LYS": 9,
+    "ARG": 18,
+    "CYS": 9,
+    "TYR": 19
+   }
+  }
+ },
+ "residue_range": [
+  26,
+  457
+ ],
+ "disulfides": [
+  {
+   "pair": [
+    72,
+    306
+   ],
+   "distance": 2.027019733500411
+  }
+ ],
+ "formal_charges": {
+  "construct": 2,
+  "primaries": 1,
+  "wt": 1
+ },
+ "charge_spread": 1,
+ "titratable_differing": [
+  "ARG",
+  "ASP",
+  "GLU",
+  "HIS",
+  "TYR"
+ ],
+ "titratable_substituted_positions": [
+  217,
+  320,
+  404,
+  406,
+  430
+ ],
+ "closest_nonbonded_contact": {
+  "distance": 2.15990393304887,
+  "pair": "ARG122 NH2 to PHE238 O",
+  "excludes_disulfide": true,
+  "search_radius": 3.0
+ },
+ "drive_paths": [
+  "/content/drive/MyDrive/MDs/SLC46A1_engraftment/construct",
+  "/content/drive/MyDrive/MDs/SLC46A1_engraftment/primaries",
+  "/content/drive/MyDrive/MDs/SLC46A1_engraftment/wt"
+ ],
+ "settings_from": "md/md_plan.json"
+}

@@ -1,0 +1,22 @@
+{
+ "connection": [
+  239,
+  267
+ ],
+ "connection_length": 29,
+ "crossing_seven": [
+  268,
+  304
+ ],
+ "crossing_six": [
+  214,
+  238
+ ],
+ "fluctuation_high": 3.22,
+ "fluctuation_low": 0.58,
+ "fluctuation_replicates": 2,
+ "watched": [
+  238,
+  239
+ ]
+}

@@ -1,0 +1,1139 @@
+{
+ "source": "Q96NT5_b0.3",
+ "sweep_threshold": 0.001,
+ "published_radius": 3,
+ "contact_cutoff_A": 5.0,
+ "local_cutoff": 8,
+ "top_n_reported": 10,
+ "covered_region": [
+  24,
+  442
+ ],
+ "targets": [
+  {
+   "chicken_pos": 144,
+   "human_pos": 136,
+   "chicken_aa": "Y",
+   "human_aa": "Q",
+   "baseline_likelihood": 5.38113e-05,
+   "rescued": false,
+   "rescued_at": [],
+   "in_covered_region": true,
+   "fitted_by_run": false,
+   "n_partners_scored": 0,
+   "n_partners_in_window": 0,
+   "best_partner_overall": null,
+   "best_partner_in_window": null,
+   "partners_top": [],
+   "contacts_beyond_window_above_99th": []
+  },
+  {
+   "chicken_pos": 239,
+   "human_pos": 231,
+   "chicken_aa": "Q",
+   "human_aa": "G",
+   "baseline_likelihood": 0.000551102,
+   "rescued": true,
+   "rescued_at": [
+    [
+     "3",
+     "published"
+    ],
+    [
+     "3",
+     "strict"
+    ],
+    [
+     "3",
+     "annotated"
+    ],
+    [
+     "5",
+     "published"
+    ],
+    [
+     "5",
+     "strict"
+    ],
+    [
+     "5",
+     "annotated"
+    ],
+    [
+     "8",
+     "published"
+    ],
+    [
+     "8",
+     "strict"
+    ],
+    [
+     "8",
+     "annotated"
+    ],
+    [
+     "12",
+     "published"
+    ],
+    [
+     "12",
+     "strict"
+    ],
+    [
+     "12",
+     "annotated"
+    ],
+    [
+     "20",
+     "published"
+    ],
+    [
+     "20",
+     "strict"
+    ],
+    [
+     "20",
+     "annotated"
+    ],
+    [
+     "35",
+     "published"
+    ],
+    [
+     "35",
+     "strict"
+    ],
+    [
+     "35",
+     "annotated"
+    ],
+    [
+     "60",
+     "published"
+    ],
+    [
+     "60",
+     "strict"
+    ],
+    [
+     "60",
+     "annotated"
+    ],
+    [
+     "all",
+     "published"
+    ],
+    [
+     "all",
+     "strict"
+    ],
+    [
+     "all",
+     "annotated"
+    ]
+   ],
+   "in_covered_region": true,
+   "fitted_by_run": true,
+   "n_partners_scored": 376,
+   "n_partners_in_window": 6,
+   "best_partner_overall": {
+    "partner": 232,
+    "separation": 1,
+    "score": 0.464212,
+    "percentile_nonlocal": 99.89710724365004,
+    "distance_A": 1.330549134756012,
+    "in_contact": true,
+    "within_published_window": true,
+    "in_position_set": true,
+    "is_primary": false,
+    "parker_named": false,
+    "role": ""
+   },
+   "best_partner_in_window": {
+    "partner": 232,
+    "separation": 1,
+    "score": 0.464212,
+    "percentile_nonlocal": 99.89710724365004,
+    "distance_A": 1.330549134756012,
+    "in_contact": true,
+    "within_published_window": true,
+    "in_position_set": true,
+    "is_primary": false,
+    "parker_named": false,
+    "role": ""
+   },
+   "partners_top": [
+    {
+     "partner": 232,
+     "separation": 1,
+     "score": 0.464212,
+     "percentile_nonlocal": 99.89710724365004,
+     "distance_A": 1.330549134756012,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": true,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 227,
+     "separation": 4,
+     "score": 0.451525,
+     "percentile_nonlocal": 99.89122765757291,
+     "distance_A": 7.000459199224006,
+     "in_contact": false,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 233,
+     "separation": 2,
+     "score": 0.425717,
+     "percentile_nonlocal": 99.8721190028222,
+     "distance_A": 3.6374224390356322,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 230,
+     "separation": 1,
+     "score": 0.37273,
+     "percentile_nonlocal": 99.82655221072436,
+     "distance_A": 1.3282699273867509,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": true,
+     "is_primary": true,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 229,
+     "separation": 2,
+     "score": 0.361973,
+     "percentile_nonlocal": 99.80744355597366,
+     "distance_A": 3.995155316129772,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 228,
+     "separation": 3,
+     "score": 0.305734,
+     "percentile_nonlocal": 99.7442380056444,
+     "distance_A": 6.297981660818005,
+     "in_contact": false,
+     "within_published_window": true,
+     "in_position_set": true,
+     "is_primary": true,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 171,
+     "separation": 60,
+     "score": 0.221194,
+     "percentile_nonlocal": 99.55021166509877,
+     "distance_A": 7.5951377867685865,
+     "in_contact": false,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 114,
+     "separation": 117,
+     "score": 0.157763,
+     "percentile_nonlocal": 99.21801505174035,
+     "distance_A": 3.917494479894001,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 226,
+     "separation": 5,
+     "score": 0.125135,
+     "percentile_nonlocal": 98.81232361241769,
+     "distance_A": 5.857410605378447,
+     "in_contact": false,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 234,
+     "separation": 3,
+     "score": 0.12417,
+     "percentile_nonlocal": 98.80350423330198,
+     "distance_A": 6.418478713838657,
+     "in_contact": false,
+     "within_published_window": true,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    }
+   ],
+   "contacts_beyond_window_above_99th": [
+    {
+     "partner": 114,
+     "separation": 117,
+     "score": 0.157763,
+     "percentile_nonlocal": 99.21801505174035,
+     "distance_A": 3.917494479894001,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    }
+   ]
+  },
+  {
+   "chicken_pos": 319,
+   "human_pos": 311,
+   "chicken_aa": "S",
+   "human_aa": "Q",
+   "baseline_likelihood": 8.524019e-05,
+   "rescued": true,
+   "rescued_at": [
+    [
+     "3",
+     "published"
+    ],
+    [
+     "3",
+     "strict"
+    ],
+    [
+     "3",
+     "annotated"
+    ],
+    [
+     "5",
+     "published"
+    ],
+    [
+     "5",
+     "strict"
+    ],
+    [
+     "5",
+     "annotated"
+    ],
+    [
+     "8",
+     "published"
+    ],
+    [
+     "8",
+     "strict"
+    ],
+    [
+     "8",
+     "annotated"
+    ],
+    [
+     "12",
+     "published"
+    ],
+    [
+     "12",
+     "strict"
+    ],
+    [
+     "12",
+     "annotated"
+    ],
+    [
+     "20",
+     "published"
+    ],
+    [
+     "20",
+     "strict"
+    ],
+    [
+     "20",
+     "annotated"
+    ],
+    [
+     "35",
+     "published"
+    ],
+    [
+     "35",
+     "strict"
+    ],
+    [
+     "35",
+     "annotated"
+    ],
+    [
+     "60",
+     "published"
+    ],
+    [
+     "60",
+     "strict"
+    ],
+    [
+     "60",
+     "annotated"
+    ],
+    [
+     "all",
+     "published"
+    ],
+    [
+     "all",
+     "strict"
+    ],
+    [
+     "all",
+     "annotated"
+    ]
+   ],
+   "in_covered_region": true,
+   "fitted_by_run": true,
+   "n_partners_scored": 376,
+   "n_partners_in_window": 6,
+   "best_partner_overall": {
+    "partner": 307,
+    "separation": 4,
+    "score": 0.42083,
+    "percentile_nonlocal": 99.86770931326434,
+    "distance_A": 2.862681609959436,
+    "in_contact": true,
+    "within_published_window": false,
+    "in_position_set": false,
+    "is_primary": false,
+    "parker_named": false,
+    "role": ""
+   },
+   "best_partner_in_window": {
+    "partner": 308,
+    "separation": 3,
+    "score": 0.417372,
+    "percentile_nonlocal": 99.86623941674506,
+    "distance_A": 3.165278660718508,
+    "in_contact": true,
+    "within_published_window": true,
+    "in_position_set": false,
+    "is_primary": false,
+    "parker_named": false,
+    "role": ""
+   },
+   "partners_top": [
+    {
+     "partner": 307,
+     "separation": 4,
+     "score": 0.42083,
+     "percentile_nonlocal": 99.86770931326434,
+     "distance_A": 2.862681609959436,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 308,
+     "separation": 3,
+     "score": 0.417372,
+     "percentile_nonlocal": 99.86623941674506,
+     "distance_A": 3.165278660718508,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 310,
+     "separation": 1,
+     "score": 0.408669,
+     "percentile_nonlocal": 99.86035983066792,
+     "distance_A": 1.3293404379616014,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 306,
+     "separation": 5,
+     "score": 0.287406,
+     "percentile_nonlocal": 99.70014111006586,
+     "distance_A": 4.829521197800045,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 314,
+     "separation": 3,
+     "score": 0.225784,
+     "percentile_nonlocal": 99.55903104421449,
+     "distance_A": 3.6096951394820027,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": true,
+     "is_primary": true,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 362,
+     "separation": 51,
+     "score": 0.191046,
+     "percentile_nonlocal": 99.44143932267168,
+     "distance_A": 3.8428391847695007,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 309,
+     "separation": 2,
+     "score": 0.183387,
+     "percentile_nonlocal": 99.40763170272812,
+     "distance_A": 3.201070758355693,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 288,
+     "separation": 23,
+     "score": 0.152711,
+     "percentile_nonlocal": 99.17832784571966,
+     "distance_A": 3.9920298095079265,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": true,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 281,
+     "separation": 30,
+     "score": 0.144449,
+     "percentile_nonlocal": 99.10777281279398,
+     "distance_A": 7.463642676334383,
+     "in_contact": false,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": false,
+     "parker_named": true,
+     "role": "TM7, proton binding, gate hydrogen bond to Asn350"
+    },
+    {
+     "partner": 312,
+     "separation": 1,
+     "score": 0.136251,
+     "percentile_nonlocal": 99.01075964252117,
+     "distance_A": 1.3268748999057978,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": true,
+     "is_primary": true,
+     "parker_named": false,
+     "role": ""
+    }
+   ],
+   "contacts_beyond_window_above_99th": [
+    {
+     "partner": 307,
+     "separation": 4,
+     "score": 0.42083,
+     "percentile_nonlocal": 99.86770931326434,
+     "distance_A": 2.862681609959436,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 306,
+     "separation": 5,
+     "score": 0.287406,
+     "percentile_nonlocal": 99.70014111006586,
+     "distance_A": 4.829521197800045,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 362,
+     "separation": 51,
+     "score": 0.191046,
+     "percentile_nonlocal": 99.44143932267168,
+     "distance_A": 3.8428391847695007,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 288,
+     "separation": 23,
+     "score": 0.152711,
+     "percentile_nonlocal": 99.17832784571966,
+     "distance_A": 3.9920298095079265,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": true,
+     "parker_named": false,
+     "role": ""
+    }
+   ]
+  },
+  {
+   "chicken_pos": 322,
+   "human_pos": 314,
+   "chicken_aa": "A",
+   "human_aa": "P",
+   "baseline_likelihood": 0.0001536447,
+   "rescued": true,
+   "rescued_at": [
+    [
+     "3",
+     "published"
+    ],
+    [
+     "5",
+     "published"
+    ],
+    [
+     "8",
+     "published"
+    ],
+    [
+     "12",
+     "published"
+    ],
+    [
+     "12",
+     "annotated"
+    ],
+    [
+     "20",
+     "published"
+    ],
+    [
+     "20",
+     "annotated"
+    ],
+    [
+     "35",
+     "published"
+    ],
+    [
+     "35",
+     "annotated"
+    ],
+    [
+     "60",
+     "published"
+    ],
+    [
+     "60",
+     "annotated"
+    ],
+    [
+     "all",
+     "published"
+    ],
+    [
+     "all",
+     "annotated"
+    ]
+   ],
+   "in_covered_region": true,
+   "fitted_by_run": true,
+   "n_partners_scored": 376,
+   "n_partners_in_window": 6,
+   "best_partner_overall": {
+    "partner": 315,
+    "separation": 1,
+    "score": 0.44588,
+    "percentile_nonlocal": 99.88828786453433,
+    "distance_A": 1.3247282740245176,
+    "in_contact": true,
+    "within_published_window": true,
+    "in_position_set": true,
+    "is_primary": false,
+    "parker_named": true,
+    "role": "TM8, pyrimidine carbonyl and amide"
+   },
+   "best_partner_in_window": {
+    "partner": 315,
+    "separation": 1,
+    "score": 0.44588,
+    "percentile_nonlocal": 99.88828786453433,
+    "distance_A": 1.3247282740245176,
+    "in_contact": true,
+    "within_published_window": true,
+    "in_position_set": true,
+    "is_primary": false,
+    "parker_named": true,
+    "role": "TM8, pyrimidine carbonyl and amide"
+   },
+   "partners_top": [
+    {
+     "partner": 315,
+     "separation": 1,
+     "score": 0.44588,
+     "percentile_nonlocal": 99.88828786453433,
+     "distance_A": 1.3247282740245176,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": true,
+     "is_primary": false,
+     "parker_named": true,
+     "role": "TM8, pyrimidine carbonyl and amide"
+    },
+    {
+     "partner": 318,
+     "separation": 4,
+     "score": 0.407035,
+     "percentile_nonlocal": 99.85888993414864,
+     "distance_A": 2.4818585777598035,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 317,
+     "separation": 3,
+     "score": 0.36468,
+     "percentile_nonlocal": 99.81185324553151,
+     "distance_A": 3.210862500948925,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 312,
+     "separation": 2,
+     "score": 0.360618,
+     "percentile_nonlocal": 99.80450376293508,
+     "distance_A": 3.2557610477429,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": true,
+     "is_primary": true,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 322,
+     "separation": 8,
+     "score": 0.267287,
+     "percentile_nonlocal": 99.66339369708372,
+     "distance_A": 8.241838690486482,
+     "in_contact": false,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 311,
+     "separation": 3,
+     "score": 0.225784,
+     "percentile_nonlocal": 99.55903104421449,
+     "distance_A": 3.6096951394820027,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": true,
+     "is_primary": true,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 189,
+     "separation": 125,
+     "score": 0.216197,
+     "percentile_nonlocal": 99.53698259642522,
+     "distance_A": 7.248441625618562,
+     "in_contact": false,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 321,
+     "separation": 7,
+     "score": 0.206675,
+     "percentile_nonlocal": 99.5090545625588,
+     "distance_A": 7.284844198745765,
+     "in_contact": false,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 319,
+     "separation": 5,
+     "score": 0.190942,
+     "percentile_nonlocal": 99.44143932267168,
+     "distance_A": 4.77059807571336,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 323,
+     "separation": 9,
+     "score": 0.181444,
+     "percentile_nonlocal": 99.39440263405456,
+     "distance_A": 10.333553986891433,
+     "in_contact": false,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    }
+   ],
+   "contacts_beyond_window_above_99th": [
+    {
+     "partner": 318,
+     "separation": 4,
+     "score": 0.407035,
+     "percentile_nonlocal": 99.85888993414864,
+     "distance_A": 2.4818585777598035,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 319,
+     "separation": 5,
+     "score": 0.190942,
+     "percentile_nonlocal": 99.44143932267168,
+     "distance_A": 4.77059807571336,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 369,
+     "separation": 55,
+     "score": 0.159587,
+     "percentile_nonlocal": 99.23859360301034,
+     "distance_A": 3.6244973444603477,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    }
+   ]
+  },
+  {
+   "chicken_pos": 407,
+   "human_pos": 399,
+   "chicken_aa": "E",
+   "human_aa": "N",
+   "baseline_likelihood": 1.352391e-05,
+   "rescued": false,
+   "rescued_at": [],
+   "in_covered_region": true,
+   "fitted_by_run": true,
+   "n_partners_scored": 376,
+   "n_partners_in_window": 6,
+   "best_partner_overall": {
+    "partner": 274,
+    "separation": 125,
+    "score": 0.391519,
+    "percentile_nonlocal": 99.85154045155221,
+    "distance_A": 3.8244929075630547,
+    "in_contact": true,
+    "within_published_window": false,
+    "in_position_set": false,
+    "is_primary": false,
+    "parker_named": false,
+    "role": ""
+   },
+   "best_partner_in_window": {
+    "partner": 396,
+    "separation": 3,
+    "score": 0.271368,
+    "percentile_nonlocal": 99.66927328316086,
+    "distance_A": 3.2083718612405234,
+    "in_contact": true,
+    "within_published_window": true,
+    "in_position_set": false,
+    "is_primary": false,
+    "parker_named": false,
+    "role": ""
+   },
+   "partners_top": [
+    {
+     "partner": 274,
+     "separation": 125,
+     "score": 0.391519,
+     "percentile_nonlocal": 99.85154045155221,
+     "distance_A": 3.8244929075630547,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 278,
+     "separation": 121,
+     "score": 0.366236,
+     "percentile_nonlocal": 99.81479303857009,
+     "distance_A": 4.457369964452149,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": true,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 376,
+     "separation": 23,
+     "score": 0.351843,
+     "percentile_nonlocal": 99.79127469426152,
+     "distance_A": 2.519683710309678,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": false,
+     "parker_named": true,
+     "role": "TM10, salt bridge to Glu193, HFM mutation site"
+    },
+    {
+     "partner": 396,
+     "separation": 3,
+     "score": 0.271368,
+     "percentile_nonlocal": 99.66927328316086,
+     "distance_A": 3.2083718612405234,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 395,
+     "separation": 4,
+     "score": 0.270648,
+     "percentile_nonlocal": 99.6663334901223,
+     "distance_A": 2.8722304921437,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 403,
+     "separation": 4,
+     "score": 0.237545,
+     "percentile_nonlocal": 99.58842897460019,
+     "distance_A": 2.926009056718724,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": true,
+     "parker_named": true,
+     "role": "TM11, amide and carbonyl of the glutamate"
+    },
+    {
+     "partner": 372,
+     "separation": 27,
+     "score": 0.223581,
+     "percentile_nonlocal": 99.55315145813735,
+     "distance_A": 6.006048118355353,
+     "in_contact": false,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 402,
+     "separation": 3,
+     "score": 0.183399,
+     "percentile_nonlocal": 99.40763170272812,
+     "distance_A": 3.2533049349853385,
+     "in_contact": true,
+     "within_published_window": true,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 184,
+     "separation": 215,
+     "score": 0.139347,
+     "percentile_nonlocal": 99.046037158984,
+     "distance_A": 9.153899770043372,
+     "in_contact": false,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 281,
+     "separation": 118,
+     "score": 0.125702,
+     "percentile_nonlocal": 98.81967309501411,
+     "distance_A": 8.151581993699136,
+     "in_contact": false,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": false,
+     "parker_named": true,
+     "role": "TM7, proton binding, gate hydrogen bond to Asn350"
+    }
+   ],
+   "contacts_beyond_window_above_99th": [
+    {
+     "partner": 274,
+     "separation": 125,
+     "score": 0.391519,
+     "percentile_nonlocal": 99.85154045155221,
+     "distance_A": 3.8244929075630547,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 278,
+     "separation": 121,
+     "score": 0.366236,
+     "percentile_nonlocal": 99.81479303857009,
+     "distance_A": 4.457369964452149,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": true,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 376,
+     "separation": 23,
+     "score": 0.351843,
+     "percentile_nonlocal": 99.79127469426152,
+     "distance_A": 2.519683710309678,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": false,
+     "parker_named": true,
+     "role": "TM10, salt bridge to Glu193, HFM mutation site"
+    },
+    {
+     "partner": 395,
+     "separation": 4,
+     "score": 0.270648,
+     "percentile_nonlocal": 99.6663334901223,
+     "distance_A": 2.8722304921437,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": false,
+     "is_primary": false,
+     "parker_named": false,
+     "role": ""
+    },
+    {
+     "partner": 403,
+     "separation": 4,
+     "score": 0.237545,
+     "percentile_nonlocal": 99.58842897460019,
+     "distance_A": 2.926009056718724,
+     "in_contact": true,
+     "within_published_window": false,
+     "in_position_set": true,
+     "is_primary": true,
+     "parker_named": true,
+     "role": "TM11, amide and carbonyl of the glutamate"
+    }
+   ]
+  }
+ ]
+}

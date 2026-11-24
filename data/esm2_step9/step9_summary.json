@@ -1,0 +1,340 @@
+{
+ "schema": "v9-revised-construct-as-a-set",
+ "model": "facebook/esm2_t33_650M_UR50D",
+ "chicken_sha256": "5d68e7c91dc3af3cd898a3f459617f3b22670f3dbdf9f798e8d740d8669a8aea",
+ "threshold": 0.001,
+ "construct": {
+  "primaries": [
+   37,
+   44,
+   144,
+   165,
+   166,
+   167,
+   196,
+   236,
+   238,
+   239,
+   286,
+   293,
+   296,
+   319,
+   320,
+   322,
+   407,
+   411,
+   415,
+   430
+  ],
+  "rescuer_positions": {
+   "140": "G",
+   "217": "R",
+   "241": "W",
+   "318": "P",
+   "404": "D",
+   "406": "R"
+  },
+  "n_positions_changed": 26,
+  "sequence": "MAAPSDPPTAATPPAPPPPARRCLPAPSVEPLLFLANLALGLQGPLATQYLWDRLGAERGYVGPNASSPHGCGNGSGAVDPLREEVEALVAHWNLCINLGGFFVGLFSVTLFGPWSDSVGRRPVLVLPAVGMAVQAAVYGLVMQLRLHVAYLLLGRIISGLLGDFGGILAGCFASVADSSNQRTRTFRVAILEACIGVAGMVASVGGGQWRKAEGYRNPFWLVLAASLAAALYAAFCFGEWVKQRRAAKLLTLQHYKAVYKLYTAPEDLSSRRKLALYSLAFFLLITVHFGTQDLLVLYELGSPLCWASDLIGYGSAPQHLPYLSSLGGLRLLQLCLEDTWVAEIGLISNIAGLVVISLATTTPLMFTGYGIMFLSMAATPVIRAKLSKLVSETEQGALFASVDCRNGLCMLVASGVFNSLYPSTLHFMKGFPFLFGAILLLIPAAIMGWIEIQDSNLQYSHFSDASSSPADG"
+ },
+ "displaced_rescues": [
+  {
+   "target": 407,
+   "chosen": "A404D with V406R",
+   "chosen_p": 0.001070241,
+   "chosen_background": "the construct",
+   "chosen_positions": [
+    404,
+    406
+   ],
+   "chosen_to": [
+    "D",
+    "R"
+   ],
+   "strongest": "A404D with C410F",
+   "strongest_p": 0.001109422,
+   "strongest_background": "wild-type chicken",
+   "strongest_positions": [
+    404,
+    410
+   ],
+   "strongest_to": [
+    "D",
+    "F"
+   ],
+   "positions_swapped": [
+    406,
+    410
+   ]
+  }
+ ],
+ "rescuer_positions_swapped_since_step7": [
+  406,
+  410
+ ],
+ "checks": {
+  "wt_vs_step1_worst": 3.853554907782741e-06,
+  "primaries_vs_step5_worst": 3.386082036304772e-07,
+  "step8_value": 0.001070241,
+  "step8_here": 0.001070241560228169,
+  "step8_relative_difference": 1.221359810181189e-07,
+  "rebuilds_step8_background": true
+ },
+ "profile": [
+  {
+   "chicken_pos": 37,
+   "human_aa": "N",
+   "p_wt": 0.006766905542463064,
+   "p_primaries": 0.003504072083160281,
+   "p_revised": 0.0036148191429674625,
+   "p_step7": 0.003933256,
+   "fold_revised_over_wt": 0.5341908676401763,
+   "fold_revised_over_step7": 0.919039885267438
+  },
+  {
+   "chicken_pos": 44,
+   "human_aa": "G",
+   "p_wt": 0.7023444175720215,
+   "p_primaries": 0.48879989981651306,
+   "p_revised": 0.4776528477668762,
+   "p_step7": 0.4713991,
+   "fold_revised_over_wt": 0.6800834972364476,
+   "fold_revised_over_step7": 1.0132663549142886
+  },
+  {
+   "chicken_pos": 144,
+   "human_aa": "Q",
+   "p_wt": 5.381109076552093e-05,
+   "p_primaries": 5.6373868574155495e-05,
+   "p_revised": 0.0018840290140360594,
+   "p_step7": 0.001834089,
+   "fold_revised_over_wt": 35.011909017894084,
+   "fold_revised_over_step7": 1.0272287844461525
+  },
+  {
+   "chicken_pos": 165,
+   "human_aa": "F",
+   "p_wt": 0.03293939679861069,
+   "p_primaries": 0.202898308634758,
+   "p_revised": 0.19760116934776306,
+   "p_step7": 0.1928158,
+   "fold_revised_over_wt": 5.998931023415021,
+   "fold_revised_over_step7": 1.0248183465658056
+  },
+  {
+   "chicken_pos": 166,
+   "human_aa": "G",
+   "p_wt": 0.24320228397846222,
+   "p_primaries": 0.09874885529279709,
+   "p_revised": 0.08908799290657043,
+   "p_step7": 0.08590473,
+   "fold_revised_over_wt": 0.3663123201361875,
+   "fold_revised_over_step7": 1.037055734958604
+  },
+  {
+   "chicken_pos": 167,
+   "human_aa": "G",
+   "p_wt": 0.0012496887939050794,
+   "p_primaries": 0.001303533441387117,
+   "p_revised": 0.001412209472618997,
+   "p_step7": 0.00135664,
+   "fold_revised_over_wt": 1.1300489205845132,
+   "fold_revised_over_step7": 1.0409611043600344
+  },
+  {
+   "chicken_pos": 196,
+   "human_aa": "I",
+   "p_wt": 0.002415441907942295,
+   "p_primaries": 0.005846397019922733,
+   "p_revised": 0.005312707275152206,
+   "p_step7": 0.005295504,
+   "fold_revised_over_wt": 2.1994763184671577,
+   "fold_revised_over_step7": 1.003248656813819
+  },
+  {
+   "chicken_pos": 236,
+   "human_aa": "F",
+   "p_wt": 0.06542077660560608,
+   "p_primaries": 0.04004336893558502,
+   "p_revised": 0.027342980727553368,
+   "p_step7": 0.02773975,
+   "fold_revised_over_wt": 0.41795561205872744,
+   "fold_revised_over_step7": 0.9856967250084578
+  },
+  {
+   "chicken_pos": 238,
+   "human_aa": "F",
+   "p_wt": 0.007479233667254448,
+   "p_primaries": 0.006035789847373962,
+   "p_revised": 0.0049972920678555965,
+   "p_step7": 0.00474254,
+   "fold_revised_over_wt": 0.6681556279936435,
+   "fold_revised_over_step7": 1.0537163772694793
+  },
+  {
+   "chicken_pos": 239,
+   "human_aa": "G",
+   "p_wt": 0.0005511022172868252,
+   "p_primaries": 0.0007940892828628421,
+   "p_revised": 0.0021274236496537924,
+   "p_step7": 0.002161775,
+   "fold_revised_over_wt": 3.8603068231651827,
+   "fold_revised_over_step7": 0.9841096550999954
+  },
+  {
+   "chicken_pos": 286,
+   "human_aa": "I",
+   "p_wt": 0.001807834254577756,
+   "p_primaries": 0.0021994635462760925,
+   "p_revised": 0.002464756602421403,
+   "p_step7": 0.002841337,
+   "fold_revised_over_wt": 1.3633753183845274,
+   "fold_revised_over_step7": 0.8674636632055271
+  },
+  {
+   "chicken_pos": 293,
+   "human_aa": "Q",
+   "p_wt": 0.003287791507318616,
+   "p_primaries": 0.019969392567873,
+   "p_revised": 0.022245628759264946,
+   "p_step7": 0.02440724,
+   "fold_revised_over_wt": 6.766131219010156,
+   "fold_revised_over_step7": 0.9114356543085145
+  },
+  {
+   "chicken_pos": 296,
+   "human_aa": "L",
+   "p_wt": 0.005284752231091261,
+   "p_primaries": 0.0056954845786094666,
+   "p_revised": 0.006704315077513456,
+   "p_step7": 0.007113651,
+   "fold_revised_over_wt": 1.2686148345934973,
+   "fold_revised_over_step7": 0.9424576883956574
+  },
+  {
+   "chicken_pos": 319,
+   "human_aa": "Q",
+   "p_wt": 8.524035365553573e-05,
+   "p_primaries": 0.002131878864020109,
+   "p_revised": 0.013051226735115051,
+   "p_step7": 0.01524937,
+   "fold_revised_over_wt": 153.1108937892994,
+   "fold_revised_over_step7": 0.8558535031358706
+  },
+  {
+   "chicken_pos": 320,
+   "human_aa": "H",
+   "p_wt": 0.003429972566664219,
+   "p_primaries": 0.016120322048664093,
+   "p_revised": 0.017133144661784172,
+   "p_step7": 0.01886345,
+   "fold_revised_over_wt": 4.995125858527439,
+   "fold_revised_over_step7": 0.90827206379449
+  },
+  {
+   "chicken_pos": 322,
+   "human_aa": "P",
+   "p_wt": 0.00015364473802037537,
+   "p_primaries": 6.585929804714397e-05,
+   "p_revised": 6.3818741182331e-05,
+   "p_step7": 5.616632e-05,
+   "fold_revised_over_wt": 0.41536561554010243,
+   "fold_revised_over_step7": 1.1362457284424365
+  },
+  {
+   "chicken_pos": 407,
+   "human_aa": "N",
+   "p_wt": 1.352389244857477e-05,
+   "p_primaries": 8.297006388602313e-06,
+   "p_revised": 0.0010702351573854685,
+   "p_step7": 0.0006771618,
+   "fold_revised_over_wt": 79.13662146124626,
+   "fold_revised_over_step7": 1.5804718420109767
+  },
+  {
+   "chicken_pos": 411,
+   "human_aa": "M",
+   "p_wt": 0.0023186062462627888,
+   "p_primaries": 0.0052163791842758656,
+   "p_revised": 0.02947959303855896,
+   "p_step7": 0.01063079,
+   "fold_revised_over_wt": 12.714359363982222,
+   "fold_revised_over_step7": 2.773038790020211
+  },
+  {
+   "chicken_pos": 415,
+   "human_aa": "S",
+   "p_wt": 0.008327767252922058,
+   "p_primaries": 0.018313387408852577,
+   "p_revised": 0.013914625160396099,
+   "p_step7": 0.00407826,
+   "fold_revised_over_wt": 1.6708710435577696,
+   "fold_revised_over_step7": 3.4119024192660836
+  },
+  {
+   "chicken_pos": 430,
+   "human_aa": "K",
+   "p_wt": 0.0067994603887200356,
+   "p_primaries": 0.010272091254591942,
+   "p_revised": 0.020954491570591927,
+   "p_step7": 0.01324399,
+   "fold_revised_over_wt": 3.0817874320371628,
+   "fold_revised_over_step7": 1.5821887188522437
+  }
+ ],
+ "below_threshold": [
+  322
+ ],
+ "below_threshold_step7": [
+  322,
+  407
+ ],
+ "median_fold_over_step7": 1.0248183465658056,
+ "rescue_survival": [
+  {
+   "target": 144,
+   "label": "L140G with I217R",
+   "chosen_at": 0.001546481,
+   "chosen_background": "wild-type chicken",
+   "in_construct": 0.0018840290140360594,
+   "fold": 1.2182684520767209,
+   "holds": true
+  },
+  {
+   "target": 239,
+   "label": "T241W",
+   "chosen_at": 0.002362583,
+   "chosen_background": "the construct",
+   "in_construct": 0.0021274236496537924,
+   "fold": 0.9004651475329299,
+   "holds": true
+  },
+  {
+   "target": 319,
+   "label": "A318P",
+   "chosen_at": 0.004622915,
+   "chosen_background": "wild-type chicken",
+   "in_construct": 0.013051226735115051,
+   "fold": 2.823159572502426,
+   "holds": true
+  },
+  {
+   "target": 407,
+   "label": "A404D with V406R",
+   "chosen_at": 0.001070241,
+   "chosen_background": "the construct",
+   "in_construct": 0.0010702351573854685,
+   "fold": 0.9999945408421734,
+   "holds": true
+  }
+ ],
+ "rescues_holding": [
+  144,
+  239,
+  319,
+  407
+ ],
+ "unrescued": [
+  322
+ ]
+}

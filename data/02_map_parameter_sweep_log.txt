@@ -1,0 +1,32 @@
+settings swept: 45 (3 matrices x 5 gap-open x 3 gap-extend)
+alignment paths examined: 366
+
+unambiguous positions: 25/25
+positions whose human partner changes with the parameters: 0
+
+chicken -> human, every setting agreeing:
+  T37 -> N33   DIFFERENT
+  L40 -> L36
+  Q43 -> Q39
+  V44 -> G40   DIFFERENT
+  N98 -> N90
+  Q135 -> Q127
+  R156 -> R148
+  D164 -> D156
+  Y165 -> F157   DIFFERENT
+  L169 -> L161
+  E193 -> E185
+  L196 -> I188   DIFFERENT
+  V286 -> I278   DIFFERENT
+  H289 -> H281
+  F290 -> F282
+  K293 -> Q285   DIFFERENT
+  Y320 -> H312   DIFFERENT
+  Y323 -> Y315
+  N350 -> N342
+  T380 -> T372
+  R384 -> R376
+  E407 -> N399   DIFFERENT
+  S411 -> M403   DIFFERENT
+  T415 -> S407   DIFFERENT
+  N419 -> N411

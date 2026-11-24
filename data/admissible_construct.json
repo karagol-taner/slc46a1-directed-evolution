@@ -1,0 +1,1537 @@
+{
+ "threshold": 0.001,
+ "off_limits_strict": [
+  1,
+  37,
+  40,
+  43,
+  44,
+  49,
+  52,
+  93,
+  98,
+  101,
+  115,
+  117,
+  120,
+  121,
+  135,
+  144,
+  145,
+  155,
+  156,
+  164,
+  165,
+  166,
+  167,
+  169,
+  180,
+  193,
+  196,
+  201,
+  204,
+  210,
+  221,
+  222,
+  232,
+  235,
+  236,
+  238,
+  239,
+  240,
+  255,
+  286,
+  289,
+  290,
+  293,
+  296,
+  298,
+  307,
+  312,
+  313,
+  319,
+  320,
+  322,
+  323,
+  326,
+  341,
+  343,
+  346,
+  350,
+  380,
+  384,
+  400,
+  407,
+  411,
+  415,
+  419,
+  421,
+  430,
+  433
+ ],
+ "off_limits_loose": [
+  1,
+  43,
+  49,
+  52,
+  93,
+  98,
+  101,
+  115,
+  117,
+  120,
+  121,
+  135,
+  144,
+  145,
+  156,
+  164,
+  167,
+  180,
+  193,
+  196,
+  201,
+  204,
+  210,
+  221,
+  222,
+  232,
+  235,
+  236,
+  238,
+  239,
+  240,
+  255,
+  286,
+  289,
+  290,
+  296,
+  298,
+  307,
+  312,
+  313,
+  319,
+  322,
+  323,
+  326,
+  341,
+  343,
+  346,
+  350,
+  384,
+  400,
+  415,
+  419,
+  421,
+  430,
+  433
+ ],
+ "primaries": [
+  37,
+  44,
+  144,
+  165,
+  166,
+  167,
+  196,
+  236,
+  238,
+  239,
+  286,
+  293,
+  296,
+  319,
+  320,
+  322,
+  407,
+  411,
+  415,
+  430
+ ],
+ "chosen": {
+  "144": {
+   "label": "L140G with I217R",
+   "positions": [
+    140,
+    217
+   ],
+   "to": [
+    "G",
+    "R"
+   ],
+   "from_chicken": [
+    "L",
+    "I"
+   ],
+   "p": 0.001546481,
+   "source": "step 5 pair scan, nearest positions",
+   "background": "wild-type chicken",
+   "clean": true,
+   "loose_clean": true,
+   "touches": [
+    {
+     "pos": 140,
+     "in_set": false,
+     "primary": false,
+     "parker": false
+    },
+    {
+     "pos": 217,
+     "in_set": false,
+     "primary": false,
+     "parker": false
+    }
+   ]
+  },
+  "239": {
+   "label": "T241W",
+   "positions": [
+    241
+   ],
+   "to": [
+    "W"
+   ],
+   "from_chicken": [
+    "T"
+   ],
+   "p": 0.002362583,
+   "source": "step 6 sweep, construct background",
+   "background": "the construct",
+   "clean": true,
+   "loose_clean": true,
+   "touches": [
+    {
+     "pos": 241,
+     "in_set": false,
+     "primary": false,
+     "parker": false
+    }
+   ]
+  },
+  "319": {
+   "label": "A318P",
+   "positions": [
+    318
+   ],
+   "to": [
+    "P"
+   ],
+   "from_chicken": [
+    "A"
+   ],
+   "p": 0.004622915,
+   "source": "step 2 sweep, window of 3",
+   "background": "wild-type chicken",
+   "clean": true,
+   "loose_clean": true,
+   "touches": [
+    {
+     "pos": 318,
+     "in_set": false,
+     "primary": false,
+     "parker": false
+    }
+   ]
+  },
+  "407": {
+   "label": "A404D with V406R",
+   "positions": [
+    404,
+    406
+   ],
+   "to": [
+    "D",
+    "R"
+   ],
+   "from_chicken": [
+    "A",
+    "V"
+   ],
+   "p": 0.001070241,
+   "source": "step 8 pair scan, construct background",
+   "background": "the construct",
+   "clean": true,
+   "loose_clean": true,
+   "touches": [
+    {
+     "pos": 404,
+     "in_set": false,
+     "primary": false,
+     "parker": false
+    },
+    {
+     "pos": 406,
+     "in_set": false,
+     "primary": false,
+     "parker": false
+    }
+   ]
+  }
+ },
+ "unrescued": [
+  322
+ ],
+ "choice_rule": "among admissible rescues crossing the threshold, one measured in the construct background is preferred to one measured against wild-type chicken, and within a background the largest likelihood wins",
+ "overruled_by_background": [
+  {
+   "target": 407,
+   "chosen": "A404D with V406R",
+   "chosen_p": 0.001070241,
+   "chosen_background": "the construct",
+   "chosen_positions": [
+    404,
+    406
+   ],
+   "chosen_to": [
+    "D",
+    "R"
+   ],
+   "strongest": "A404D with C410F",
+   "strongest_p": 0.001109422,
+   "strongest_background": "wild-type chicken",
+   "strongest_positions": [
+    404,
+    410
+   ],
+   "strongest_to": [
+    "D",
+    "F"
+   ],
+   "positions_swapped": [
+    406,
+    410
+   ]
+  }
+ ],
+ "rescuer_positions": {
+  "140": "G",
+  "217": "R",
+  "241": "W",
+  "318": "P",
+  "404": "D",
+  "406": "R"
+ },
+ "n_positions_changed": 26,
+ "sequence": "MAAPSDPPTAATPPAPPPPARRCLPAPSVEPLLFLANLALGLQGPLATQYLWDRLGAERGYVGPNASSPHGCGNGSGAVDPLREEVEALVAHWNLCINLGGFFVGLFSVTLFGPWSDSVGRRPVLVLPAVGMAVQAAVYGLVMQLRLHVAYLLLGRIISGLLGDFGGILAGCFASVADSSNQRTRTFRVAILEACIGVAGMVASVGGGQWRKAEGYRNPFWLVLAASLAAALYAAFCFGEWVKQRRAAKLLTLQHYKAVYKLYTAPEDLSSRRKLALYSLAFFLLITVHFGTQDLLVLYELGSPLCWASDLIGYGSAPQHLPYLSSLGGLRLLQLCLEDTWVAEIGLISNIAGLVVISLATTTPLMFTGYGIMFLSMAATPVIRAKLSKLVSETEQGALFASVDCRNGLCMLVASGVFNSLYPSTLHFMKGFPFLFGAILLLIPAAIMGWIEIQDSNLQYSHFSDASSSPADG",
+ "candidates": {
+  "239": [
+   {
+    "label": "L238P",
+    "positions": [
+     238
+    ],
+    "to": [
+     "P"
+    ],
+    "from_chicken": [
+     "L"
+    ],
+    "p": 0.00658458,
+    "source": "step 2 sweep, window of 3",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 238,
+      "in_set": true,
+      "primary": true,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "L238A",
+    "positions": [
+     238
+    ],
+    "to": [
+     "A"
+    ],
+    "from_chicken": [
+     "L"
+    ],
+    "p": 0.005028947,
+    "source": "step 2 sweep, window of 3",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 238,
+      "in_set": true,
+      "primary": true,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "L238W",
+    "positions": [
+     238
+    ],
+    "to": [
+     "W"
+    ],
+    "from_chicken": [
+     "L"
+    ],
+    "p": 0.004935725,
+    "source": "step 2 sweep, window of 3",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 238,
+      "in_set": true,
+      "primary": true,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "L238S",
+    "positions": [
+     238
+    ],
+    "to": [
+     "S"
+    ],
+    "from_chicken": [
+     "L"
+    ],
+    "p": 0.002765376,
+    "source": "step 2 sweep, window of 3",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 238,
+      "in_set": true,
+      "primary": true,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "L238R",
+    "positions": [
+     238
+    ],
+    "to": [
+     "R"
+    ],
+    "from_chicken": [
+     "L"
+    ],
+    "p": 0.002648999,
+    "source": "step 2 sweep, window of 3",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 238,
+      "in_set": true,
+      "primary": true,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "L238P",
+    "positions": [
+     238
+    ],
+    "to": [
+     "P"
+    ],
+    "from_chicken": [
+     "L"
+    ],
+    "p": 0.006011271,
+    "source": "step 6 sweep, construct background",
+    "background": "the construct",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 238,
+      "in_set": true,
+      "primary": true,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "T241W",
+    "positions": [
+     241
+    ],
+    "to": [
+     "W"
+    ],
+    "from_chicken": [
+     "T"
+    ],
+    "p": 0.002362583,
+    "source": "step 6 sweep, construct background",
+    "background": "the construct",
+    "clean": true,
+    "loose_clean": true,
+    "touches": [
+     {
+      "pos": 241,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   }
+  ],
+  "319": [
+   {
+    "label": "A318P",
+    "positions": [
+     318
+    ],
+    "to": [
+     "P"
+    ],
+    "from_chicken": [
+     "A"
+    ],
+    "p": 0.004622915,
+    "source": "step 2 sweep, window of 3",
+    "background": "wild-type chicken",
+    "clean": true,
+    "loose_clean": true,
+    "touches": [
+     {
+      "pos": 318,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "S316L",
+    "positions": [
+     316
+    ],
+    "to": [
+     "L"
+    ],
+    "from_chicken": [
+     "S"
+    ],
+    "p": 0.003416161,
+    "source": "step 2 sweep, window of 3",
+    "background": "wild-type chicken",
+    "clean": true,
+    "loose_clean": true,
+    "touches": [
+     {
+      "pos": 316,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "Y320G",
+    "positions": [
+     320
+    ],
+    "to": [
+     "G"
+    ],
+    "from_chicken": [
+     "Y"
+    ],
+    "p": 0.003209488,
+    "source": "step 2 sweep, window of 3",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 320,
+      "in_set": true,
+      "primary": true,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "S316I",
+    "positions": [
+     316
+    ],
+    "to": [
+     "I"
+    ],
+    "from_chicken": [
+     "S"
+    ],
+    "p": 0.003186223,
+    "source": "step 2 sweep, window of 3",
+    "background": "wild-type chicken",
+    "clean": true,
+    "loose_clean": true,
+    "touches": [
+     {
+      "pos": 316,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "S316V",
+    "positions": [
+     316
+    ],
+    "to": [
+     "V"
+    ],
+    "from_chicken": [
+     "S"
+    ],
+    "p": 0.002387144,
+    "source": "step 2 sweep, window of 3",
+    "background": "wild-type chicken",
+    "clean": true,
+    "loose_clean": true,
+    "touches": [
+     {
+      "pos": 316,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   }
+  ],
+  "322": [
+   {
+    "label": "Y323P",
+    "positions": [
+     323
+    ],
+    "to": [
+     "P"
+    ],
+    "from_chicken": [
+     "Y"
+    ],
+    "p": 0.001061273,
+    "source": "step 2 sweep, window of 3",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 323,
+      "in_set": true,
+      "primary": false,
+      "parker": true
+     }
+    ]
+   }
+  ],
+  "407": [
+   {
+    "label": "A404D with T380P",
+    "positions": [
+     404,
+     380
+    ],
+    "to": [
+     "D",
+     "P"
+    ],
+    "from_chicken": [
+     "A",
+     "T"
+    ],
+    "p": 0.001252301,
+    "source": "step 4 pair scan, coupled positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": true,
+    "touches": [
+     {
+      "pos": 404,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 380,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "V286G with A404D",
+    "positions": [
+     286,
+     404
+    ],
+    "to": [
+     "G",
+     "D"
+    ],
+    "from_chicken": [
+     "V",
+     "A"
+    ],
+    "p": 0.001140567,
+    "source": "step 4 pair scan, coupled positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 286,
+      "in_set": true,
+      "primary": true,
+      "parker": false
+     },
+     {
+      "pos": 404,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "A404D with C410F",
+    "positions": [
+     404,
+     410
+    ],
+    "to": [
+     "D",
+     "F"
+    ],
+    "from_chicken": [
+     "A",
+     "C"
+    ],
+    "p": 0.001109422,
+    "source": "step 4 pair scan, coupled positions",
+    "background": "wild-type chicken",
+    "clean": true,
+    "loose_clean": true,
+    "touches": [
+     {
+      "pos": 404,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 410,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "R384N with A404D",
+    "positions": [
+     384,
+     404
+    ],
+    "to": [
+     "N",
+     "D"
+    ],
+    "from_chicken": [
+     "R",
+     "A"
+    ],
+    "p": 0.001015556,
+    "source": "step 4 pair scan, coupled positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 384,
+      "in_set": true,
+      "primary": false,
+      "parker": true
+     },
+     {
+      "pos": 404,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "R384N with L409P",
+    "positions": [
+     384,
+     409
+    ],
+    "to": [
+     "N",
+     "P"
+    ],
+    "from_chicken": [
+     "R",
+     "L"
+    ],
+    "p": 0.001215748,
+    "source": "step 8 pair scan, construct background",
+    "background": "the construct",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 384,
+      "in_set": true,
+      "primary": false,
+      "parker": true
+     },
+     {
+      "pos": 409,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "A404D with V406R",
+    "positions": [
+     404,
+     406
+    ],
+    "to": [
+     "D",
+     "R"
+    ],
+    "from_chicken": [
+     "A",
+     "V"
+    ],
+    "p": 0.001070241,
+    "source": "step 8 pair scan, construct background",
+    "background": "the construct",
+    "clean": true,
+    "loose_clean": true,
+    "touches": [
+     {
+      "pos": 404,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 406,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   }
+  ],
+  "144": [
+   {
+    "label": "L145P with R146V",
+    "positions": [
+     145,
+     146
+    ],
+    "to": [
+     "P",
+     "V"
+    ],
+    "from_chicken": [
+     "L",
+     "R"
+    ],
+    "p": 0.004135892,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 145,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 146,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "W221Y with I217Q",
+    "positions": [
+     221,
+     217
+    ],
+    "to": [
+     "Y",
+     "Q"
+    ],
+    "from_chicken": [
+     "W",
+     "I"
+    ],
+    "p": 0.002294666,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 221,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 217,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "L145P with R146L",
+    "positions": [
+     145,
+     146
+    ],
+    "to": [
+     "P",
+     "L"
+    ],
+    "from_chicken": [
+     "L",
+     "R"
+    ],
+    "p": 0.002204418,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 145,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 146,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "W221Y with I217R",
+    "positions": [
+     221,
+     217
+    ],
+    "to": [
+     "Y",
+     "R"
+    ],
+    "from_chicken": [
+     "W",
+     "I"
+    ],
+    "p": 0.002099172,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 221,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 217,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "W221Y with I217S",
+    "positions": [
+     221,
+     217
+    ],
+    "to": [
+     "Y",
+     "S"
+    ],
+    "from_chicken": [
+     "W",
+     "I"
+    ],
+    "p": 0.002050856,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 221,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 217,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "W221Y with L140G",
+    "positions": [
+     221,
+     140
+    ],
+    "to": [
+     "Y",
+     "G"
+    ],
+    "from_chicken": [
+     "W",
+     "L"
+    ],
+    "p": 0.001911935,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 221,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 140,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "W221Y with L140A",
+    "positions": [
+     221,
+     140
+    ],
+    "to": [
+     "Y",
+     "A"
+    ],
+    "from_chicken": [
+     "W",
+     "L"
+    ],
+    "p": 0.001904445,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 221,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 140,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "W221Y with I217H",
+    "positions": [
+     221,
+     217
+    ],
+    "to": [
+     "Y",
+     "H"
+    ],
+    "from_chicken": [
+     "W",
+     "I"
+    ],
+    "p": 0.001792363,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 221,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 217,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "W221Y with I217N",
+    "positions": [
+     221,
+     217
+    ],
+    "to": [
+     "Y",
+     "N"
+    ],
+    "from_chicken": [
+     "W",
+     "I"
+    ],
+    "p": 0.001704999,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 221,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 217,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "W221Y with I217D",
+    "positions": [
+     221,
+     217
+    ],
+    "to": [
+     "Y",
+     "D"
+    ],
+    "from_chicken": [
+     "W",
+     "I"
+    ],
+    "p": 0.001648898,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 221,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 217,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "W221Y with I217K",
+    "positions": [
+     221,
+     217
+    ],
+    "to": [
+     "Y",
+     "K"
+    ],
+    "from_chicken": [
+     "W",
+     "I"
+    ],
+    "p": 0.001646806,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 221,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 217,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "L140G with I217R",
+    "positions": [
+     140,
+     217
+    ],
+    "to": [
+     "G",
+     "R"
+    ],
+    "from_chicken": [
+     "L",
+     "I"
+    ],
+    "p": 0.001546481,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": true,
+    "loose_clean": true,
+    "touches": [
+     {
+      "pos": 140,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 217,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "L140G with I217Q",
+    "positions": [
+     140,
+     217
+    ],
+    "to": [
+     "G",
+     "Q"
+    ],
+    "from_chicken": [
+     "L",
+     "I"
+    ],
+    "p": 0.001542733,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": true,
+    "loose_clean": true,
+    "touches": [
+     {
+      "pos": 140,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 217,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "W221Y with I217E",
+    "positions": [
+     221,
+     217
+    ],
+    "to": [
+     "Y",
+     "E"
+    ],
+    "from_chicken": [
+     "W",
+     "I"
+    ],
+    "p": 0.001533762,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 221,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 217,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "L140A with I217Q",
+    "positions": [
+     140,
+     217
+    ],
+    "to": [
+     "A",
+     "Q"
+    ],
+    "from_chicken": [
+     "L",
+     "I"
+    ],
+    "p": 0.001528052,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": true,
+    "loose_clean": true,
+    "touches": [
+     {
+      "pos": 140,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 217,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "W221Y with I217T",
+    "positions": [
+     221,
+     217
+    ],
+    "to": [
+     "Y",
+     "T"
+    ],
+    "from_chicken": [
+     "W",
+     "I"
+    ],
+    "p": 0.001499078,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 221,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 217,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "M143P with R146P",
+    "positions": [
+     143,
+     146
+    ],
+    "to": [
+     "P",
+     "P"
+    ],
+    "from_chicken": [
+     "M",
+     "R"
+    ],
+    "p": 0.001488202,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": true,
+    "loose_clean": true,
+    "touches": [
+     {
+      "pos": 143,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 146,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "L145Q with L140G",
+    "positions": [
+     145,
+     140
+    ],
+    "to": [
+     "Q",
+     "G"
+    ],
+    "from_chicken": [
+     "L",
+     "L"
+    ],
+    "p": 0.001454916,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 145,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 140,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "L145P with M143R",
+    "positions": [
+     145,
+     143
+    ],
+    "to": [
+     "P",
+     "R"
+    ],
+    "from_chicken": [
+     "L",
+     "M"
+    ],
+    "p": 0.001432385,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": false,
+    "loose_clean": false,
+    "touches": [
+     {
+      "pos": 145,
+      "in_set": true,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 143,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   },
+   {
+    "label": "L140A with I217R",
+    "positions": [
+     140,
+     217
+    ],
+    "to": [
+     "A",
+     "R"
+    ],
+    "from_chicken": [
+     "L",
+     "I"
+    ],
+    "p": 0.00142789,
+    "source": "step 5 pair scan, nearest positions",
+    "background": "wild-type chicken",
+    "clean": true,
+    "loose_clean": true,
+    "touches": [
+     {
+      "pos": 140,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     },
+     {
+      "pos": 217,
+      "in_set": false,
+      "primary": false,
+      "parker": false
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,80 @@
+=== source papers behind the extracted positions ===
+pmid       class         title
+18559978   clinical      A novel loss-of-function mutation in the proton-coupled folate transporter from a patient with hereditary fola
+19389703   mutagenesis   The functional roles of the His247 and His281 residues in folate and proton translocation mediated by the huma
+19403800   mutagenesis   Role of the glutamate 185 residue in proton translocation mediated by the proton-coupled folate transporter SL
+19508863   unclear       Hereditary folate malabsorption: a positively charged amino acid at position 113 of the proton-coupled folate 
+20686069   mutagenesis   Properties of the Arg376 residue of the proton-coupled folate transporter (PCFT-SLC46A1) and a glutamine mutan
+20805364   mutagenesis   Functional roles of aspartate residues of the proton-coupled folate transporter (PCFT-SLC46A1); a D156Y mutati
+21256110   mutagenesis   Vulnerability of the cysteine-less proton-coupled folate transporter (PCFT-SLC46A1) to mutational stress assoc
+21333572   clinical      Identification of novel mutations in the proton-coupled folate transporter (PCFT-SLC46A1) associated with here
+22179615   mutagenesis   Identification and functional impact of homo-oligomers of the human proton-coupled folate transporter.
+22345511   unclear       A P425R mutation of the proton-coupled folate transporter causing hereditary folate malabsorption produces a h
+22785121   clinical      Identification of a functionally critical GXXG motif and its relationship to the folate binding site of the pr
+22843796   mutagenesis   Functional roles of the A335 and G338 residues of the proton-coupled folate transporter (PCFT-SLC46A1) mutated
+23552283   mutagenesis   Role of the fourth transmembrane domain in proton-coupled folate transporter function as assessed by the subst
+24534056   clinical      The first Chinese case report of hereditary folate malabsorption with a novel mutation on SLC46A1.
+25608532   mutagenesis   Identification of Tyr residues that enhance folate substrate binding and constrain oscillation of the proton-c
+25877470   mutagenesis   Structural determinants of human proton-coupled folate transporter oligomerization: role of GXXXG motifs and i
+26884338   both          Identification of an Extracellular Gate for the Proton-coupled Folate Transporter (PCFT-SLC46A1) by Cysteine C
+27251438   mutagenesis   Role of the tryptophan residues in proton-coupled folate transporter (PCFT-SLC46A1) function.
+27938595   clinical      [Two cases with generalized intracranial calcification due to hereditary folate malabsorption and literature r
+29167151   mutagenesis   Substituted-cysteine accessibility and cross-linking identify an exofacial cleft in the 7th and 8th helices of
+29344585   unclear       Hereditary folate malabsorption due to a mutation in the external gate of the proton-coupled folate transporte
+30858177   unclear       Substitutions that lock and unlock the proton-coupled folate transporter (PCFT-SLC46A1) in an inward-open conf
+32893190   unclear       A proton-coupled folate transporter mutation causing hereditary folate malabsorption locks the protein in an i
+34619546   mutagenesis   Functional role of serine 318 of the proton-coupled folate transporter in methotrexate transport.
+
+=== component H, hereditary folate malabsorption patient missense positions: 6 ===
+  M1 -> L   pmids 24534056,27938595
+  R113 -> H,S   pmids 18559978,19508863
+  A335 -> D   pmids 21333572,22843796
+  G338 -> R   pmids 21333572,22843796
+  N411 -> K   pmids 26884338,29344585
+  L413 -> P   pmids 27938595
+
+=== component L, laboratory substitution positions: 45 ===
+  Q45, W48, W85, N90, G93, W107, D109, G112, Q136, L137, R148, D156, G159, S172, E185, I188, M193, S196, W202, W213, L214, L224, A227, F228, F230, G231, E232, H247, I278, H281, L288, L290, W299, I304, G305, Q311, P314, Y315, S318, W333, R376, F392, S407, K422, P425
+
+========================================================================
+C COUNTS
+========================================================================
+
+--- set P: Parker et al. 2021 named functional residues (13) ---
+positions in set: 14, mapped: 14, unmapped: 0
+C = 3 of 14 mapped positions differ (21%)
+  differing: chick N166 / human G158, chick E407 / human N399, chick S411 / human M403
+
+--- set S: pemetrexed contact shell at 4.0 A (14 chicken positions) ---
+positions in set: 14, mapped: 14, unmapped: 0
+C = 7 of 14 mapped positions differ (50%)
+  differing: chick T37 / human N33, chick V44 / human G40, chick Y165 / human F157, chick L196 / human I188, chick K293 / human Q285, chick E407 / human N399, chick S411 / human M403
+
+--- set S: pemetrexed contact shell at 4.5 A (17 chicken positions) ---
+positions in set: 17, mapped: 17, unmapped: 0
+C = 9 of 17 mapped positions differ (53%)
+  differing: chick T37 / human N33, chick V44 / human G40, chick Y165 / human F157, chick L196 / human I188, chick K293 / human Q285, chick Y320 / human H312, chick E407 / human N399, chick S411 / human M403, chick T415 / human S407
+
+--- set S: pemetrexed contact shell at 5.0 A (21 chicken positions) ---
+positions in set: 21, mapped: 21, unmapped: 0
+C = 10 of 21 mapped positions differ (48%)
+  differing: chick T37 / human N33, chick V44 / human G40, chick Y165 / human F157, chick L196 / human I188, chick V286 / human I278, chick K293 / human Q285, chick Y320 / human H312, chick E407 / human N399, chick S411 / human M403, chick T415 / human S407
+
+--- set H: HFM patient missense positions (6) ---
+positions in set: 6, mapped: 6, unmapped: 0
+C = 0 of 6 mapped positions differ (0%)
+
+--- UNION P + S(4.0 A) + H  = the pharmacophore position set ---
+positions in set: 27, mapped: 27, unmapped: 0
+C = 8 of 27 mapped positions differ (30%)
+  differing: chick T37 / human N33, chick V44 / human G40, chick Y165 / human F157, chick N166 / human G158, chick L196 / human I188, chick K293 / human Q285, chick E407 / human N399, chick S411 / human M403
+
+--- UNION P + S(4.5 A) + H  = the pharmacophore position set ---
+positions in set: 30, mapped: 30, unmapped: 0
+C = 10 of 30 mapped positions differ (33%)
+  differing: chick T37 / human N33, chick V44 / human G40, chick Y165 / human F157, chick N166 / human G158, chick L196 / human I188, chick K293 / human Q285, chick Y320 / human H312, chick E407 / human N399, chick S411 / human M403, chick T415 / human S407
+
+--- UNION P + S(5.0 A) + H  = the pharmacophore position set ---
+positions in set: 31, mapped: 31, unmapped: 0
+C = 11 of 31 mapped positions differ (35%)
+  differing: chick T37 / human N33, chick V44 / human G40, chick Y165 / human F157, chick N166 / human G158, chick L196 / human I188, chick V286 / human I278, chick K293 / human Q285, chick Y320 / human H312, chick E407 / human N399, chick S411 / human M403, chick T415 / human S407

@@ -1,0 +1,99 @@
+CHARMM-GUI settings for the SLC46A1 engraftment construct set
+=============================================================
+
+Input Generator > Membrane Builder > Bilayer Builder > Upload PDB.
+Run it 3 times, once per file, from md/systems:
+
+  construct__apo_pH7.5.pdb     26 substitutions
+  primaries__apo_pH7.5.pdb     20 substitutions
+  wt__apo_pH7.5.pdb            no substitutions
+
+Chains            keep chain A, the only chain in each file. No ligand is
+                  present, since this is the substrate-free state.
+Disulfides        tick the 1 pair CHARMM-GUI offers: 72 with 306. Measured SG to SG at 2.03 angstrom
+                  in all 3 files, so the same pair appears in every build. The 
+                  9 cysteines are at 72, 96, 172, 195, 237, 306, 336, 405, 410 and no other pair is close.
+Missing residues  none inside the chain. The 432 residues span 26 to 457 with no
+                  internal gap, so there is nothing for CHARMM-GUI to model.
+Terminal groups   neutral caps, ACE and CT3 or their equivalents. Residue 26 is
+                  not the start of the protein and residue 457 is not its end:
+                  both are where the deposited model stops, so charged NTER and
+                  CTER would put formal charges in the middle of the sequence.
+Protonation       defaults at the pH the state carries. The arms are not
+                  identical in titratable content: Arg, Asp, Glu, His, Tyr differ across the arms
+                  and one humanising substitution installs a histidine, so
+                  the wild type carries 6 and the others 7.
+Lipid             POPC 70 percent with CHOL 30 percent, 90 per leaflet as the target, entered as a ratio.
+                  The ratio resolves to 63 POPC, 27 CHOL per leaflet.
+Water             22.5 angstrom thickness.
+Ions              0.15 M KCl, neutralising. The arms do not carry the same formal
+                  charge, construct +2, primaries +1, wt +1, so the counter-ion counts will differ by 1
+                  between the extremes. A build whose charge disagrees with the
+                  figure above means the wrong file was uploaded.
+Force field       CHARMM36m.
+Dynamics          GROMACS.
+
+
+Step by step
+------------
+
+1.  Open charmm-gui.org, log in, and choose Input Generator >
+    Membrane Builder > Bilayer Builder. The protein is a transporter in a
+    bilayer, so this is the builder, not Solution Builder.
+2.  Choose "Upload PDB" and upload the first file from md/systems. The three
+    files, in the order they are listed above, are:
+      construct__apo_pH7.5.pdb
+      primaries__apo_pH7.5.pdb
+      wt__apo_pH7.5.pdb
+    Do one at a time and keep the three downloads apart. The run is the same
+    for each, and only the uploaded file changes.
+3.  PDB Info page. Keep chain A and nothing else. Leave the het records
+    alone, there are none to keep.
+4.  On the same page, the disulfide and protonation panel. Tick the pair 72 with 306. Leave the protonation at its defaults.
+    Read off which histidine form it assigns at the 5 titratable substituted
+    positions, 217, 320, 404, 406, 430, before going on.
+5.  Terminal group patching. Set both ends to neutral caps rather than
+    charged NTER and CTER, because residue 26 is not the start of the
+    protein and residue 457 is not its end.
+6.  Orientation. Choose "Run PPM 2.0" and leave every Positioning Option
+    unticked. PPM sets the membrane normal along z itself, so a rotation or a
+    translation entered by hand afterwards undoes what it just did. The
+    computed energy printed above those options is a CHARMM single point on
+    the rebuilt coordinates: a very large van der Waals term there comes from
+    the side chains and hydrogens CHARMM-GUI has just added, since in the
+    uploaded files the closest non-bonded heavy-atom contact is 2.16 angstrom
+    (ARG122 NH2 to PHE238 O), and the only pair nearer than that is the 72 with 306 disulfide at 2.03.
+    It falls away during minimisation and equilibration, so read it after
+    those rather than here.
+7.  Lipid page. POPC 70 percent with CHOL 30 percent, 90 per leaflet as the target, symmetric leaflets.
+    Enter the ratio, 70 to 30, and leave the counts to the page. It
+    resolves to 63 POPC, 27 CHOL per leaflet. The XY box length the page asks
+    for in ratio mode is an initial guess and not a value to leave
+    blank, since a blank there selects no lipid and the build stops.
+8.  Water and ions. 22.5 angstrom water thickness, 0.15 M KCl, neutralising. Check
+    the net charge it reports against the figure above for that arm.
+9.  Force field and equilibration input. CHARMM36m, and tick GROMACS as the
+    dynamics engine. Leave hydrogen mass repartitioning unticked.
+    Temperature: 303.15 K.
+10. Download the charmm-gui-*.tgz when the build finishes, then repeat from
+    step 2 for the next file. Three builds in all.
+11. Unpack each archive. Inside is a gromacs/ folder holding
+    step5_input.gro, step5_input.pdb, step5_input.psf, topol.top,
+    index.ndx, step7_production.mdp.
+    The contents of that folder are what go on Drive, without the
+    gromacs/ level around them.
+
+Unpack each charmm-gui-*.tgz and put the contents of its gromacs/ folder
+on Drive as
+
+  /content/drive/MyDrive/MDs/SLC46A1_engraftment/construct
+  /content/drive/MyDrive/MDs/SLC46A1_engraftment/primaries
+  /content/drive/MyDrive/MDs/SLC46A1_engraftment/wt
+
+A build folder is recognised by holding step5_input.pdb, so the folder names
+above matter and the names CHARMM-GUI gives the archives do not.
+
+The 5 titratable positions among the 26 substituted ones are 217, 320, 404, 406, 430, and the
+protonation CHARMM-GUI assigns them is worth reading off step1_pdbreader.out
+before the runs start, since a changed protonation state at one of those would
+be a difference between arms that no substitution put there.

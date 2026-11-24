@@ -1,0 +1,8 @@
+3 arms, chain A, residues 26 to 457, 432 residues
+disulfides within 2.5 angstrom: 72 with 306 at 2.03
+formal charges: construct +2, primaries +1, wt +1, spread 1
+titratable types differing across arms: ['ARG', 'ASP', 'GLU', 'HIS', 'TYR']
+titratable substituted positions: [217, 320, 404, 406, 430]
+
+wrote md/inputs/CHARMM-GUI-checklist.txt (5863 bytes)
+wrote md/inputs/build_measurements.json

@@ -1,0 +1,69 @@
+{
+ "bilayer_centre_A": -0.73,
+ "crossing_spans": [
+  [
+   29,
+   61
+  ],
+  [
+   80,
+   118
+  ],
+  [
+   119,
+   146
+  ],
+  [
+   147,
+   181
+  ],
+  [
+   182,
+   213
+  ],
+  [
+   214,
+   238
+  ],
+  [
+   268,
+   304
+  ],
+  [
+   305,
+   336
+  ],
+  [
+   337,
+   362
+  ],
+  [
+   363,
+   393
+  ],
+  [
+   394,
+   428
+  ],
+  [
+   429,
+   457
+  ]
+ ],
+ "crossings_amino_half": 6,
+ "half_thickness_A": 15.0,
+ "membrane_crossings": 12,
+ "model": "data/af3/construct/fold_construct_model_0.cif",
+ "plddt_below_floor": 18,
+ "plddt_floor": 70.0,
+ "reference": "7BC7",
+ "residue_range": [
+  26,
+  457
+ ],
+ "site_positions_humanising": 10,
+ "site_positions_rescuer": 2,
+ "site_positions_shown": 19,
+ "site_shell_A": 16.0,
+ "split_residue": 245
+}

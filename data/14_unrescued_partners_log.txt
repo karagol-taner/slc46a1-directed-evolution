@@ -1,0 +1,90 @@
+result             : data/evcouplings/Q96NT5_b0.3
+coupled pairs      : 70876, positions 24 to 442
+contact            : at most 5.0 Angstrom in the deposited structures
+sweep report       : rescue_sweep_report.json, threshold 0.001, 5 high-risk targets
+targets rescued at some radius and policy: [239, 319, 322]
+
+chicken 144 Y to human Q, human position 136, baseline likelihood 5.381e-05, not rescued at any radius or policy
+  human 136 lies inside the covered region but is one of the columns the run does not fit, so it has no partners to report
+
+chicken 239 Q to human G, human position 231, baseline likelihood 5.511e-04, rescued
+  partners scored: 376, of which 6 lie inside the published window of 3
+  partner  sep    score  pct nonlocal  dist A  contact  in window  note
+      232    1   0.4642          99.9   1.33      yes         yes  in the set
+      227    4   0.4515          99.9   7.00       no          no  in the set
+      233    2   0.4257          99.9   3.64      yes         yes  
+      230    1   0.3727          99.8   1.33      yes         yes  primary
+      229    2   0.3620          99.8   4.00      yes         yes  
+      228    3   0.3057          99.7   6.30       no         yes  primary
+      171   60   0.2212          99.6   7.60       no          no  
+      114  117   0.1578          99.2   3.92      yes          no  
+      226    5   0.1251          98.8   5.86       no          no  
+      234    3   0.1242          98.8   6.42       no         yes  
+  strongest partner overall is 232 at separation 1, scoring 0.4642; the strongest the window reaches is 232 at separation 1, scoring 0.4642
+  partners above the 99th percentile, in contact, and beyond the window: 1 [114]
+
+chicken 319 S to human Q, human position 311, baseline likelihood 8.524e-05, rescued
+  partners scored: 376, of which 6 lie inside the published window of 3
+  partner  sep    score  pct nonlocal  dist A  contact  in window  note
+      307    4   0.4208          99.9   2.86      yes          no  
+      308    3   0.4174          99.9   3.17      yes         yes  
+      310    1   0.4087          99.9   1.33      yes         yes  
+      306    5   0.2874          99.7   4.83      yes          no  
+      314    3   0.2258          99.6   3.61      yes         yes  primary
+      362   51   0.1910          99.4   3.84      yes          no  
+      309    2   0.1834          99.4   3.20      yes         yes  
+      288   23   0.1527          99.2   3.99      yes          no  primary
+      281   30   0.1444          99.1   7.46       no          no  in the set, TM7, proton binding, gate hydrogen
+      312    1   0.1363          99.0   1.33      yes         yes  primary
+  strongest partner overall is 307 at separation 4, scoring 0.4208; the strongest the window reaches is 308 at separation 3, scoring 0.4174
+  partners above the 99th percentile, in contact, and beyond the window: 4 [307, 306, 362, 288]
+
+chicken 322 A to human P, human position 314, baseline likelihood 1.536e-04, rescued
+  partners scored: 376, of which 6 lie inside the published window of 3
+  partner  sep    score  pct nonlocal  dist A  contact  in window  note
+      315    1   0.4459          99.9   1.32      yes         yes  in the set, TM8, pyrimidine carbonyl and amide
+      318    4   0.4070          99.9   2.48      yes          no  in the set
+      317    3   0.3647          99.8   3.21      yes         yes  
+      312    2   0.3606          99.8   3.26      yes         yes  primary
+      322    8   0.2673          99.7   8.24       no          no  
+      311    3   0.2258          99.6   3.61      yes         yes  primary
+      189  125   0.2162          99.5   7.25       no          no  
+      321    7   0.2067          99.5   7.28       no          no  
+      319    5   0.1909          99.4   4.77      yes          no  
+      323    9   0.1814          99.4  10.33       no          no  
+  strongest partner overall is 315 at separation 1, scoring 0.4459; the strongest the window reaches is 315 at separation 1, scoring 0.4459
+  partners above the 99th percentile, in contact, and beyond the window: 3 [318, 319, 369]
+
+chicken 407 E to human N, human position 399, baseline likelihood 1.352e-05, not rescued at any radius or policy
+  partners scored: 376, of which 6 lie inside the published window of 3
+  partner  sep    score  pct nonlocal  dist A  contact  in window  note
+      274  125   0.3915          99.9   3.82      yes          no  
+      278  121   0.3662          99.8   4.46      yes          no  primary
+      376   23   0.3518          99.8   2.52      yes          no  in the set, TM10, salt bridge to Glu193, HFM m
+      396    3   0.2714          99.7   3.21      yes         yes  
+      395    4   0.2706          99.7   2.87      yes          no  
+      403    4   0.2375          99.6   2.93      yes          no  primary, TM11, amide and carbonyl of the gl
+      372   27   0.2236          99.6   6.01       no          no  in the set
+      402    3   0.1834          99.4   3.25      yes         yes  
+      184  215   0.1393          99.0   9.15       no          no  
+      281  118   0.1257          98.8   8.15       no          no  in the set, TM7, proton binding, gate hydrogen
+  strongest partner overall is 274 at separation 125, scoring 0.3915; the strongest the window reaches is 396 at separation 3, scoring 0.2714
+  partners above the 99th percentile, in contact, and beyond the window: 5 [274, 278, 376, 395, 403]
+
+the 2 high-risk targets the sweep did not rescue:
+  human 136: the run does not fit this column, so it has no partners
+  human 399: strongest partner 274 at separation 125 and 3.82 Angstrom, against 396 at separation 3 inside the window of 3
+    5 partners above the 99th percentile sit in contact and beyond the window: [274, 278, 376, 395, 403]
+
+the 3 the sweep did rescue, for comparison:
+  human 231: strongest partner 232 at separation 1, and the window reaches 232 at separation 1 scoring 0.4642 against 0.4642
+  human 311: strongest partner 307 at separation 4, and the window reaches 308 at separation 3 scoring 0.4174 against 0.4208
+  human 314: strongest partner 315 at separation 1, and the window reaches 315 at separation 1 scoring 0.4459 against 0.4459
+
+separation of the strongest partner, by whether the sweep rescued the target
+  human 231  rescued      strongest partner at separation   1, window best at 1
+  human 311  rescued      strongest partner at separation   4, window best at 3
+  human 314  rescued      strongest partner at separation   1, window best at 1
+  human 399  not rescued  strongest partner at separation 125, window best at 3
+
+wrote data/unrescued_partners.json

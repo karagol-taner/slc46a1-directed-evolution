@@ -1,0 +1,51 @@
+run                : Q96NT5_b0.3
+sequences          : 43074
+effective sequences: 22427.3 (computed by codes/12_evcouplings_depth.py at 0.8 identity, because N_eff is blank in this run)
+target length      : 459, covered region 24 to 442, 377 columns fitted
+Meff / L           : 48.861 over the full length, 59.489 over the fitted columns (usable from about 1.0)
+verdict            : usable
+coupled pairs      : 70876
+
+separation profile of the strongest couplings
+ top N   median sep   fraction with sep <= 8
+    20            2                   0.80
+    50            2                   0.66
+   100            2                   0.75
+   200            3                   0.76
+   500            4                   0.76
+all 70876 pairs: median sep 119, fraction local 0.04
+
+structures matched by the run: 7bc6, 7bc7, over residues 26 to 457
+non-local couplings with a distance in the structure: 68032 of 70876
+
+precision of the strongest non-local couplings against the structure, contact at 5.0 Angstrom
+  rank cut        N   precision   median distance
+      L/2      229       0.716              3.84
+        L      459       0.599              4.28
+       2L      918       0.402              6.41
+all 68032 non-local pairs: 0.009 are in contact, which is the rate to beat
+
+measured pairs
+pair                       sep     score  pct all  pct nonlocal   dist A  note
+cross-link N90C/S407C       317     0.070     93.0          95.6    5.59
+cross-link Q45C/L290C       245     0.068     92.5          95.2   12.13
+cross-link L290C/N411C      121     0.157     97.5          99.2    5.20
+F392V with S196L            196    -0.038     24.3          25.3   23.79
+F392D with G305L             87    -0.036     26.2          27.2   29.25
+D109A with G305L            196    -0.011     49.2          51.1   38.15
+
+median percentile of the measured pairs against non-local pairs: 73.2
+a set with no detectable enrichment sits near 50
+
+primary pairs: 190 total, 171 scored, 156 of those separated by more than 8
+strongest non-local primary pairs
+  278-399  sep 121  score   0.366  pct nonlocal  99.8  dist   4.46 A
+   33-188  sep 155  score   0.331  pct nonlocal  99.8  dist   3.03 A
+  288-311  sep  23  score   0.153  pct nonlocal  99.2  dist   3.99 A
+   33-158  sep 125  score   0.151  pct nonlocal  99.2  dist   9.07 A
+  285-403  sep 118  score   0.136  pct nonlocal  99.0  dist   8.89 A
+156 of the 156 scored non-local primary pairs have a distance, and 7 are within 5.0 Angstrom
+
+against the step 3 alignment: 1047 sequences and Meff 401.1, so the effective count rises 55.9-fold
+
+wrote data/evcouplings_report.json

@@ -1,0 +1,24 @@
+gate scan rows 44935, positions 473, gates 5
+
+measured pairs, each member scored against its partner
+pair            kind                        sep   partner percentile  best rank
+N90C/S407C      spontaneous disulfide       317              83.51       1238
+N90C/S407C      spontaneous disulfide       317               6.55        235
+Q45C/L290C      CuPh and cadmium induced    249              24.74       1770
+Q45C/L290C      CuPh and cadmium induced    249              43.76        746
+L290C/N411C     CuPh and cadmium induced    121              15.01        374
+L290C/N411C     CuPh and cadmium induced    121               7.40        154
+
+for reference, the same score for every gate pair including the unmeasured one
+  chicken  49 on  98  sep  49  percentile  86.68  measured False
+  chicken  49 on 298  sep 249  percentile  24.74  measured True
+  chicken  49 on 415  sep 366  percentile  25.16  measured False
+  chicken  49 on 419  sep 370  percentile  82.66  measured False
+  chicken  98 on 298  sep 200  percentile  59.20  measured False
+  chicken  98 on 415  sep 317  percentile  83.51  measured True
+  chicken  98 on 419  sep 321  percentile  12.90  measured False
+  chicken 298 on 415  sep 117  percentile  44.40  measured False
+  chicken 298 on 419  sep 121  percentile  15.01  measured True
+  chicken 415 on 419  sep   4  percentile  95.56  measured False
+
+wrote data/gate_pair_comparison.json

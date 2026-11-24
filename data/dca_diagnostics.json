@@ -1,0 +1,77 @@
+{
+ "n_sequences": 1047,
+ "meff": 401.08937889275944,
+ "length": 459,
+ "meff_per_length": 0.873833069483136,
+ "usable_threshold": 1.0,
+ "underdetermined": true,
+ "local_cutoff": 8,
+ "separation_profile": {
+  "20": {
+   "median_separation": 1.0,
+   "fraction_local": 1.0
+  },
+  "50": {
+   "median_separation": 1.0,
+   "fraction_local": 1.0
+  },
+  "100": {
+   "median_separation": 1.0,
+   "fraction_local": 1.0
+  },
+  "200": {
+   "median_separation": 1.0,
+   "fraction_local": 1.0
+  },
+  "500": {
+   "median_separation": 2.0,
+   "fraction_local": 1.0
+  }
+ },
+ "measured_pairs": [
+  {
+   "label": "cross-link 45/290",
+   "separation": 245,
+   "score": -1.7567755619985168,
+   "percentile_all": 15.519783847551636,
+   "percentile_nonlocal": 16.07588075880759
+  },
+  {
+   "label": "cross-link 90/407",
+   "separation": 317,
+   "score": -1.4964113878850296,
+   "percentile_all": 34.7584934022129,
+   "percentile_nonlocal": 36.003941857600395
+  },
+  {
+   "label": "cross-link 290/411",
+   "separation": 121,
+   "score": -0.4357517492018794,
+   "percentile_all": 78.51889906860367,
+   "percentile_nonlocal": 81.32939147573293
+  },
+  {
+   "label": "F392V with S196L",
+   "separation": 196,
+   "score": -1.411464112143962,
+   "percentile_all": 40.67699860147844,
+   "percentile_nonlocal": 42.13451589061345
+  },
+  {
+   "label": "F392D with G305L",
+   "separation": 87,
+   "score": 1.0776671273989287,
+   "percentile_all": 89.66235693695236,
+   "percentile_nonlocal": 92.85144124168514
+  },
+  {
+   "label": "D109A with G305L",
+   "separation": 196,
+   "score": -1.1789163043750142,
+   "percentile_all": 54.374898916383636,
+   "percentile_nonlocal": 56.323232323232325
+  }
+ ],
+ "median_percentile_measured_all": 47.52594875893104,
+ "median_percentile_measured_nonlocal": 49.22887410692289
+}

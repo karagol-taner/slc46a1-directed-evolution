@@ -1,0 +1,47 @@
+construct rebuilt from data/admissible_construct.json and matched against the run, 20 primaries and 6 rescuer positions [140, 217, 241, 318, 404, 406], 26 changes from chicken
+rescuer positions changed since the earlier set-level run: [406, 410]
+scale checks: wild type against step 1 worst 3.87e-06, primaries against step 5 worst 0.00e+00
+step 8 tie: chicken 407 at 1.070235e-03 here against 1.070241e-03 there, relative difference 5.61e-06
+
+the swap dropped a rescuer at chicken [410] and wrote one at chicken [406]
+  the 4 primaries nearest the vacated position, chicken [407, 411, 415, 430], lie within 20 residues of it, and the next is 88 away
+  their folds over the earlier construct run 1.58 to 3.41, the other 16 run 0.86 to 1.14
+  the nearest 4 are exactly the 4 largest risers: True
+
+the revised construct, every primary with the other 19 and all 6 rescuers in place
+chicken  human    wild type   primaries     revised      earlier   fold over earlier
+     37      N    6.767e-03   3.504e-03   3.615e-03   3.933e-03               0.92
+     44      G    7.023e-01   4.888e-01   4.777e-01   4.714e-01               1.01
+    144      Q    5.381e-05   5.637e-05   1.884e-03   1.834e-03               1.03
+    165      F    3.294e-02   2.029e-01   1.976e-01   1.928e-01               1.02
+    166      G    2.432e-01   9.875e-02   8.909e-02   8.590e-02               1.04
+    167      G    1.250e-03   1.304e-03   1.412e-03   1.357e-03               1.04
+    196      I    2.415e-03   5.846e-03   5.313e-03   5.296e-03               1.00
+    236      F    6.542e-02   4.004e-02   2.734e-02   2.774e-02               0.99
+    238      F    7.479e-03   6.036e-03   4.997e-03   4.743e-03               1.05
+    239      G    5.511e-04   7.941e-04   2.127e-03   2.162e-03               0.98
+    286      I    1.808e-03   2.199e-03   2.465e-03   2.841e-03               0.87
+    293      Q    3.288e-03   1.997e-02   2.225e-02   2.441e-02               0.91
+    296      L    5.285e-03   5.695e-03   6.704e-03   7.114e-03               0.94
+    319      Q    8.524e-05   2.132e-03   1.305e-02   1.525e-02               0.86
+    320      H    3.430e-03   1.612e-02   1.713e-02   1.886e-02               0.91
+    322      P    1.536e-04   6.586e-05   6.382e-05   5.617e-05               1.14
+    407      N    1.352e-05   8.297e-06   1.070e-03   6.772e-04               1.58
+    411      M    2.319e-03   5.216e-03   2.948e-02   1.063e-02               2.77
+    415      S    8.328e-03   1.831e-02   1.391e-02   4.078e-03               3.41
+    430      K    6.799e-03   1.027e-02   2.095e-02   1.324e-02               1.58
+
+  below 1e-03 : 1 of 20 primaries, chicken [322]
+  the earlier construct was below it at 2, chicken [322, 407]
+  fold over the earlier construct: median 1.02, lowest 0.86, highest 3.41
+
+does each rescue hold with the others present
+  chicken 144: L140G with I217R     chosen at 1.546481e-03 in wild-type chicken  here 1.884029e-03, holds
+  chicken 239: T241W                chosen at 2.362583e-03 in the construct      here 2.127424e-03, holds
+  chicken 319: A318P                chosen at 4.622915e-03 in wild-type chicken  here 1.305123e-02, holds
+  chicken 407: A404D with V406R     chosen at 1.070241e-03 in the construct      here 1.070235e-03, holds
+  holding [144, 239, 319, 407] of [144, 239, 319, 407], not holding none
+  still without an admissible rescue: [322]
+  verdict         : 4 of five high-risk substitutions rescued under the strict policy, 1 primaries below the threshold
+
+wrote data/step9_report.json

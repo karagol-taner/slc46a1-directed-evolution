@@ -1,0 +1,384 @@
+{
+ "schema": "v5-construct",
+ "model": "facebook/esm2_t33_650M_UR50D",
+ "chicken_sha256": "5d68e7c91dc3af3cd898a3f459617f3b22670f3dbdf9f798e8d740d8669a8aea",
+ "threshold": 0.001,
+ "n_primaries": 20,
+ "part_a": {
+  "target": 144,
+  "candidates": [
+   145,
+   143,
+   221,
+   140,
+   146,
+   142,
+   217,
+   141,
+   218,
+   139
+  ],
+  "candidate_source": "minimum heavy-atom distance in 7BC6 and 7BC7",
+  "n_doubles": 16245,
+  "n_singles": 190,
+  "worst_relative_difference_vs_step2": 3.622859206490474e-05,
+  "n_crossing": 70,
+  "best_single": {
+   "pos": 217,
+   "to": "Q",
+   "p": 0.0003022674
+  },
+  "best_double": {
+   "pos_i": 145,
+   "from_i": "L",
+   "to_i": "P",
+   "pos_j": 146,
+   "from_j": "R",
+   "to_j": "V",
+   "p_target": 0.004135892,
+   "p_single_i": 0.0001151444,
+   "p_single_j": 3.462632e-05,
+   "best_single_of_pair": 0.0001151444,
+   "fold_vs_baseline": 76.85917537213571,
+   "fold_vs_best_single_of_pair": 35.91917626910211,
+   "crosses": true
+  }
+ },
+ "rescuers": [
+  {
+   "target": 239,
+   "pos": 238,
+   "to": "P",
+   "p_target": 0.00658458,
+   "source": "single, published policy",
+   "collision": "primary"
+  },
+  {
+   "target": 319,
+   "pos": 318,
+   "to": "P",
+   "p_target": 0.004622915,
+   "source": "single, published policy",
+   "collision": "none"
+  },
+  {
+   "target": 322,
+   "pos": 323,
+   "to": "P",
+   "p_target": 0.001061273,
+   "source": "single, published policy",
+   "collision": "conserved position in the set"
+  },
+  {
+   "target": 407,
+   "pos": 404,
+   "to": "D",
+   "p_target": 0.001252301,
+   "source": "double, step 4",
+   "collision": "none"
+  },
+  {
+   "target": 407,
+   "pos": 380,
+   "to": "P",
+   "p_target": 0.001252301,
+   "source": "double, step 4",
+   "collision": "conserved position in the set"
+  },
+  {
+   "target": 144,
+   "pos": 145,
+   "to": "P",
+   "p_target": 0.004135892,
+   "source": "double, part A",
+   "collision": "conserved position in the set"
+  },
+  {
+   "target": 144,
+   "pos": 146,
+   "to": "V",
+   "p_target": 0.004135892,
+   "source": "double, part A",
+   "collision": "none"
+  }
+ ],
+ "collisions": [
+  {
+   "pos": 238,
+   "to": "P",
+   "target": 239,
+   "kind": "primary"
+  },
+  {
+   "pos": 323,
+   "to": "P",
+   "target": 322,
+   "kind": "conserved position in the set"
+  },
+  {
+   "pos": 380,
+   "to": "P",
+   "target": 407,
+   "kind": "conserved position in the set"
+  },
+  {
+   "pos": 145,
+   "to": "P",
+   "target": 144,
+   "kind": "conserved position in the set"
+  }
+ ],
+ "backgrounds": [
+  "wt",
+  "primaries",
+  "primaries_rescuers_primary_wins",
+  "primaries_rescuers_rescue_wins"
+ ],
+ "wt_vs_step1_worst_relative_difference": 3.867780933797405e-06,
+ "below_threshold": {
+  "wt": [
+   144,
+   239,
+   319,
+   322,
+   407
+  ],
+  "primaries": [
+   144,
+   239,
+   322,
+   407
+  ],
+  "primaries_rescuers_primary_wins": [
+   239,
+   322,
+   407
+  ],
+  "primaries_rescuers_rescue_wins": [
+   322,
+   407
+  ]
+ },
+ "profile": [
+  {
+   "chicken_pos": 37,
+   "human_aa": "N",
+   "p_baseline_step1": 0.006766906473785639,
+   "wt": 0.006766906,
+   "primaries": 0.003504072,
+   "primaries_rescuers_primary_wins": 0.003062395,
+   "primaries_rescuers_rescue_wins": 0.002918064,
+   "fold_primaries_over_wt": 0.517824837525451,
+   "fold_final_over_wt": 0.45255468304125995
+  },
+  {
+   "chicken_pos": 44,
+   "human_aa": "G",
+   "p_baseline_step1": 0.7023442983627319,
+   "wt": 0.7023444,
+   "primaries": 0.4887999,
+   "primaries_rescuers_primary_wins": 0.472156,
+   "primaries_rescuers_rescue_wins": 0.472783,
+   "fold_primaries_over_wt": 0.6959547196503596,
+   "fold_final_over_wt": 0.6722570864094596
+  },
+  {
+   "chicken_pos": 144,
+   "human_aa": "Q",
+   "p_baseline_step1": 5.3811298130312935e-05,
+   "wt": 5.381109e-05,
+   "primaries": 5.637387e-05,
+   "primaries_rescuers_primary_wins": 0.001223767,
+   "primaries_rescuers_rescue_wins": 0.001027377,
+   "fold_primaries_over_wt": 1.047625498758713,
+   "fold_final_over_wt": 22.74191063589308
+  },
+  {
+   "chicken_pos": 165,
+   "human_aa": "F",
+   "p_baseline_step1": 0.032939352095127106,
+   "wt": 0.0329394,
+   "primaries": 0.2028983,
+   "primaries_rescuers_primary_wins": 0.2015043,
+   "primaries_rescuers_rescue_wins": 0.2141857,
+   "fold_primaries_over_wt": 6.159744864812352,
+   "fold_final_over_wt": 6.117424725404834
+  },
+  {
+   "chicken_pos": 166,
+   "human_aa": "G",
+   "p_baseline_step1": 0.24320220947265625,
+   "wt": 0.2432023,
+   "primaries": 0.09874886,
+   "primaries_rescuers_primary_wins": 0.09550966,
+   "primaries_rescuers_rescue_wins": 0.1017985,
+   "fold_primaries_over_wt": 0.4060358804172493,
+   "fold_final_over_wt": 0.3927169274303738
+  },
+  {
+   "chicken_pos": 167,
+   "human_aa": "G",
+   "p_baseline_step1": 0.0012496887939050794,
+   "wt": 0.001249689,
+   "primaries": 0.001303533,
+   "primaries_rescuers_primary_wins": 0.00162897,
+   "primaries_rescuers_rescue_wins": 0.001701399,
+   "fold_primaries_over_wt": 1.0430859197768405,
+   "fold_final_over_wt": 1.3035003108773462
+  },
+  {
+   "chicken_pos": 196,
+   "human_aa": "I",
+   "p_baseline_step1": 0.0024154360871762037,
+   "wt": 0.002415442,
+   "primaries": 0.005846397,
+   "primaries_rescuers_primary_wins": 0.008506334,
+   "primaries_rescuers_rescue_wins": 0.006647912,
+   "fold_primaries_over_wt": 2.420425330022414,
+   "fold_final_over_wt": 3.5216469697885526
+  },
+  {
+   "chicken_pos": 236,
+   "human_aa": "F",
+   "p_baseline_step1": 0.06542069464921951,
+   "wt": 0.06542078,
+   "primaries": 0.04004337,
+   "primaries_rescuers_primary_wins": 0.03955101,
+   "primaries_rescuers_rescue_wins": 0.01000799,
+   "fold_primaries_over_wt": 0.6120894614830334,
+   "fold_final_over_wt": 0.604563412420335
+  },
+  {
+   "chicken_pos": 238,
+   "human_aa": "F",
+   "p_baseline_step1": 0.00747922295704484,
+   "wt": 0.007479234,
+   "primaries": 0.00603579,
+   "primaries_rescuers_primary_wins": 0.00536701,
+   "primaries_rescuers_rescue_wins": 0.00536701,
+   "fold_primaries_over_wt": 0.8070064394294924,
+   "fold_final_over_wt": 0.7175881915180083
+  },
+  {
+   "chicken_pos": 239,
+   "human_aa": "G",
+   "p_baseline_step1": 0.0005511019844561815,
+   "wt": 0.0005511022,
+   "primaries": 0.0007940893,
+   "primaries_rescuers_primary_wins": 0.0007045601,
+   "primaries_rescuers_rescue_wins": 0.005942591,
+   "fold_primaries_over_wt": 1.440911141345471,
+   "fold_final_over_wt": 1.2784563371367417
+  },
+  {
+   "chicken_pos": 286,
+   "human_aa": "I",
+   "p_baseline_step1": 0.0018078350694850087,
+   "wt": 0.001807834,
+   "primaries": 0.002199464,
+   "primaries_rescuers_primary_wins": 0.003552583,
+   "primaries_rescuers_rescue_wins": 0.003653777,
+   "fold_primaries_over_wt": 1.2166294029208433,
+   "fold_final_over_wt": 1.9651046500950864
+  },
+  {
+   "chicken_pos": 293,
+   "human_aa": "Q",
+   "p_baseline_step1": 0.0032877824269235134,
+   "wt": 0.003287792,
+   "primaries": 0.01996939,
+   "primaries_rescuers_primary_wins": 0.02450017,
+   "primaries_rescuers_rescue_wins": 0.03819468,
+   "fold_primaries_over_wt": 6.073799680758394,
+   "fold_final_over_wt": 7.451861309961215
+  },
+  {
+   "chicken_pos": 296,
+   "human_aa": "L",
+   "p_baseline_step1": 0.005284752696752548,
+   "wt": 0.005284752,
+   "primaries": 0.005695485,
+   "primaries_rescuers_primary_wins": 0.008171278,
+   "primaries_rescuers_rescue_wins": 0.009888288,
+   "fold_primaries_over_wt": 1.0777203925557908,
+   "fold_final_over_wt": 1.546198951246908
+  },
+  {
+   "chicken_pos": 319,
+   "human_aa": "Q",
+   "p_baseline_step1": 8.524019358446822e-05,
+   "wt": 8.524035e-05,
+   "primaries": 0.002131879,
+   "primaries_rescuers_primary_wins": 0.005161452,
+   "primaries_rescuers_rescue_wins": 0.00547333,
+   "fold_primaries_over_wt": 25.01020936680809,
+   "fold_final_over_wt": 60.55174574013364
+  },
+  {
+   "chicken_pos": 320,
+   "human_aa": "H",
+   "p_baseline_step1": 0.003429972566664219,
+   "wt": 0.003429973,
+   "primaries": 0.01612032,
+   "primaries_rescuers_primary_wins": 0.03069395,
+   "primaries_rescuers_rescue_wins": 0.0295078,
+   "fold_primaries_over_wt": 4.699838745086332,
+   "fold_final_over_wt": 8.948743911395221
+  },
+  {
+   "chicken_pos": 322,
+   "human_aa": "P",
+   "p_baseline_step1": 0.00015364473802037537,
+   "wt": 0.0001536447,
+   "primaries": 6.58593e-05,
+   "primaries_rescuers_primary_wins": 0.0001645254,
+   "primaries_rescuers_rescue_wins": 0.0001706224,
+   "fold_primaries_over_wt": 0.42864674147562526,
+   "fold_final_over_wt": 1.0708172816895083
+  },
+  {
+   "chicken_pos": 407,
+   "human_aa": "N",
+   "p_baseline_step1": 1.3523906090995297e-05,
+   "wt": 1.352389e-05,
+   "primaries": 8.297006e-06,
+   "primaries_rescuers_primary_wins": 0.0006341939,
+   "primaries_rescuers_rescue_wins": 0.0006219011,
+   "fold_primaries_over_wt": 0.6135073562414365,
+   "fold_final_over_wt": 46.89434031184814
+  },
+  {
+   "chicken_pos": 411,
+   "human_aa": "M",
+   "p_baseline_step1": 0.0023186076432466507,
+   "wt": 0.002318606,
+   "primaries": 0.005216379,
+   "primaries_rescuers_primary_wins": 0.01233672,
+   "primaries_rescuers_rescue_wins": 0.01058799,
+   "fold_primaries_over_wt": 2.2497910382359056,
+   "fold_final_over_wt": 5.320748760246459
+  },
+  {
+   "chicken_pos": 415,
+   "human_aa": "S",
+   "p_baseline_step1": 0.008327774703502655,
+   "wt": 0.008327767,
+   "primaries": 0.01831339,
+   "primaries_rescuers_primary_wins": 0.006128954,
+   "primaries_rescuers_rescue_wins": 0.006175117,
+   "fold_primaries_over_wt": 2.1990756946009657,
+   "fold_final_over_wt": 0.7359660759000582
+  },
+  {
+   "chicken_pos": 430,
+   "human_aa": "K",
+   "p_baseline_step1": 0.006799440830945969,
+   "wt": 0.00679946,
+   "primaries": 0.01027209,
+   "primaries_rescuers_primary_wins": 0.01511314,
+   "primaries_rescuers_rescue_wins": 0.01354035,
+   "fold_primaries_over_wt": 1.5107214396437363,
+   "fold_final_over_wt": 2.2226970965341364
+  }
+ ]
+}

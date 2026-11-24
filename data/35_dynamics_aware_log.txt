@@ -1,0 +1,31 @@
+mapping agrees with pharmacophore_position_set.tsv at all 67 positions of the set
+covered columns 377, which reproduces the 377 the alignment statistics declare at a column coverage of 0.70
+wt_r1_rmsf_chain.xvg         432 residues, 71 values agree with the run report
+wt_r2_rmsf_chain.xvg         432 residues, 71 values agree with the run report
+primaries_r1_rmsf_chain.xvg  432 residues, 71 values agree with the run report
+primaries_r2_rmsf_chain.xvg  432 residues, 71 values agree with the run report
+construct_r1_rmsf_chain.xvg  432 residues, 71 values agree with the run report
+construct_r2_rmsf_chain.xvg  432 residues, 71 values agree with the run report
+
+3 arms at 2 replicates each, 100 ns per run
+wt         432 residues, 377 scored, 303 with enrichment, RMSF 1.03 A mean, top 38 by each score
+primaries  432 residues, 377 scored, 303 with enrichment, RMSF 1.08 A mean, top 38 by each score
+construct  432 residues, 377 scored, 303 with enrichment, RMSF 1.16 A mean, top 38 by each score
+chicken 1    of the position set carries no score, outside the simulated span
+chicken 144  of the position set carries no score, human column gapped in 62.3 per cent of the alignment
+chicken 145  of the position set carries no score, human column gapped in 35.7 per cent of the alignment
+chicken 169  of the position set carries no score, human column gapped in 56.3 per cent of the alignment
+chicken 144  of the rescue targets carries no score, human column gapped in 62.3 per cent of the alignment
+chicken 301  of the primaries carries no score, human column gapped in 74.7 per cent of the alignment
+chicken 238  dynamic -1.61 pooled, +0.06, -4.24 by replicate, every replicate agrees False
+chicken 239  dynamic -3.94 pooled, -3.21, -5.39 by replicate, every replicate agrees True
+chicken 319  dynamic +0.04 pooled, +0.37, -0.44 by replicate, every replicate agrees False
+chicken 407  dynamic -0.31 pooled, -0.16, -0.48 by replicate, every replicate agrees True
+
+wt         position set 0.19 of the top dynamic-conserved and 0.19 of the top rigid-conserved, against 0.10 of the chain in each
+primaries  position set 0.17 of the top dynamic-conserved and 0.19 of the top rigid-conserved, against 0.10 of the chain in each
+construct  position set 0.16 of the top dynamic-conserved and 0.21 of the top rigid-conserved, against 0.10 of the chain in each
+construct_against_wt       377 shared positions, dynamic ranking correlates at 0.848, fluctuation at 0.787, mean change +0.094 A
+primaries_against_wt       377 shared positions, dynamic ranking correlates at 0.851, fluctuation at 0.826, mean change +0.053 A
+
+wrote data/dynamics_aware_summary.json and 3 per arm tables in data/dynamics_aware

@@ -1,0 +1,227 @@
+couplings          : 70876 pairs from Q96NT5_b0.3
+protected positions for the annotated policy: 55
+scan               : 44935 rows, 473 rescuer positions, 5 targets
+
+chicken 144 to human 136: no position can be ranked, since the run does not fit that column
+
+chicken 239 Q to human G at human 231, baseline 5.511e-04
+  positions rankable by coupling 376, unrankable 96
+  the published window of 3 admits 6 positions, so K = 6 is the matched comparison
+
+  rule      candidates  policy      admitted  examined  crossing  best likelihood  best variant      fold
+  window    radius 3    published          6       114        55        6.585e-03  L238P                 12
+  window    radius 3    strict             6        57        25        6.585e-03  L238P                 12
+  window    radius 3    annotated          6        57        25        2.037e-03  T241W                  4
+  coupling  top 6       published          6       114        53        6.585e-03  L238P                 12
+  coupling  top 6       strict             6        38        22        6.585e-03  L238P                 12
+  coupling  top 6       annotated          6        38        22        2.037e-03  T241W                  4
+
+  coupling-ranked sweep over K
+  K         policy      admitted  examined  crossing  best likelihood  best variant      separation
+  3         published          3        57        24        2.635e-03  E240T                     1
+  3         strict             3         0         0                -  -                         -
+  3         annotated          3        19        15        2.037e-03  T241W                     2
+  6         published          6       114        53        6.585e-03  L238P                     1
+  6         strict             6        38        22        6.585e-03  L238P                     1
+  6         annotated          6        38        22        2.037e-03  T241W                     2
+  10        published         10       190        56        6.585e-03  L238P                     1
+  10        strict            10        76        25        6.585e-03  L238P                     1
+  10        annotated         10       114        25        2.037e-03  T241W                     2
+  20        published         20       380        56        6.585e-03  L238P                     1
+  20        strict            20       190        25        6.585e-03  L238P                     1
+  20        annotated         20       304        25        2.037e-03  T241W                     2
+  40        published         40       760        59        6.585e-03  L238P                     1
+  40        strict            40       304        25        6.585e-03  L238P                     1
+  40        annotated         40       646        25        2.037e-03  T241W                     2
+  80        published         80      1520        59        6.585e-03  L238P                     1
+  80        strict            80       570        25        6.585e-03  L238P                     1
+  80        annotated         80      1254        25        2.037e-03  T241W                     2
+  150       published        150      2850        59        6.585e-03  L238P                     1
+  150       strict           150      1102        25        6.585e-03  L238P                     1
+  150       annotated        150      2394        25        2.037e-03  T241W                     2
+  all 376   published        376      7144        62        6.585e-03  L238P                     1
+  all 376   strict           376      2679        25        6.585e-03  L238P                     1
+  all 376   annotated        376      6175        28        2.037e-03  T241W                     2
+
+  best admitted rescuer overall: L238P reaching 6.585e-03 at separation 1
+  the ten strongest coupled positions, with what the scan says of them
+  chicken  human  sep   coupling  pct nonlocal  dist A  best substitution  likelihood
+      240    232    1     0.4642          99.9    1.33  E240T             2.635e-03
+      235    227    4     0.4515          99.9    7.00  A235W             1.241e-03
+      241    233    2     0.4257          99.9    3.64  T241W             2.037e-03
+      238    230    1     0.3727          99.8    1.33  L238P             6.585e-03
+      237    229    2     0.3620          99.8    4.00  C237E             1.328e-03
+      236    228    3     0.3057          99.7    6.30  L236R             1.338e-03
+      179    171   60     0.2212          99.6    7.60  S179L             8.210e-04
+      122    114  117     0.1578          99.2    3.92  R122L             7.216e-04
+      234    226    5     0.1251          98.8    5.86  A234R             9.575e-04
+      242    234    3     0.1242          98.8    6.42  V242K             1.651e-03
+
+chicken 319 S to human Q at human 311, baseline 8.524e-05
+  positions rankable by coupling 376, unrankable 96
+  the published window of 3 admits 6 positions, so K = 6 is the matched comparison
+
+  rule      candidates  policy      admitted  examined  crossing  best likelihood  best variant      fold
+  window    radius 3    published          6       114        12        4.623e-03  A318P                 54
+  window    radius 3    strict             6        38         6        3.209e-03  Y320G                 38
+  window    radius 3    annotated          6        95        12        4.623e-03  A318P                 54
+  coupling  top 6       published          6       114         6        4.623e-03  A318P                 54
+  coupling  top 6       strict             6        19         0        3.508e-04  A322P                  4
+  coupling  top 6       annotated          6        95         6        4.623e-03  A318P                 54
+
+  coupling-ranked sweep over K
+  K         policy      admitted  examined  crossing  best likelihood  best variant      separation
+  3         published          3        57         6        4.623e-03  A318P                     1
+  3         strict             3         0         0                -  -                         -
+  3         annotated          3        57         6        4.623e-03  A318P                     1
+  6         published          6       114         6        4.623e-03  A318P                     1
+  6         strict             6        19         0        3.508e-04  A322P                     3
+  6         annotated          6        95         6        4.623e-03  A318P                     1
+  10        published         10       190        12        4.623e-03  A318P                     1
+  10        strict            10        57         6        3.209e-03  Y320G                     1
+  10        annotated         10       133        12        4.623e-03  A318P                     1
+  20        published         20       380        13        4.623e-03  A318P                     1
+  20        strict            20       114         6        3.209e-03  Y320G                     1
+  20        annotated         20       323        13        4.623e-03  A318P                     1
+  40        published         40       760        14        4.623e-03  A318P                     1
+  40        strict            40       266         6        3.209e-03  Y320G                     1
+  40        annotated         40       627        13        4.623e-03  A318P                     1
+  80        published         80      1520        14        4.623e-03  A318P                     1
+  80        strict            80       589         6        3.209e-03  Y320G                     1
+  80        annotated         80      1235        13        4.623e-03  A318P                     1
+  150       published        150      2850        14        4.623e-03  A318P                     1
+  150       strict           150      1045         6        3.209e-03  Y320G                     1
+  150       annotated        150      2394        13        4.623e-03  A318P                     1
+  all 376   published        376      7144        14        4.623e-03  A318P                     1
+  all 376   strict           376      2679         6        3.209e-03  Y320G                     1
+  all 376   annotated        376      6175        13        4.623e-03  A318P                     1
+
+  best admitted rescuer overall: A318P reaching 4.623e-03 at separation 1
+  the ten strongest coupled positions, with what the scan says of them
+  chicken  human  sep   coupling  pct nonlocal  dist A  best substitution  likelihood
+      315    307    4     0.4208          99.9    2.86  G315V             2.639e-04
+      316    308    3     0.4174          99.9    3.17  S316L             3.416e-03
+      318    310    1     0.4087          99.9    1.33  A318P             4.623e-03
+      314    306    5     0.2874          99.7    4.83  Y314R             1.317e-04
+      322    314    3     0.2258          99.6    3.61  A322P             3.508e-04
+      370    362   51     0.1910          99.4    3.84  Y370R             1.547e-04
+      317    309    2     0.1834          99.4    3.20  A317W             2.660e-04
+      296    288   23     0.1527          99.2    3.99  Y296R             2.163e-04
+      289    281   30     0.1444          99.1    7.46  H289Y             1.227e-04
+      320    312    1     0.1363          99.0    1.33  Y320G             3.209e-03
+
+chicken 322 A to human P at human 314, baseline 1.536e-04
+  positions rankable by coupling 376, unrankable 96
+  the published window of 3 admits 6 positions, so K = 6 is the matched comparison
+
+  rule      candidates  policy      admitted  examined  crossing  best likelihood  best variant      fold
+  window    radius 3    published          6       114         1        1.061e-03  Y323P                  7
+  window    radius 3    strict             6        57         0        3.628e-04  S325R                  2
+  window    radius 3    annotated          6        76         0        6.163e-04  L321P                  4
+  coupling  top 6       published          6       114         1        1.061e-03  Y323P                  7
+  coupling  top 6       strict             6        57         0        3.628e-04  S325R                  2
+  coupling  top 6       annotated          6        57         0        3.628e-04  S325R                  2
+
+  coupling-ranked sweep over K
+  K         policy      admitted  examined  crossing  best likelihood  best variant      separation
+  3         published          3        57         1        1.061e-03  Y323P                     1
+  3         strict             3        19         0        3.628e-04  S325R                     3
+  3         annotated          3        19         0        3.628e-04  S325R                     3
+  6         published          6       114         1        1.061e-03  Y323P                     1
+  6         strict             6        57         0        3.628e-04  S325R                     3
+  6         annotated          6        57         0        3.628e-04  S325R                     3
+  10        published         10       190         1        1.061e-03  Y323P                     1
+  10        strict            10        95         0        4.629e-04  R331P                     9
+  10        annotated         10       133         0        4.629e-04  R331P                     9
+  20        published         20       380         1        1.061e-03  Y323P                     1
+  20        strict            20       171         0        4.975e-04  G328P                     6
+  20        annotated         20       266         0        6.163e-04  L321P                     1
+  40        published         40       760         2        1.061e-03  Y323P                     1
+  40        strict            40       247         0        4.975e-04  G328P                     6
+  40        annotated         40       570         1        1.000e-03  L332P                    10
+  80        published         80      1520         2        1.061e-03  Y323P                     1
+  80        strict            80       551         0        4.975e-04  G328P                     6
+  80        annotated         80      1254         1        1.000e-03  L332P                    10
+  150       published        150      2850         2        1.061e-03  Y323P                     1
+  150       strict           150      1064         0        4.975e-04  G328P                     6
+  150       annotated        150      2451         1        1.000e-03  L332P                    10
+  all 376   published        376      7144         2        1.061e-03  Y323P                     1
+  all 376   strict           376      2679         0        4.975e-04  G328P                     6
+  all 376   annotated        376      6175         1        1.000e-03  L332P                    10
+
+  best admitted rescuer overall: Y323P reaching 1.061e-03 at separation 1
+  the ten strongest coupled positions, with what the scan says of them
+  chicken  human  sep   coupling  pct nonlocal  dist A  best substitution  likelihood
+      323    315    1     0.4459          99.9    1.32  Y323P             1.061e-03
+      326    318    4     0.4070          99.9    2.48  S326L             5.326e-04
+      325    317    3     0.3647          99.8    3.21  S325R             3.628e-04
+      320    312    2     0.3606          99.8    3.26  Y320I             3.397e-04
+      330    322    8     0.2673          99.7    8.24  L330P             2.680e-04
+      319    311    3     0.2258          99.6    3.61  S319I             3.451e-04
+      197    189  125     0.2162          99.5    7.25  G197V             1.862e-04
+      329    321    7     0.2067          99.5    7.28  G329R             3.768e-04
+      327    319    5     0.1909          99.4    4.77  L327P             2.826e-04
+      331    323    9     0.1814          99.4   10.33  R331P             4.629e-04
+
+chicken 407 E to human N at human 399, baseline 1.352e-05
+  positions rankable by coupling 376, unrankable 96
+  the published window of 3 admits 6 positions, so K = 6 is the matched comparison
+
+  rule      candidates  policy      admitted  examined  crossing  best likelihood  best variant      fold
+  window    radius 3    published          6       114         0        5.344e-04  A404D                 40
+  window    radius 3    strict             6        38         0        3.353e-05  G408D                  2
+  window    radius 3    annotated          6       114         0        5.344e-04  A404D                 40
+  coupling  top 6       published          6       114         0        5.344e-04  A404D                 40
+  coupling  top 6       strict             6        57         0        2.926e-05  V286E                  2
+  coupling  top 6       annotated          6        76         0        5.344e-04  A404D                 40
+
+  coupling-ranked sweep over K
+  K         policy      admitted  examined  crossing  best likelihood  best variant      separation
+  3         published          3        57         0        1.121e-04  R384N                    23
+  3         strict             3        38         0        2.926e-05  V286E                   121
+  3         annotated          3        19         0        2.351e-05  F282E                   125
+  6         published          6       114         0        5.344e-04  A404D                     3
+  6         strict             6        57         0        2.926e-05  V286E                   121
+  6         annotated          6        76         0        5.344e-04  A404D                     3
+  10        published         10       190         0        5.344e-04  A404D                     3
+  10        strict            10        76         0        2.926e-05  V286E                   121
+  10        annotated         10       133         0        5.344e-04  A404D                     3
+  20        published         20       380         0        5.344e-04  A404D                     3
+  20        strict            20        76         0        2.926e-05  V286E                   121
+  20        annotated         20       304         0        5.344e-04  A404D                     3
+  40        published         40       760         0        5.344e-04  A404D                     3
+  40        strict            40       171         0        3.353e-05  G408D                     1
+  40        annotated         40       646         0        5.344e-04  A404D                     3
+  80        published         80      1520         0        5.344e-04  A404D                     3
+  80        strict            80       551         0        3.353e-05  G408D                     1
+  80        annotated         80      1311         0        5.344e-04  A404D                     3
+  150       published        150      2850         0        5.344e-04  A404D                     3
+  150       strict           150      1083         0        3.353e-05  G408D                     1
+  150       annotated        150      2432         0        5.344e-04  A404D                     3
+  all 376   published        376      7144         0        5.344e-04  A404D                     3
+  all 376   strict           376      2679         0        3.353e-05  G408D                     1
+  all 376   annotated        376      6156         0        5.344e-04  A404D                     3
+
+  no substitution anywhere in the protein lifts this target above 1e-03 under the published policy, so the selection rule is not what is limiting it
+  the ten strongest coupled positions, with what the scan says of them
+  chicken  human  sep   coupling  pct nonlocal  dist A  best substitution  likelihood
+      282    274  125     0.3915          99.9    3.82  F282E             2.351e-05
+      286    278  121     0.3662          99.8    4.46  V286E             2.926e-05
+      384    376   23     0.3518          99.8    2.52  R384N             1.121e-04
+      404    396    3     0.2714          99.7    3.21  A404D             5.344e-04
+      403    395    4     0.2706          99.7    2.87  V403I             1.515e-05
+      411    403    4     0.2375          99.6    2.93  S411G             1.793e-05
+      380    372   27     0.2236          99.6    6.01  T380E             3.739e-05
+      410    402    3     0.1834          99.4    3.25  C410S             1.751e-05
+      192    184  215     0.1393          99.0    9.15  L192E             1.548e-05
+      289    281  118     0.1257          98.8    8.15  H289E             1.973e-05
+
+summary over the five high-risk targets, published policy, matched candidate count
+chicken  human  window crossing  coupling crossing  window best  coupling best
+    144    136        not fitted         not fitted            -              -
+    239    231                55                 53    6.585e-03      6.585e-03
+    319    311                12                  6    4.623e-03      4.623e-03
+    322    314                 1                  1    1.061e-03      1.061e-03
+    407    399                 0                  0    5.344e-04      5.344e-04
+
+wrote data/coupling_guided_rescue.json

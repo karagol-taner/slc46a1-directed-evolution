@@ -1,0 +1,88 @@
+2026-11-11T11:11:38  start, project=/content/drive/MyDrive/MIT/All Project Files/SLC46A1 engraftment
+2026-11-11T11:11:57  torch 2.14.1+cu130, device Tesla T4
+2026-11-11T11:11:58  sequences ok, chicken_sha256 matches steps 4 and 5
+2026-11-11T11:12:00  position set 67, primaries 20, protected positions 55
+2026-11-11T11:12:01  targets, read from the step 5 report: [144, 239, 322, 407]
+2026-11-11T11:12:01    target  human  wild-type background  primaries background
+2026-11-11T11:12:01       144      Q          5.381130e-05          5.637387e-05
+2026-11-11T11:12:01       239      G          5.511020e-04          7.940893e-04
+2026-11-11T11:12:01       322      P          1.536447e-04          6.585930e-05
+2026-11-11T11:12:01       407      N          1.352391e-05          8.297006e-06
+2026-11-11T11:12:01  variants to score: 35872 over 4 targets
+2026-11-11T11:12:37  backgrounds built and checked for 4 targets
+2026-11-11T11:12:37  scan: 35872 to score of 35872
+2026-11-11T11:12:47    48 of 35872, 0.2 min elapsed, about 123 min left
+2026-11-11T11:21:37    2448 of 35872, 9.0 min elapsed, about 123 min left
+2026-11-11T11:30:32    4848 of 35872, 17.9 min elapsed, about 115 min left
+2026-11-11T11:39:26    7248 of 35872, 26.8 min elapsed, about 106 min left
+2026-11-11T11:48:20    9648 of 35872, 35.7 min elapsed, about 97 min left
+2026-11-11T11:57:15    12048 of 35872, 44.6 min elapsed, about 88 min left
+2026-11-11T12:06:08    14448 of 35872, 53.5 min elapsed, about 79 min left
+2026-11-11T12:15:03    16848 of 35872, 62.4 min elapsed, about 70 min left
+2026-11-11T12:23:56    19248 of 35872, 71.3 min elapsed, about 62 min left
+2026-11-11T12:32:48    21648 of 35872, 80.2 min elapsed, about 53 min left
+2026-11-11T12:41:41    24048 of 35872, 89.1 min elapsed, about 44 min left
+2026-11-11T12:50:33    26448 of 35872, 97.9 min elapsed, about 35 min left
+2026-11-11T12:59:29    28848 of 35872, 106.9 min elapsed, about 26 min left
+2026-11-11T13:08:25    31248 of 35872, 115.8 min elapsed, about 17 min left
+2026-11-11T13:17:19    33648 of 35872, 124.7 min elapsed, about 8 min left
+2026-11-11T13:25:34  scan complete, 132.9 min
+2026-11-11T13:25:35  wrote construct_rescue_scan.tsv, 35872 rows, 76 without a step 2 counterpart
+2026-11-11T13:25:35  
+2026-11-11T13:25:35  per target, scored against the construct background
+2026-11-11T13:25:35    target  baseline here  crossing  best substitution        p        step 2 value  fold
+2026-11-11T13:25:35       144   5.637387e-05         0  I217Q       3.454064e-04   3.022671e-04   1.14
+2026-11-11T13:25:35       239   7.940893e-04       210  F238P       6.011271e-03   6.584580e-03   0.91
+2026-11-11T13:25:35       322   6.585930e-05         0  L332E       2.898590e-04   9.391460e-04   0.31
+2026-11-11T13:25:35       407   8.297006e-06         0  A404D       2.908611e-04   5.343549e-04   0.54
+2026-11-11T13:25:35  
+2026-11-11T13:25:35  the background changes which substitutions cross: 150 cross here and not in step 2, 4 cross in step 2 and not here, of 35796 comparable rows
+2026-11-11T13:25:35  fold of the construct value over the step 2 value: median 0.92, 5th and 95th percentile 0.42 and 1.47
+2026-11-11T13:25:35  
+2026-11-11T13:25:35  policy published
+2026-11-11T13:25:35    target  rescuer            separation  p in the construct  primary  protected
+2026-11-11T13:25:35       144  none crossing               -                   -        -          -
+2026-11-11T13:25:35       239  F238P                            1        6.011271e-03     True       True
+2026-11-11T13:25:35       322  none crossing               -                   -        -          -
+2026-11-11T13:25:35       407  none crossing               -                   -        -          -
+2026-11-11T13:25:35  
+2026-11-11T13:25:35  policy annotated
+2026-11-11T13:25:35    target  rescuer            separation  p in the construct  primary  protected
+2026-11-11T13:25:35       144  none crossing               -                   -        -          -
+2026-11-11T13:25:35       239  T241W                            2        2.362583e-03    False      False
+2026-11-11T13:25:35       322  none crossing               -                   -        -          -
+2026-11-11T13:25:35       407  none crossing               -                   -        -          -
+2026-11-11T13:25:35  construct under published differs from chicken at 20 positions
+2026-11-11T13:25:35  construct under annotated differs from chicken at 21 positions
+2026-11-11T13:25:35  profile scoring: 40 of 40 to do
+2026-11-11T13:25:45  profile scoring complete
+2026-11-11T13:25:45  
+2026-11-11T13:25:45  every primary with the others in place, under each policy
+2026-11-11T13:25:45  chicken  human   wild type  primaries   step 5 final  published     annotated   
+2026-11-11T13:25:45       37      N   6.767e-03   3.504e-03      3.062e-03  3.300e-03     3.211e-03   
+2026-11-11T13:25:45       44      G   7.023e-01   4.888e-01      4.722e-01  4.891e-01     4.868e-01   
+2026-11-11T13:25:45      144      Q   5.381e-05   5.637e-05      1.224e-03  4.482e-05     4.231e-05   
+2026-11-11T13:25:45      165      F   3.294e-02   2.029e-01      2.015e-01  2.072e-01     2.129e-01   
+2026-11-11T13:25:45      166      G   2.432e-01   9.875e-02      9.551e-02  1.099e-01     9.991e-02   
+2026-11-11T13:25:45      167      G   1.250e-03   1.304e-03      1.629e-03  1.349e-03     1.189e-03   
+2026-11-11T13:25:45      196      I   2.415e-03   5.846e-03      8.506e-03  4.514e-03     5.007e-03   
+2026-11-11T13:25:45      236      F   6.542e-02   4.004e-02      3.955e-02  1.029e-02     4.009e-02   
+2026-11-11T13:25:45      238      F   7.479e-03   6.036e-03      5.367e-03  6.036e-03     4.220e-03   
+2026-11-11T13:25:45      239      G   5.511e-04   7.941e-04      7.046e-04  6.011e-03     2.363e-03   
+2026-11-11T13:25:45      286      I   1.808e-03   2.199e-03      3.553e-03  2.268e-03     2.121e-03   
+2026-11-11T13:25:45      293      Q   3.288e-03   1.997e-02      2.450e-02  3.120e-02     2.431e-02   
+2026-11-11T13:25:45      296      L   5.285e-03   5.695e-03      8.171e-03  7.066e-03     6.306e-03   
+2026-11-11T13:25:45      319      Q   8.524e-05   2.132e-03      5.161e-03  1.988e-03     2.041e-03   
+2026-11-11T13:25:45      320      H   3.430e-03   1.612e-02      3.069e-02  1.460e-02     1.556e-02   
+2026-11-11T13:25:45      322      P   1.536e-04   6.586e-05      1.645e-04  6.217e-05     6.243e-05   
+2026-11-11T13:25:45      407      N   1.352e-05   8.297e-06      6.342e-04  8.851e-06     9.303e-06   
+2026-11-11T13:25:45      411      M   2.319e-03   5.216e-03      1.234e-02  4.429e-03     4.613e-03   
+2026-11-11T13:25:45      415      S   8.328e-03   1.831e-02      6.129e-03  1.842e-02     1.860e-02   
+2026-11-11T13:25:45      430      K   6.799e-03   1.027e-02      1.511e-02  9.019e-03     9.591e-03   
+2026-11-11T13:25:45  
+2026-11-11T13:25:45  step 5 final                 below 1e-03 at 3 of 20 primaries: [239, 322, 407]
+2026-11-11T13:25:45  published                    below 1e-03 at 3 of 20 primaries: [144, 322, 407]
+2026-11-11T13:25:45  annotated                    below 1e-03 at 3 of 20 primaries: [144, 322, 407]
+2026-11-11T13:25:45  
+2026-11-11T13:25:45  wrote construct_rescue_scan.tsv, construct_rescue_profile.tsv and construct_rescue_summary.json
+2026-11-11T13:25:45  copy esm2_step6/ from Drive into data/ and run codes/19_construct_rescue_read.py

@@ -1,0 +1,9 @@
+{
+  "model": "facebook/esm2_t33_650M_UR50D",
+  "threshold": 0.001,
+  "n_primary": 20,
+  "n_high_risk": 5,
+  "chicken_sha256": "5d68e7c91dc3af3cd898a3f459617f3b22670f3dbdf9f798e8d740d8669a8aea",
+  "human_sha256": "a267c7f1699d52d0dd3abca204140cd71adfcf2a2c8cbc86628f6c5d3dbcec9c",
+  "finished_utc": "2026-11-09T13:43:46"
+}

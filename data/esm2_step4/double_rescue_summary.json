@@ -1,0 +1,51 @@
+{
+ "schema": "v4-double-rescue-407",
+ "model": "facebook/esm2_t33_650M_UR50D",
+ "chicken_sha256": "5d68e7c91dc3af3cd898a3f459617f3b22670f3dbdf9f798e8d740d8669a8aea",
+ "target_chicken_pos": 407,
+ "target_chicken_aa": "E",
+ "target_human_pos": 399,
+ "target_human_aa": "N",
+ "threshold": 0.001,
+ "p_baseline": 1.3523906090995297e-05,
+ "candidate_positions": [
+  282,
+  286,
+  384,
+  404,
+  403,
+  411,
+  380,
+  410,
+  192,
+  289
+ ],
+ "n_pairs": 45,
+ "n_doubles": 16245,
+ "n_singles": 190,
+ "singles_compared_to_step2": 190,
+ "worst_relative_difference_vs_step2": 5.024237842817578e-05,
+ "best_single": {
+  "pos": 404,
+  "to": "D",
+  "p": 0.0005343669
+ },
+ "best_double": {
+  "pos_i": 404,
+  "from_i": "A",
+  "to_i": "D",
+  "pos_j": 380,
+  "from_j": "T",
+  "to_j": "P",
+  "p_target": 0.001252301,
+  "p_single_i": 0.0005343669,
+  "p_single_j": 2.74099e-05,
+  "best_single_of_pair": 0.0005343669,
+  "fold_vs_baseline": 92.59906062449124,
+  "fold_vs_best_single_of_pair": 2.343522774333515,
+  "crosses": true
+ },
+ "n_doubles_crossing": 4,
+ "n_doubles_above_best_single": 96,
+ "max_fold_vs_best_single_of_pair": 5.925293072855847
+}

@@ -1,0 +1,59 @@
+2026-11-13T07:30:08  start, project=/content/drive/MyDrive/MIT/All Project Files/SLC46A1 engraftment
+2026-11-13T07:30:08  step 7 summary read from data/esm2_step7/step7_summary.json
+2026-11-13T07:30:08  output folder /content/drive/MyDrive/MIT/All Project Files/SLC46A1 engraftment/data/esm2_step8
+2026-11-13T07:30:31  torch 2.14.1+cu130, device Tesla T4
+2026-11-13T07:30:32  sequences ok, chicken_sha256 matches the earlier steps
+2026-11-13T07:30:33  inputs ok: 20 primaries, 6 rescuer positions [140, 217, 241, 318, 404, 410], step 7 profile over 20 primaries
+2026-11-13T07:30:33  the rescue this run re-searches: A404D with C410F, at positions [404, 410]
+2026-11-13T07:30:34  rescuer positions held fixed  : [140, 217, 241, 318]
+2026-11-13T07:30:34  background      : 23 positions differ from chicken, 19 primaries and 4 rescuers
+2026-11-13T07:30:34  check           : the background plus A404D with C410F rebuilds the admissible construct exactly
+2026-11-13T07:30:34    coupled top 10 : [282, 286, 384, 404, 403, 411, 380, 410, 192, 289]
+2026-11-13T07:30:34    nearest top 10 : [408, 406, 384, 403, 411, 169, 404, 405, 410, 409]
+2026-11-13T07:30:34    union 15       : [169, 192, 282, 286, 289, 380, 384, 403, 404, 405, 406, 408, 409, 410, 411]
+2026-11-13T07:30:34    of those, 6 lie inside the pharmacophore set: [169, 286, 289, 380, 384, 411]
+2026-11-13T07:31:07  baseline of this background      : 1.065324e-05
+2026-11-13T07:31:07  A404D with C410F scored here              : 6.771686e-04
+2026-11-13T07:31:07  the same variant in step 7       : 6.771618e-04, relative difference 1.00e-05
+2026-11-13T07:31:07  check           : the run reproduces step 7 at chicken 407
+2026-11-13T07:31:07  pairs 105, doubles 37905, singles 285
+2026-11-13T07:31:07  c407_singles_partial.tsv: 285 to score of 285
+2026-11-13T07:31:16    48 of 285, 0.1 min elapsed, about 1 min left
+2026-11-13T07:31:59  c407_singles_partial.tsv complete, 0.9 min
+2026-11-13T07:31:59  c407_doubles_partial.tsv: 37905 to score of 37905
+2026-11-13T07:32:09    48 of 37905, 0.2 min elapsed, about 121 min left
+2026-11-13T07:40:27    2448 of 37905, 8.5 min elapsed, about 122 min left
+2026-11-13T07:48:47    4848 of 37905, 16.8 min elapsed, about 114 min left
+2026-11-13T07:57:06    7248 of 37905, 25.1 min elapsed, about 106 min left
+2026-11-13T08:05:27    9648 of 37905, 33.5 min elapsed, about 98 min left
+2026-11-13T08:13:48    12048 of 37905, 41.8 min elapsed, about 90 min left
+2026-11-13T08:22:08    14448 of 37905, 50.1 min elapsed, about 81 min left
+2026-11-13T08:30:29    16848 of 37905, 58.5 min elapsed, about 73 min left
+2026-11-13T08:38:49    19248 of 37905, 66.8 min elapsed, about 65 min left
+2026-11-13T08:47:10    21648 of 37905, 75.2 min elapsed, about 56 min left
+2026-11-13T08:55:30    24048 of 37905, 83.5 min elapsed, about 48 min left
+2026-11-13T09:03:51    26448 of 37905, 91.9 min elapsed, about 40 min left
+2026-11-13T09:12:11    28848 of 37905, 100.2 min elapsed, about 31 min left
+2026-11-13T09:20:29    31248 of 37905, 108.5 min elapsed, about 23 min left
+2026-11-13T09:28:49    33648 of 37905, 116.8 min elapsed, about 15 min left
+2026-11-13T09:37:10    36048 of 37905, 125.2 min elapsed, about 6 min left
+2026-11-13T09:43:37  c407_doubles_partial.tsv complete, 131.6 min
+2026-11-13T09:43:37  check           : the sweep reproduces A404D with C410F at 6.771676e-04
+2026-11-13T09:43:38  
+2026-11-13T09:43:38  chicken 407 by pairs in the background the construct has
+2026-11-13T09:43:38    baseline        : 1.065324e-05, A404D with C410F at 6.771676e-04
+2026-11-13T09:43:38    singles         : 285, strongest A404D at 3.296099e-04, inside the set False
+2026-11-13T09:43:38    doubles         : 37905 over 105 pairs, 2 crossing 1e-03, 1 of those sparing the set
+2026-11-13T09:43:38    beating A404D with C410F: 11, of which 2 spare the set
+2026-11-13T09:43:38    fold over the better half: median 0.98, max 8.40
+2026-11-13T09:43:38    the five strongest
+2026-11-13T09:43:38      R384N with L409P at 1.215748e-03, 114.1-fold over baseline, 8.40-fold over the better half, spares the set False
+2026-11-13T09:43:38      A404D with V406R at 1.070241e-03, 100.5-fold over baseline, 3.25-fold over the better half, spares the set True
+2026-11-13T09:43:38      R384N with A404D at 9.350119e-04, 87.8-fold over baseline, 2.84-fold over the better half, spares the set False
+2026-11-13T09:43:38      R384N with A404N at 9.253091e-04, 86.9-fold over baseline, 6.39-fold over the better half, spares the set False
+2026-11-13T09:43:38      T380P with A404D at 8.201956e-04, 77.0-fold over baseline, 2.49-fold over the better half, spares the set False
+2026-11-13T09:43:38    strongest crossing pair that spares the set: A404D with V406R at 1.070241e-03
+2026-11-13T09:43:38    verdict         : chicken 407 is rescued in the construct background by a pair that spares the set
+2026-11-13T09:43:38  
+2026-11-13T09:43:38  wrote c407_double_rescue.tsv, c407_singles.tsv and step8_summary.json
+2026-11-13T09:43:38  copy data/esm2_step8/ from Drive into the local data/ and run codes/22_step8_read.py

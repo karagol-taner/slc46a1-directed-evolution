@@ -1,0 +1,29 @@
+positions off limits under the annotated policy of codes/07: 55
+positions off limits here, the whole pharmacophore set: 67
+primary humanising substitutions: 20
+
+rescues on record, by target
+  target  total  crossing and clean  crossing and clean under the looser policy
+     144     20                   5                                           5
+     239      7                   1                                           1
+     319      5                   4                                           4
+     322      1                   0                                           0
+     407      6                   2                                           3
+
+the strongest rescue touching no position in the pharmacophore set
+  target  rescue                  p            source                               background
+     144  L140G with I217R       1.546481e-03  step 5 pair scan, nearest positions  wild-type chicken
+     239  T241W                  2.362583e-03  step 6 sweep, construct background   the construct
+     319  A318P                  4.622915e-03  step 2 sweep, window of 3            wild-type chicken
+     322  nothing crossing that leaves the set untouched
+     407  A404D with V406R       1.070241e-03  step 8 pair scan, construct background the construct
+
+rescues where a construct-background measurement displaced a larger wild-type one, because a likelihood measured against wild-type chicken is not on the same scale as one measured in the background the residue will have
+  chicken 407: A404D with V406R at 1.070241e-03 in the construct, over A404D with C410F at 1.109422e-03 in wild-type chicken
+
+the construct this gives: 20 primaries plus 6 rescuer positions, 26 positions changed in all, and no position in the pharmacophore set overwritten
+rescued with the set untouched: [144, 239, 319, 407]
+still without an admissible rescue: [322]
+assembled sequence checked: 26 positions differ from chicken and every primary carries its human residue
+
+wrote data/admissible_construct.json

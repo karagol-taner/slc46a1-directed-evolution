@@ -1,0 +1,61 @@
+{
+  "build": {
+    "cmake": [
+      "GMX_GPU=CUDA -DGMX_SIMD=AVX2_256"
+    ],
+    "double_precision": false,
+    "gpu": "CUDA",
+    "simd": "AVX2_256"
+  },
+  "gpu": "NVIDIA L4",
+  "gpu_memory_MiB": 23034,
+  "gpu_tasks": [
+    "PME tasks will do all aspects on the GPU",
+    "PP task will update and constrain coordinates on the GPU",
+    "PP tasks will do non-perturbed short-ranged and most bonded interactions on the GPU",
+    "PP tasks will do non-perturbed short-ranged interactions on the GPU"
+  ],
+  "gromacs": "2026.3",
+  "n_runs": 6,
+  "omp_threads": 12,
+  "per_run": {
+    "construct_r1": {
+      "gpu": "NVIDIA L4",
+      "gpu_memory_MiB": 23034,
+      "gromacs": "2026.3",
+      "omp_threads": 12
+    },
+    "construct_r2": {
+      "gpu": "NVIDIA L4",
+      "gpu_memory_MiB": 23034,
+      "gromacs": "2026.3",
+      "omp_threads": 12
+    },
+    "primaries_r1": {
+      "gpu": "NVIDIA L4",
+      "gpu_memory_MiB": 23034,
+      "gromacs": "2026.3",
+      "omp_threads": 12
+    },
+    "primaries_r2": {
+      "gpu": "NVIDIA L4",
+      "gpu_memory_MiB": 23034,
+      "gromacs": "2026.3",
+      "omp_threads": 12
+    },
+    "wt_r1": {
+      "gpu": "NVIDIA L4",
+      "gpu_memory_MiB": 23034,
+      "gromacs": "2026.3",
+      "omp_threads": 12
+    },
+    "wt_r2": {
+      "gpu": "NVIDIA L4",
+      "gpu_memory_MiB": 23034,
+      "gromacs": "2026.3",
+      "omp_threads": 12
+    }
+  },
+  "source": "run logs saved in the part 2 notebooks on Drive",
+  "uniform": true
+}

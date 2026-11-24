@@ -1,0 +1,23 @@
+{
+ "source": "data/evcouplings/Q96NT5_b0.3/align/Q96NT5_b0.3.a2m",
+ "n_sequences": 43074,
+ "match_states": 377,
+ "target_length": 459,
+ "covered_region": [
+  24,
+  442
+ ],
+ "n_eff_stated_by_run": null,
+ "theta": 0.2,
+ "identity_cut_columns": 301.6,
+ "gap_fraction": 0.04915339698543583,
+ "meff": 22427.27081624092,
+ "meff_per_fitted_column": 59.48878200594409,
+ "meff_per_target_length": 48.86115646239852,
+ "neighbour_median": 2,
+ "neighbour_max": 452,
+ "singletons": 15900,
+ "previous_meff": 401.08937889275944,
+ "previous_meff_per_length": 0.873833069483136,
+ "previous_n_sequences": 1047
+}

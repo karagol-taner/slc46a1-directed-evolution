@@ -1,0 +1,383 @@
+{
+  "written": "2026-11-23T08:17:23",
+  "reference": "wt",
+  "arms": [
+    "construct",
+    "primaries",
+    "wt"
+  ],
+  "ns_compared": 100.0,
+  "min_ns": 20,
+  "replicates": {
+    "construct": 2,
+    "primaries": 2,
+    "wt": 2
+  },
+  "seeds": {
+    "construct": [
+      20261101,
+      20261102
+    ],
+    "primaries": [
+      20261101,
+      20261102
+    ],
+    "wt": [
+      20261101,
+      20261102
+    ]
+  },
+  "watched": [
+    238,
+    239
+  ],
+  "rows": [
+    {
+      "observable": "backbone RMSD, A",
+      "path": [
+        "rmsd_A",
+        "mean"
+      ],
+      "wt": {
+        "mean": 2.070167726108682,
+        "sd": 0.06063159705124678,
+        "n": 2
+      },
+      "construct": {
+        "mean": 2.404248703310431,
+        "sd": 0.1009782853958944,
+        "n": 2,
+        "gap_from_wt": 0.334080977201749,
+        "gap_in_replicate_sd": 4.011295065179634
+      },
+      "primaries": {
+        "mean": 2.2300896792629605,
+        "sd": 0.05108314242741127,
+        "n": 2,
+        "gap_from_wt": 0.15992195315427837,
+        "gap_in_replicate_sd": 2.8526403330873507
+      }
+    },
+    {
+      "observable": "radius of gyration, A",
+      "path": [
+        "radius_of_gyration_A",
+        "mean"
+      ],
+      "wt": {
+        "mean": 22.32458140849469,
+        "sd": 0.020090378816938106,
+        "n": 2
+      },
+      "construct": {
+        "mean": 22.31763742660837,
+        "sd": 0.10046225997860671,
+        "n": 2,
+        "gap_from_wt": -0.006943981886319506,
+        "gap_in_replicate_sd": -0.09585299497473179
+      },
+      "primaries": {
+        "mean": 22.168407161149283,
+        "sd": 0.01589140120064216,
+        "n": 2,
+        "gap_from_wt": -0.1561742473454082,
+        "gap_in_replicate_sd": -8.622229114721893
+      }
+    },
+    {
+      "observable": "RMSF over the chain, A",
+      "path": [
+        "rmsf_A_whole_chain",
+        "mean"
+      ],
+      "wt": {
+        "mean": 1.0270381944444444,
+        "sd": 0.013888428329555221,
+        "n": 2
+      },
+      "construct": {
+        "mean": 1.1580104166666667,
+        "sd": 0.03930498874220509,
+        "n": 2,
+        "gap_from_wt": 0.13097222222222227,
+        "gap_in_replicate_sd": 4.4432216006111425
+      },
+      "primaries": {
+        "mean": 1.0838425925925925,
+        "sd": 0.06919498163861124,
+        "n": 2,
+        "gap_from_wt": 0.05680439814814808,
+        "gap_in_replicate_sd": 1.1382716776191995
+      }
+    },
+    {
+      "observable": "area per lipid, A2",
+      "path": [
+        "box",
+        "area_per_lipid_A2",
+        "mean"
+      ],
+      "wt": {
+        "mean": 64.06488327448591,
+        "sd": 1.30817642115913,
+        "n": 2
+      },
+      "construct": {
+        "mean": 64.10389966499696,
+        "sd": 0.029984498901613397,
+        "n": 2,
+        "gap_from_wt": 0.03901639051105121,
+        "gap_in_replicate_sd": 0.04216787527429761
+      },
+      "primaries": {
+        "mean": 63.74788477180241,
+        "sd": 0.10529613937732332,
+        "n": 2,
+        "gap_from_wt": -0.3169985026834965,
+        "gap_in_replicate_sd": -0.34158876908295027
+      }
+    },
+    {
+      "observable": "thermostat, K",
+      "path": [
+        "box",
+        "temperature_K",
+        "mean"
+      ],
+      "wt": {
+        "mean": 303.17489693203396,
+        "sd": 0.09862675628552206,
+        "n": 2
+      },
+      "construct": {
+        "mean": 303.18647834907546,
+        "sd": 0.043545542052800756,
+        "n": 2,
+        "gap_from_wt": 0.011581417041497843,
+        "gap_in_replicate_sd": 0.15191797000135515
+      },
+      "primaries": {
+        "mean": 303.1701550174912,
+        "sd": 0.05762710431584221,
+        "n": 2,
+        "gap_from_wt": -0.004741914542762515,
+        "gap_in_replicate_sd": -0.058707656745226405
+      }
+    },
+    {
+      "observable": "RMSF at chicken 238, A",
+      "path": [
+        "rmsf_A_at_watched",
+        "238"
+      ],
+      "wt": {
+        "mean": 1.1269999999999998,
+        "sd": 0.06788225099390846,
+        "n": 2
+      },
+      "construct": {
+        "mean": 0.962,
+        "sd": 0.15556349186104051,
+        "n": 2,
+        "gap_from_wt": -0.1649999999999998,
+        "gap_in_replicate_sd": -1.3748090675544482
+      },
+      "primaries": {
+        "mean": 0.8340000000000001,
+        "sd": 0.06081118318204306,
+        "n": 2,
+        "gap_from_wt": -0.2929999999999997,
+        "gap_in_replicate_sd": -4.546599028476168
+      }
+    },
+    {
+      "observable": "RMSF at chicken 239, A",
+      "path": [
+        "rmsf_A_at_watched",
+        "239"
+      ],
+      "wt": {
+        "mean": 1.3545,
+        "sd": 0.20859650045003147,
+        "n": 2
+      },
+      "construct": {
+        "mean": 0.8089999999999999,
+        "sd": 0.07495331880577402,
+        "n": 2,
+        "gap_from_wt": -0.5455000000000001,
+        "gap_in_replicate_sd": -3.480440076157256
+      },
+      "primaries": {
+        "mean": 1.0125,
+        "sd": 0.002121320343559723,
+        "n": 2,
+        "gap_from_wt": -0.3420000000000001,
+        "gap_in_replicate_sd": -2.318524181682497
+      }
+    },
+    {
+      "observable": "E193_to_R384_control, A",
+      "path": [
+        "pair_distances_A",
+        "E193_to_R384_control",
+        "mean"
+      ],
+      "wt": {
+        "mean": 4.948301061836352,
+        "sd": 0.2052950493636054,
+        "n": 2
+      },
+      "construct": {
+        "mean": 5.092698313554029,
+        "sd": 1.1158153840437668,
+        "n": 2,
+        "gap_from_wt": 0.14439725171767748,
+        "gap_in_replicate_sd": 0.17999174686772174
+      },
+      "primaries": {
+        "mean": 3.7972423485321674,
+        "sd": 0.548924211741224,
+        "n": 2,
+        "gap_from_wt": -1.1510587133041845,
+        "gap_in_replicate_sd": -2.777614426998439
+      }
+    },
+    {
+      "observable": "R156_to_D164_control, A",
+      "path": [
+        "pair_distances_A",
+        "R156_to_D164_control",
+        "mean"
+      ],
+      "wt": {
+        "mean": 3.8455590256089947,
+        "sd": 0.6553435614769517,
+        "n": 2
+      },
+      "construct": {
+        "mean": 4.298219862585884,
+        "sd": 0.03359309292757543,
+        "n": 2,
+        "gap_from_wt": 0.4526608369768894,
+        "gap_in_replicate_sd": 0.9755489182568485
+      },
+      "primaries": {
+        "mean": 4.322567145534041,
+        "sd": 0.9609585572982157,
+        "n": 2,
+        "gap_from_wt": 0.47700811992504644,
+        "gap_in_replicate_sd": 0.5799696506232304
+      }
+    },
+    {
+      "observable": "ca_238_to_241, A",
+      "path": [
+        "pair_distances_A",
+        "ca_238_to_241",
+        "mean"
+      ],
+      "wt": {
+        "mean": 9.301602123672705,
+        "sd": 0.07778174593052109,
+        "n": 2
+      },
+      "construct": {
+        "mean": 10.112935665209243,
+        "sd": 0.21278569958779056,
+        "n": 2,
+        "gap_from_wt": 0.8113335415365377,
+        "gap_in_replicate_sd": 5.0645200902775205
+      },
+      "primaries": {
+        "mean": 9.487701436602123,
+        "sd": 0.07287484003484222,
+        "n": 2,
+        "gap_from_wt": 0.18609931292941795,
+        "gap_in_replicate_sd": 2.469200822912928
+      }
+    },
+    {
+      "observable": "ca_239_to_241, A",
+      "path": [
+        "pair_distances_A",
+        "ca_239_to_241",
+        "mean"
+      ],
+      "wt": {
+        "mean": 6.5965771392879455,
+        "sd": 0.0004328323832365398,
+        "n": 2
+      },
+      "construct": {
+        "mean": 6.84474703310431,
+        "sd": 0.06000470161899028,
+        "n": 2,
+        "gap_from_wt": 0.24816989381636478,
+        "gap_in_replicate_sd": 5.848810006831364
+      },
+      "primaries": {
+        "mean": 6.5114647095565275,
+        "sd": 0.05389646502697972,
+        "n": 2,
+        "gap_from_wt": -0.08511242973141808,
+        "gap_in_replicate_sd": -2.2332312722931995
+      }
+    },
+    {
+      "observable": "ca_407_to_166, A",
+      "path": [
+        "pair_distances_A",
+        "ca_407_to_166",
+        "mean"
+      ],
+      "wt": {
+        "mean": 8.403016864459712,
+        "sd": 0.3692590227850231,
+        "n": 2
+      },
+      "construct": {
+        "mean": 9.522170518425984,
+        "sd": 0.1231584796588811,
+        "n": 2,
+        "gap_from_wt": 1.119153653966272,
+        "gap_in_replicate_sd": 4.066018912032312
+      },
+      "primaries": {
+        "mean": 8.084478450968144,
+        "sd": 0.25448777471560785,
+        "n": 2,
+        "gap_from_wt": -0.3185384134915683,
+        "gap_in_replicate_sd": -1.0045075968616342
+      }
+    },
+    {
+      "observable": "disulfide_72_306, A",
+      "path": [
+        "pair_distances_A",
+        "disulfide_72_306",
+        "mean"
+      ],
+      "wt": {
+        "mean": 2.029159900062461,
+        "sd": 0.0003665825286602041,
+        "n": 2
+      },
+      "construct": {
+        "mean": 2.0262336039975017,
+        "sd": 0.0001766662788725313,
+        "n": 2,
+        "gap_from_wt": -0.0029262960649591996,
+        "gap_in_replicate_sd": -10.169774521481898
+      },
+      "primaries": {
+        "mean": 2.0287226733291694,
+        "sd": 0.003369909269489782,
+        "n": 2,
+        "gap_from_wt": -0.00043722673329149586,
+        "gap_in_replicate_sd": -0.182410152495947
+      }
+    }
+  ],
+  "what_this_bounds": "Each arm contributes its replicates, and the only scale a difference is stated in is the spread between replicates of the same arm. With this many replicates that spread is itself poorly determined, so a gap of a few replicate standard deviations is a quantity to look at and not a result. Nothing here tests folding, binding or transport, and the humanised surrogate still requires experimental validation of all three before use in pharmacological screening."
+}

@@ -1,0 +1,72 @@
+{
+ "source": "data/esm2_step2/gate_perturbation.tsv",
+ "pairs": [
+  {
+   "pair": "N90C/S407C",
+   "kind": "spontaneous disulfide",
+   "substituted_chicken": 98,
+   "read_chicken": 415,
+   "separation": 317,
+   "median_rank": 7104,
+   "percentile": 83.51,
+   "best_rank": 1238,
+   "n_variants": 8987
+  },
+  {
+   "pair": "N90C/S407C",
+   "kind": "spontaneous disulfide",
+   "substituted_chicken": 415,
+   "read_chicken": 98,
+   "separation": 317,
+   "median_rank": 829,
+   "percentile": 6.55,
+   "best_rank": 235,
+   "n_variants": 8987
+  },
+  {
+   "pair": "Q45C/L290C",
+   "kind": "CuPh and cadmium induced",
+   "substituted_chicken": 49,
+   "read_chicken": 298,
+   "separation": 249,
+   "median_rank": 2568,
+   "percentile": 24.74,
+   "best_rank": 1770,
+   "n_variants": 8987
+  },
+  {
+   "pair": "Q45C/L290C",
+   "kind": "CuPh and cadmium induced",
+   "substituted_chicken": 298,
+   "read_chicken": 49,
+   "separation": 249,
+   "median_rank": 4151,
+   "percentile": 43.76,
+   "best_rank": 746,
+   "n_variants": 8987
+  },
+  {
+   "pair": "L290C/N411C",
+   "kind": "CuPh and cadmium induced",
+   "substituted_chicken": 298,
+   "read_chicken": 419,
+   "separation": 121,
+   "median_rank": 1871,
+   "percentile": 15.01,
+   "best_rank": 374,
+   "n_variants": 8987
+  },
+  {
+   "pair": "L290C/N411C",
+   "kind": "CuPh and cadmium induced",
+   "substituted_chicken": 419,
+   "read_chicken": 298,
+   "separation": 121,
+   "median_rank": 880,
+   "percentile": 7.4,
+   "best_rank": 154,
+   "n_variants": 8987
+  }
+ ],
+ "statistic": "median rank of a position's 19 substitutions, among all positions, ranking variants by the wild-type probability at the partner gate position, most disruptive first"
+}

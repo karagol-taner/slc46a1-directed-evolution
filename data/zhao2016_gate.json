@@ -1,0 +1,21 @@
+{
+ "source": "Zhao R, Najmi M, Fiser A, Goldman ID. J Biol Chem 2016;291(15):8162-8172, doi 10.1074/jbc.M115.693929, read from the publisher PDF",
+ "numbering": "human PCFT, Q96NT5",
+ "template": "modified PCFT in which Cys66 and Cys298 are substituted with serine, referred to as DSL",
+ "gate_positions": [
+  {"pos": 45,  "aa": "Q", "helix": "TMD1"},
+  {"pos": 90,  "aa": "N", "helix": "TMD2"},
+  {"pos": 290, "aa": "L", "helix": "TMD7"},
+  {"pos": 407, "aa": "S", "helix": "TMD11"},
+  {"pos": 411, "aa": "N", "helix": "TMD11"}
+ ],
+ "double_mutants": ["Q45C/N90C", "Q45C/L290C", "Q45C/S407C", "Q45C/N411C",
+                    "N90C/L290C", "N90C/S407C", "N90C/N411C", "L290C/S407C",
+                    "L290C/N411C"],
+ "not_studied": {"pair": "S407C/N411C", "reason": "both mutations are located in the same helix"},
+ "spontaneous_disulfide": ["N90C/S407C"],
+ "induced_by_cuph_and_cadmium": ["Q45C/L290C", "L290C/N411C"],
+ "readout": "cross-linkage decreased the influx Vmax, assessed with methotrexate at 50 micromolar, ten times the influx Kt of wild-type PCFT",
+ "cuph_inhibition_at_50_micromolar_mtx": {"Q45C/L290C": 54, "N90C/S407C": 87, "L290C/N411C": 92},
+ "substrate_protection": "folic acid decreased the CuPh-induced inhibition of transport in the three pairs that reached sufficient inhibition at 1.25 micromolar CuPh"
+}

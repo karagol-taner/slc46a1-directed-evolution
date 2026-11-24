@@ -1,0 +1,648 @@
+{
+ "source": "data/esm2_step5",
+ "threshold": 0.001,
+ "part_a": {
+  "target": 144,
+  "candidates": [
+   145,
+   143,
+   221,
+   140,
+   146,
+   142,
+   217,
+   141,
+   218,
+   139
+  ],
+  "n_doubles": 16245,
+  "n_pairs": 45,
+  "n_singles": 190,
+  "worst_relative_difference_vs_step2": 3.622859206490474e-05,
+  "baseline": 5.3811298130312935e-05,
+  "best_single": {
+   "pos": 217,
+   "to": "Q",
+   "p": 0.0003022674
+  },
+  "n_crossing": 70,
+  "best_double": {
+   "pos_i": 145,
+   "from_i": "L",
+   "to_i": "P",
+   "pos_j": 146,
+   "from_j": "R",
+   "to_j": "V",
+   "p_target": 0.004135892,
+   "best_single_of_pair": 0.0001151444,
+   "fold_vs_baseline": 76.85917537213571,
+   "fold_vs_best_single_of_pair": 35.91917626910211,
+   "crosses": true
+  },
+  "top_doubles": [
+   {
+    "pos_i": 145,
+    "from_i": "L",
+    "to_i": "P",
+    "pos_j": 146,
+    "from_j": "R",
+    "to_j": "V",
+    "p_target": 0.004135892,
+    "best_single_of_pair": 0.0001151444,
+    "fold_vs_baseline": 76.85917537213571,
+    "fold_vs_best_single_of_pair": 35.91917626910211,
+    "crosses": true
+   },
+   {
+    "pos_i": 221,
+    "from_i": "W",
+    "to_i": "Y",
+    "pos_j": 217,
+    "from_j": "I",
+    "to_j": "Q",
+    "p_target": 0.002294666,
+    "best_single_of_pair": 0.0003022674,
+    "fold_vs_baseline": 42.64282928917804,
+    "fold_vs_best_single_of_pair": 7.591510033830971,
+    "crosses": true
+   },
+   {
+    "pos_i": 145,
+    "from_i": "L",
+    "to_i": "P",
+    "pos_j": 146,
+    "from_j": "R",
+    "to_j": "L",
+    "p_target": 0.002204418,
+    "best_single_of_pair": 0.0001151444,
+    "fold_vs_baseline": 40.96570936946435,
+    "fold_vs_best_single_of_pair": 19.144812947915835,
+    "crosses": true
+   },
+   {
+    "pos_i": 221,
+    "from_i": "W",
+    "to_i": "Y",
+    "pos_j": 217,
+    "from_j": "I",
+    "to_j": "R",
+    "p_target": 0.002099172,
+    "best_single_of_pair": 0.000282645,
+    "fold_vs_baseline": 39.009874746312725,
+    "fold_vs_best_single_of_pair": 7.426885315501778,
+    "crosses": true
+   },
+   {
+    "pos_i": 221,
+    "from_i": "W",
+    "to_i": "Y",
+    "pos_j": 217,
+    "from_j": "I",
+    "to_j": "S",
+    "p_target": 0.002050856,
+    "best_single_of_pair": 0.0002636411,
+    "fold_vs_baseline": 38.11199638844456,
+    "fold_vs_best_single_of_pair": 7.778969212311739,
+    "crosses": true
+   },
+   {
+    "pos_i": 221,
+    "from_i": "W",
+    "to_i": "Y",
+    "pos_j": 140,
+    "from_j": "L",
+    "to_j": "G",
+    "p_target": 0.001911935,
+    "best_single_of_pair": 0.0002636411,
+    "fold_vs_baseline": 35.53036381634827,
+    "fold_vs_best_single_of_pair": 7.252036954784365,
+    "crosses": true
+   },
+   {
+    "pos_i": 221,
+    "from_i": "W",
+    "to_i": "Y",
+    "pos_j": 140,
+    "from_j": "L",
+    "to_j": "A",
+    "p_target": 0.001904445,
+    "best_single_of_pair": 0.0002636411,
+    "fold_vs_baseline": 35.39117371575152,
+    "fold_vs_best_single_of_pair": 7.2236271203541484,
+    "crosses": true
+   },
+   {
+    "pos_i": 221,
+    "from_i": "W",
+    "to_i": "Y",
+    "pos_j": 217,
+    "from_j": "I",
+    "to_j": "H",
+    "p_target": 0.001792363,
+    "best_single_of_pair": 0.0002636411,
+    "fold_vs_baseline": 33.308302573550584,
+    "fold_vs_best_single_of_pair": 6.7984961373624975,
+    "crosses": true
+   },
+   {
+    "pos_i": 221,
+    "from_i": "W",
+    "to_i": "Y",
+    "pos_j": 217,
+    "from_j": "I",
+    "to_j": "N",
+    "p_target": 0.001704999,
+    "best_single_of_pair": 0.0002636411,
+    "fold_vs_baseline": 31.684777346776947,
+    "fold_vs_best_single_of_pair": 6.467121401025865,
+    "crosses": true
+   },
+   {
+    "pos_i": 221,
+    "from_i": "W",
+    "to_i": "Y",
+    "pos_j": 217,
+    "from_j": "I",
+    "to_j": "D",
+    "p_target": 0.001648898,
+    "best_single_of_pair": 0.0002636411,
+    "fold_vs_baseline": 30.642226768195062,
+    "fold_vs_best_single_of_pair": 6.254328327411773,
+    "crosses": true
+   },
+   {
+    "pos_i": 221,
+    "from_i": "W",
+    "to_i": "Y",
+    "pos_j": 217,
+    "from_j": "I",
+    "to_j": "K",
+    "p_target": 0.001646806,
+    "best_single_of_pair": 0.0002636411,
+    "fold_vs_baseline": 30.603350174009698,
+    "fold_vs_best_single_of_pair": 6.246393297554896,
+    "crosses": true
+   },
+   {
+    "pos_i": 140,
+    "from_i": "L",
+    "to_i": "G",
+    "pos_j": 217,
+    "from_j": "I",
+    "to_j": "R",
+    "p_target": 0.001546481,
+    "best_single_of_pair": 0.000282645,
+    "fold_vs_baseline": 28.738964747792203,
+    "fold_vs_best_single_of_pair": 5.471460666206726,
+    "crosses": true
+   },
+   {
+    "pos_i": 140,
+    "from_i": "L",
+    "to_i": "G",
+    "pos_j": 217,
+    "from_j": "I",
+    "to_j": "Q",
+    "p_target": 0.001542733,
+    "best_single_of_pair": 0.0003022674,
+    "fold_vs_baseline": 28.669313947119758,
+    "fold_vs_best_single_of_pair": 5.103868296746523,
+    "crosses": true
+   },
+   {
+    "pos_i": 221,
+    "from_i": "W",
+    "to_i": "Y",
+    "pos_j": 217,
+    "from_j": "I",
+    "to_j": "E",
+    "p_target": 0.001533762,
+    "best_single_of_pair": 0.0002636411,
+    "fold_vs_baseline": 28.50260174519006,
+    "fold_vs_best_single_of_pair": 5.8176134146003795,
+    "crosses": true
+   },
+   {
+    "pos_i": 140,
+    "from_i": "L",
+    "to_i": "A",
+    "pos_j": 217,
+    "from_j": "I",
+    "to_j": "Q",
+    "p_target": 0.001528052,
+    "best_single_of_pair": 0.0003022674,
+    "fold_vs_baseline": 28.396490199875313,
+    "fold_vs_best_single_of_pair": 5.055298718948851,
+    "crosses": true
+   },
+   {
+    "pos_i": 221,
+    "from_i": "W",
+    "to_i": "Y",
+    "pos_j": 217,
+    "from_j": "I",
+    "to_j": "T",
+    "p_target": 0.001499078,
+    "best_single_of_pair": 0.0002636411,
+    "fold_vs_baseline": 27.858053087099577,
+    "fold_vs_best_single_of_pair": 5.686055778101366,
+    "crosses": true
+   },
+   {
+    "pos_i": 143,
+    "from_i": "M",
+    "to_i": "P",
+    "pos_j": 146,
+    "from_j": "R",
+    "to_j": "P",
+    "p_target": 0.001488202,
+    "best_single_of_pair": 0.0001359501,
+    "fold_vs_baseline": 27.655939397634924,
+    "fold_vs_best_single_of_pair": 10.946678229732822,
+    "crosses": true
+   },
+   {
+    "pos_i": 145,
+    "from_i": "L",
+    "to_i": "Q",
+    "pos_j": 140,
+    "from_j": "L",
+    "to_j": "G",
+    "p_target": 0.001454916,
+    "best_single_of_pair": 0.00019028,
+    "fold_vs_baseline": 27.03737041386143,
+    "fold_vs_best_single_of_pair": 7.64618457010721,
+    "crosses": true
+   },
+   {
+    "pos_i": 145,
+    "from_i": "L",
+    "to_i": "P",
+    "pos_j": 143,
+    "from_j": "M",
+    "to_j": "R",
+    "p_target": 0.001432385,
+    "best_single_of_pair": 0.0001612746,
+    "fold_vs_baseline": 26.618666521131743,
+    "fold_vs_best_single_of_pair": 8.881652783513337,
+    "crosses": true
+   },
+   {
+    "pos_i": 140,
+    "from_i": "L",
+    "to_i": "A",
+    "pos_j": 217,
+    "from_j": "I",
+    "to_j": "R",
+    "p_target": 0.00142789,
+    "best_single_of_pair": 0.000282645,
+    "fold_vs_baseline": 26.53513387731567,
+    "fold_vs_best_single_of_pair": 5.051884873250898,
+    "crosses": true
+   }
+  ],
+  "fold_over_better_half": {
+   "median": 1.1047485526305012,
+   "max": 35.91917626910211
+  }
+ },
+ "part_b": {
+  "backgrounds": [
+   "wt",
+   "primaries",
+   "primaries_rescuers_primary_wins",
+   "primaries_rescuers_rescue_wins"
+  ],
+  "n_primaries": 20,
+  "wt_vs_step1_worst_relative_difference": 3.867780933797405e-06,
+  "below_threshold": {
+   "wt": [
+    144,
+    239,
+    319,
+    322,
+    407
+   ],
+   "primaries": [
+    144,
+    239,
+    322,
+    407
+   ],
+   "primaries_rescuers_primary_wins": [
+    239,
+    322,
+    407
+   ],
+   "primaries_rescuers_rescue_wins": [
+    322,
+    407
+   ]
+  },
+  "median_fold_over_wt": {
+   "primaries": 1.1471748977383172,
+   "primaries_rescuers_primary_wins": 1.7556518006709974,
+   "primaries_rescuers_rescue_wins": 2.0062330014101706
+  },
+  "n_lower_than_wt": {
+   "primaries": 7,
+   "primaries_rescuers_primary_wins": 6,
+   "primaries_rescuers_rescue_wins": 6
+  },
+  "profile": [
+   {
+    "chicken_pos": 37,
+    "human_aa": "N",
+    "role": "",
+    "human_pos": 33,
+    "wt": 0.006766906,
+    "primaries": 0.003504072,
+    "primaries_rescuers_primary_wins": 0.003062395,
+    "primaries_rescuers_rescue_wins": 0.002918064
+   },
+   {
+    "chicken_pos": 44,
+    "human_aa": "G",
+    "role": "",
+    "human_pos": 40,
+    "wt": 0.7023444,
+    "primaries": 0.4887999,
+    "primaries_rescuers_primary_wins": 0.472156,
+    "primaries_rescuers_rescue_wins": 0.472783
+   },
+   {
+    "chicken_pos": 144,
+    "human_aa": "Q",
+    "role": "",
+    "human_pos": 136,
+    "wt": 5.381109e-05,
+    "primaries": 5.637387e-05,
+    "primaries_rescuers_primary_wins": 0.001223767,
+    "primaries_rescuers_rescue_wins": 0.001027377
+   },
+   {
+    "chicken_pos": 165,
+    "human_aa": "F",
+    "role": "",
+    "human_pos": 157,
+    "wt": 0.0329394,
+    "primaries": 0.2028983,
+    "primaries_rescuers_primary_wins": 0.2015043,
+    "primaries_rescuers_rescue_wins": 0.2141857
+   },
+   {
+    "chicken_pos": 166,
+    "human_aa": "G",
+    "role": "hydrogen-bond partner of the Glu407Asn variant",
+    "human_pos": 158,
+    "wt": 0.2432023,
+    "primaries": 0.09874886,
+    "primaries_rescuers_primary_wins": 0.09550966,
+    "primaries_rescuers_rescue_wins": 0.1017985
+   },
+   {
+    "chicken_pos": 167,
+    "human_aa": "G",
+    "role": "",
+    "human_pos": 159,
+    "wt": 0.001249689,
+    "primaries": 0.001303533,
+    "primaries_rescuers_primary_wins": 0.00162897,
+    "primaries_rescuers_rescue_wins": 0.001701399
+   },
+   {
+    "chicken_pos": 196,
+    "human_aa": "I",
+    "role": "",
+    "human_pos": 188,
+    "wt": 0.002415442,
+    "primaries": 0.005846397,
+    "primaries_rescuers_primary_wins": 0.008506334,
+    "primaries_rescuers_rescue_wins": 0.006647912
+   },
+   {
+    "chicken_pos": 236,
+    "human_aa": "F",
+    "role": "",
+    "human_pos": 228,
+    "wt": 0.06542078,
+    "primaries": 0.04004337,
+    "primaries_rescuers_primary_wins": 0.03955101,
+    "primaries_rescuers_rescue_wins": 0.01000799
+   },
+   {
+    "chicken_pos": 238,
+    "human_aa": "F",
+    "role": "",
+    "human_pos": 230,
+    "wt": 0.007479234,
+    "primaries": 0.00603579,
+    "primaries_rescuers_primary_wins": 0.00536701,
+    "primaries_rescuers_rescue_wins": 0.00536701
+   },
+   {
+    "chicken_pos": 239,
+    "human_aa": "G",
+    "role": "",
+    "human_pos": 231,
+    "wt": 0.0005511022,
+    "primaries": 0.0007940893,
+    "primaries_rescuers_primary_wins": 0.0007045601,
+    "primaries_rescuers_rescue_wins": 0.005942591
+   },
+   {
+    "chicken_pos": 286,
+    "human_aa": "I",
+    "role": "",
+    "human_pos": 278,
+    "wt": 0.001807834,
+    "primaries": 0.002199464,
+    "primaries_rescuers_primary_wins": 0.003552583,
+    "primaries_rescuers_rescue_wins": 0.003653777
+   },
+   {
+    "chicken_pos": 293,
+    "human_aa": "Q",
+    "role": "",
+    "human_pos": 285,
+    "wt": 0.003287792,
+    "primaries": 0.01996939,
+    "primaries_rescuers_primary_wins": 0.02450017,
+    "primaries_rescuers_rescue_wins": 0.03819468
+   },
+   {
+    "chicken_pos": 296,
+    "human_aa": "L",
+    "role": "",
+    "human_pos": 288,
+    "wt": 0.005284752,
+    "primaries": 0.005695485,
+    "primaries_rescuers_primary_wins": 0.008171278,
+    "primaries_rescuers_rescue_wins": 0.009888288
+   },
+   {
+    "chicken_pos": 319,
+    "human_aa": "Q",
+    "role": "",
+    "human_pos": 311,
+    "wt": 8.524035e-05,
+    "primaries": 0.002131879,
+    "primaries_rescuers_primary_wins": 0.005161452,
+    "primaries_rescuers_rescue_wins": 0.00547333
+   },
+   {
+    "chicken_pos": 320,
+    "human_aa": "H",
+    "role": "",
+    "human_pos": 312,
+    "wt": 0.003429973,
+    "primaries": 0.01612032,
+    "primaries_rescuers_primary_wins": 0.03069395,
+    "primaries_rescuers_rescue_wins": 0.0295078
+   },
+   {
+    "chicken_pos": 322,
+    "human_aa": "P",
+    "role": "",
+    "human_pos": 314,
+    "wt": 0.0001536447,
+    "primaries": 6.58593e-05,
+    "primaries_rescuers_primary_wins": 0.0001645254,
+    "primaries_rescuers_rescue_wins": 0.0001706224
+   },
+   {
+    "chicken_pos": 407,
+    "human_aa": "N",
+    "role": "TM11, pyrrole amine of pemetrexed",
+    "human_pos": 399,
+    "wt": 1.352389e-05,
+    "primaries": 8.297006e-06,
+    "primaries_rescuers_primary_wins": 0.0006341939,
+    "primaries_rescuers_rescue_wins": 0.0006219011
+   },
+   {
+    "chicken_pos": 411,
+    "human_aa": "M",
+    "role": "TM11, amide and carbonyl of the glutamate",
+    "human_pos": 403,
+    "wt": 0.002318606,
+    "primaries": 0.005216379,
+    "primaries_rescuers_primary_wins": 0.01233672,
+    "primaries_rescuers_rescue_wins": 0.01058799
+   },
+   {
+    "chicken_pos": 415,
+    "human_aa": "S",
+    "role": "",
+    "human_pos": 407,
+    "wt": 0.008327767,
+    "primaries": 0.01831339,
+    "primaries_rescuers_primary_wins": 0.006128954,
+    "primaries_rescuers_rescue_wins": 0.006175117
+   },
+   {
+    "chicken_pos": 430,
+    "human_aa": "K",
+    "role": "",
+    "human_pos": 422,
+    "wt": 0.00679946,
+    "primaries": 0.01027209,
+    "primaries_rescuers_primary_wins": 0.01511314,
+    "primaries_rescuers_rescue_wins": 0.01354035
+   }
+  ]
+ },
+ "survival": {
+  "targets": [
+   {
+    "target": 144,
+    "alone": 0.004135892,
+    "alone_variant": "L145P with R146V",
+    "alone_kind": "double, nearest positions",
+    "primaries_rescuers_primary_wins": 0.001223767,
+    "primaries_rescuers_rescue_wins": 0.001027377,
+    "fold_final_over_alone": 0.29588949614738486,
+    "fold_alt_over_alone": 0.24840518079292206,
+    "overstatement_final": 3.3796400785443637,
+    "holds_final": true,
+    "holds_alt": true,
+    "verdict": "both resolutions"
+   },
+   {
+    "target": 239,
+    "alone": 0.00658458,
+    "alone_variant": "238P",
+    "alone_kind": "single within the window",
+    "primaries_rescuers_primary_wins": 0.0007045601,
+    "primaries_rescuers_rescue_wins": 0.005942591,
+    "fold_final_over_alone": 0.10700152477454904,
+    "fold_alt_over_alone": 0.9025011466183113,
+    "overstatement_final": 9.345661214706878,
+    "holds_final": false,
+    "holds_alt": true,
+    "verdict": "only where the rescue wins"
+   },
+   {
+    "target": 319,
+    "alone": 0.004622915,
+    "alone_variant": "318P",
+    "alone_kind": "single within the window",
+    "primaries_rescuers_primary_wins": 0.005161452,
+    "primaries_rescuers_rescue_wins": 0.00547333,
+    "fold_final_over_alone": 1.1164929487130957,
+    "fold_alt_over_alone": 1.1839564430667664,
+    "overstatement_final": 0.8956617246464754,
+    "holds_final": true,
+    "holds_alt": true,
+    "verdict": "both resolutions"
+   },
+   {
+    "target": 322,
+    "alone": 0.001061273,
+    "alone_variant": "323P",
+    "alone_kind": "single within the window",
+    "primaries_rescuers_primary_wins": 0.0001645254,
+    "primaries_rescuers_rescue_wins": 0.0001706224,
+    "fold_final_over_alone": 0.1550264635018511,
+    "fold_alt_over_alone": 0.16077145088963915,
+    "overstatement_final": 6.450511592738872,
+    "holds_final": false,
+    "holds_alt": false,
+    "verdict": "neither"
+   },
+   {
+    "target": 407,
+    "alone": 0.001252301,
+    "alone_variant": "A404D with T380P",
+    "alone_kind": "double, coupled positions",
+    "primaries_rescuers_primary_wins": 0.0006341939,
+    "primaries_rescuers_rescue_wins": 0.0006219011,
+    "fold_final_over_alone": 0.5064228967316963,
+    "fold_alt_over_alone": 0.4966067263381568,
+    "overstatement_final": 1.9746342561793797,
+    "holds_final": false,
+    "holds_alt": false,
+    "verdict": "neither"
+   }
+  ],
+  "holds_both": [
+   144,
+   319
+  ],
+  "holds_neither": [
+   322,
+   407
+  ],
+  "conditional": [
+   239
+  ],
+  "overstatement_range": [
+   1.9746342561793797,
+   9.345661214706878
+  ],
+  "lost_fold_range": [
+   0.1550264635018511,
+   0.5064228967316963
+  ]
+ }
+}

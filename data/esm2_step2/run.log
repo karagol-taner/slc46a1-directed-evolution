@@ -1,0 +1,17 @@
+2026-11-10T07:08:47  start, project=/content/drive/MyDrive/MIT/All Project Files/SLC46A1 engraftment
+2026-11-10T07:10:26  start, project=/content/drive/MyDrive/MIT/All Project Files/SLC46A1 engraftment
+2026-11-10T07:10:47  torch 2.14.1+cu130, device NVIDIA L4
+2026-11-10T07:10:49  sequences ok: human 459, chicken 473
+2026-11-10T07:10:51  rescue targets Y144->Q, Q239->G, S319->Q, A322->P, E407->N
+2026-11-10T07:10:51  gate probes Q49, N98, L298, T415, N419
+2026-11-10T07:11:16  variants to score 8987, read-out positions 10
+2026-11-10T07:11:22  scored 48 of 8987, 0.1 min elapsed
+2026-11-10T07:13:16  scored 1248 of 8987, 2.0 min elapsed
+2026-11-10T07:15:13  scored 2448 of 8987, 3.9 min elapsed
+2026-11-10T07:17:10  scored 3648 of 8987, 5.9 min elapsed
+2026-11-10T07:19:06  scored 4848 of 8987, 7.8 min elapsed
+2026-11-10T07:21:03  scored 6048 of 8987, 9.8 min elapsed
+2026-11-10T07:23:00  scored 7248 of 8987, 11.7 min elapsed
+2026-11-10T07:24:57  scored 8448 of 8987, 13.7 min elapsed
+2026-11-10T07:25:49  scan complete, 14.6 min
+2026-11-10T07:25:50  wrote rescue_scan.tsv (2999890 bytes) and gate_perturbation.tsv (1346756 bytes); pairs crossing the threshold 143 of 44935

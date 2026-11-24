@@ -1,0 +1,56 @@
+models root data/af3
+seed 20261113, read from 25_af3_jobs.py
+arms matched: construct to construct, primaries to primaries, wt to wt
+reference 7BC6 chain A, 432 alpha carbons
+reference 7BC7 chain A, 432 alpha carbons
+every deviation below is measured over the 432 positions both references resolve, so the numbers are on one residue set and the unresolved tails cannot drive them
+7BC6 against 7BC7 over 432 shared alpha carbons: 0.425 angstrom, which is the scale every deviation below is read against
+
+arm         model  ranking  pTM    pLDDT     RMSD 7BC6   RMSD 7BC7   residues
+construct   0      0.8900   0.850  85.08     0.821       0.867       473
+primaries   0      0.9000   0.860  85.58     0.701       0.749       473
+wt          0      0.8800   0.820  83.71     1.571       1.562       473
+
+arm against arm
+  construct vs primaries     0.503 angstrom over the 432 core positions, 1.808 over all 473
+  construct vs wt            1.298 angstrom over the 432 core positions, 4.981 over all 473
+  primaries vs wt            1.314 angstrom over the 432 core positions, 3.590 over all 473
+  furthest arm pair 1.314, furthest arm from a deposited structure 1.571
+  the arms are closer to each other than to either deposited structure, so they are comparable with each other
+
+per-residue confidence, mean pLDDT
+arm         chain      position set   substituted      rescuer positions
+construct   85.08      88.16          88.04            86.50
+primaries   85.58      88.92          89.24            89.10
+wt          83.71      86.94          87.72            87.30
+
+construct against wt at the 26 substituted positions: mean change +0.31, largest fall -9.20 at chicken 239
+  positions losing 5 or more: 238 (-6.0), 239 (-9.2)
+
+primaries against wt at the 26 substituted positions: mean change +1.51, largest fall -5.50 at chicken 239
+  positions losing 5 or more: 239 (-5.5)
+
+every model of every arm, not only the highest ranking one
+arm         models  pLDDT chain            pLDDT substituted      RMSD to 7BC6
+construct   5       84.54 to 85.08, mean 84.87 87.37 to 88.04, mean 87.75 0.771 to 0.901
+primaries   5       85.31 to 85.63, mean 85.50 88.88 to 89.38, mean 89.13 0.577 to 0.701
+wt          5       83.61 to 83.98, mean 83.80 87.72 to 88.39, mean 88.07 1.500 to 1.591
+
+the positions where the highest ranking models disagreed, across every model
+  chicken 238
+    construct   83.5 to 83.9, mean 83.7 over 5 models
+    primaries   86.6 to 87.2, mean 86.8 over 5 models
+    wt          89.4 to 89.7, mean 89.6 over 5 models
+    construct against wt: ranges do not overlap
+    primaries against wt: ranges do not overlap
+  chicken 239
+    construct   79.1 to 79.7, mean 79.3 over 5 models
+    primaries   83.0 to 83.6, mean 83.2 over 5 models
+    wt          88.2 to 88.5, mean 88.4 over 5 models
+    construct against wt: ranges do not overlap
+    primaries against wt: ranges do not overlap
+
+positions whose ranges separate from wt across all models: ['238 construct', '238 primaries', '239 construct', '239 primaries']
+a range that overlaps means the fall seen in the highest ranking pair is inside model to model variation and carries no weight on its own
+
+wrote data/af3_models_report.json

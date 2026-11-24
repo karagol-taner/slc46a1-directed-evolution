@@ -1,0 +1,35 @@
+result             : data/esm2_step4
+target             : chicken 407 to human N399, baseline 1.352e-05 from data/primary_substitution_risk.tsv
+candidate positions: 10, [282, 286, 384, 404, 403, 411, 380, 410, 192, 289]
+expected rows      : 190 singles and 16245 doubles over 45 pairs
+step 2 for target  : 8987 single substitutions, strongest rescuer D404 at 5.343549e-04, the target position itself set aside
+singles            : 190 read, worst relative difference against step 2 5.02e-05, strongest D404 at 5.343669e-04
+doubles            : 16245 read over 45 pairs, every wild type and every half checked
+
+crossing 1e-03      : 4 of 16245 doubles
+above the strongest single: 96 of 16245
+fold over the better half of the pair: median 0.98, 95th percentile 1.52, max 5.93
+
+the ten strongest doubles
+  variant                      likelihood  fold over baseline  fold over the better half  crosses
+  A404D with T380P       1.252301e-03                92.6                       2.34  yes
+  V286G with A404D       1.140567e-03                84.3                       2.13  yes
+  A404D with C410F       1.109422e-03                82.0                       2.08  yes
+  R384N with A404D       1.015556e-03                75.1                       1.90  yes
+  V286E with A404D       9.454192e-04                69.9                       1.77  no
+  F282T with A404D       9.278370e-04                68.6                       1.74  no
+  V286Q with A404D       9.179778e-04                67.9                       1.72  no
+  A404D with T380Q       9.160099e-04                67.7                       1.71  no
+  V286Y with A404D       9.048820e-04                66.9                       1.69  no
+  A404D with C410Y       9.045864e-04                66.9                       1.69  no
+
+the strongest double at each of the five best pairs
+  chicken 404 with 380: A404D with T380P at 1.252301e-03, 2.34-fold over the better half
+  chicken 286 with 404: V286G with A404D at 1.140567e-03, 2.13-fold over the better half
+  chicken 404 with 410: A404D with C410F at 1.109422e-03, 2.08-fold over the better half
+  chicken 384 with 404: R384N with A404D at 1.015556e-03, 1.90-fold over the better half
+  chicken 282 with 404: F282T with A404D at 9.278370e-04, 1.74-fold over the better half
+
+verdict            : 4 double substitutions lift chicken 407 above 1e-03, so the position is rescued by a pair where no single substitution reaches it
+
+wrote data/double_rescue_report.json

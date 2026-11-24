@@ -1,0 +1,67 @@
+query 'hereditary folate malabsorption AND (PCFT OR SLC46A1)' -> 61 records
+query 'SLC46A1 AND mutation AND folate' -> 60 records
+query 'proton-coupled folate transporter AND hereditary folate malabsorption' -> 61 records
+query 'PCFT AND folate malabsorption AND (missense OR variant OR mutation)' -> 45 records
+
+union of records searched: 85
+records with text scanned: 84
+
+=== positions whose wild-type residue matches Q96NT5: 51 ===
+pos  wt  substitutions          n_pmids  pmids
+   1  M   L                            2  24534056,27938595
+  45  Q   C                            1  26884338
+  48  W   C                            1  27251438
+  85  W   C                            1  27251438
+  90  N   C                            1  26884338
+  93  G   L                            1  25877470
+ 107  W   C                            1  27251438
+ 109  D   A,E                          2  20805364,30858177
+ 112  G   K                            1  30858177
+ 113  R   C,H,S                        2  18559978,19508863
+ 136  Q   C                            1  25877470
+ 137  L   C                            1  25877470
+ 148  R   A,C                          2  19403800,23552283
+ 156  D   A,Y                          2  19403800,20805364
+ 159  G   L                            1  25877470
+ 172  S   A                            1  19389703
+ 185  E   A,D                          1  19403800
+ 188  I   C                            1  22785121
+ 193  M   C                            1  22785121
+ 196  S   L                            1  32893190
+ 202  W   C                            1  27251438
+ 213  W   C                            2  25877470,27251438
+ 214  L   C                            1  25877470
+ 224  L   C                            1  25877470
+ 227  A   C                            1  25877470
+ 228  F   C                            1  25877470
+ 230  F   C                            1  25877470
+ 231  G   C                            1  25877470
+ 232  E   A                            1  19403800
+ 247  H   A                            1  19389703
+ 278  I   C                            1  29167151
+ 281  H   A,C                          2  19389703,29167151
+ 288  L   C                            1  29167151
+ 290  L   C                            1  26884338
+ 299  W   C,S                          1  27251438
+ 304  I   C                            1  29167151
+ 305  G   L                            2  30858177,32893190
+ 311  Q   C                            1  29167151
+ 314  P   C                            1  32893190
+ 315  Y   A                            1  25608532
+ 318  S   A,C                          1  34619546
+ 333  W   C                            1  27251438
+ 335  A   C,D                          2  21333572,22843796
+ 338  G   C,R                          2  21333572,22843796
+ 376  R   A,H,K,Q                      2  19403800,20686069
+ 392  F   H,M,V                        1  32893190
+ 407  S   C                            1  26884338
+ 411  N   C,K                          2  26884338,29344585
+ 413  L   P                            1  27938595
+ 422  K   C,E                          1  21256110
+ 425  P   C,K,R                        2  22179615,22345511
+
+=== tokens rejected because the wild-type residue does not match Q96NT5 or the position is out of range: 2 ===
+  C282Y: Q96NT5 has F at 282; pmids 19176287,20039160
+  G348R: Q96NT5 has V at 348; pmids 36517554
+
+wrote hfm_positions.tsv

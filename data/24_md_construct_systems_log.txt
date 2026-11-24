@@ -1,0 +1,11 @@
+substitutions assembled from admissible_construct.json and checked against its own sequence: 26 sites, 20 primaries and 6 rescuers
+route check: the wild-type arm reproduces wt__apo_pH7.5.pdb byte for byte, chain A, 432 residues
+wrote primaries__apo_pH7.5.pdb, 20 substitutions, 258876 bytes
+wrote construct__apo_pH7.5.pdb, 26 substitutions, 257904 bytes
+
+coverage of 7BC6 chain A: 432 of 473 residues observed, 41 unmodelled in 2 stretches 1 to 25, 458 to 473, of which 0 internal
+  pharmacophore set: 66 of 67 observed, missing [1]
+  substituted sites: 26 of 26 observed
+
+three arms for the apo_pH7.5 state: construct, primaries, wt
+wrote md/construct_systems.json

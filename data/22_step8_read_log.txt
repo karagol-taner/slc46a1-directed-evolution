@@ -1,0 +1,23 @@
+background rebuilt from data/admissible_construct.json and checked against the run, 23 positions differ from chicken
+  19 primaries written in, rescuers held at [140, 217, 241, 318], released at [404, 410]
+candidates 15, 10 coupled and 10 nearest, 5 in both, 6 inside the position set [169, 286, 289, 380, 384, 411]
+scale check: A404D with C410F at 6.771676e-04 here against 6.771618e-04 in step 7, relative difference 8.57e-06
+
+chicken 407 to human N at human 399, in the background the construct has
+  baseline        : 1.065324e-05, against 8.297006e-06 for the same position in step 5 primaries
+  A404D with C410F      : 6.771676e-04 in this background, 1.109422e-03 where step 4 chose it
+  singles         : 285, strongest A404D at 3.296099e-04, inside the set False
+  against step 2  : 283 singles in both, median 0.78 of the wild-type value, 5th and 95th percentile 0.64 and 1.43
+  doubles         : 37905 over 105 pairs, 2 crossing 1e-03, 1 of those sparing the set
+  beating A404D with C410F: 11, of which 2 spare the set
+  fold over the better half: median 0.98, max 8.40
+  the five strongest
+    R384N with L409P at 1.215748e-03, 114.1-fold over baseline, 8.40-fold over the better half, spares the set False
+    A404D with V406R at 1.070241e-03, 100.5-fold over baseline, 3.25-fold over the better half, spares the set True
+    R384N with A404D at 9.350119e-04, 87.8-fold over baseline, 2.84-fold over the better half, spares the set False
+    R384N with A404N at 9.253091e-04, 86.9-fold over baseline, 6.39-fold over the better half, spares the set False
+    T380P with A404D at 8.201956e-04, 77.0-fold over baseline, 2.49-fold over the better half, spares the set False
+  strongest crossing pair that spares the set: A404D with V406R at 1.070241e-03
+  verdict         : chicken 407 is rescued in the construct background by a pair that spares the set
+
+wrote data/step8_report.json

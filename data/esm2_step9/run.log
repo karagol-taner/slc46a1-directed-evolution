@@ -1,0 +1,55 @@
+2026-11-13T11:43:55+00:00  start, project=/content/drive/MyDrive/MIT/All Project Files/SLC46A1 engraftment
+2026-11-13T11:43:55+00:00  step 7 summary from data/esm2_step7/step7_summary.json
+2026-11-13T11:43:55+00:00  step 8 summary from data/esm2_step8/step8_summary.json
+2026-11-13T11:43:56+00:00  output folder /content/drive/MyDrive/MIT/All Project Files/SLC46A1 engraftment/data/esm2_step9
+2026-11-13T11:44:16+00:00  torch 2.14.1+cu130, device Tesla T4
+2026-11-13T11:44:19+00:00  revised construct: 20 primaries, 6 rescuer positions [140, 217, 241, 318, 404, 406]
+2026-11-13T11:44:19+00:00    chicken 407 now carries A404D with V406R at 1.070241e-03 in the construct, in place of A404D with C410F at 1.109422e-03 in wild-type chicken
+2026-11-13T11:44:19+00:00    rescuer positions that changed since step 7: [406, 410]
+2026-11-13T11:44:51+00:00  check           : this construct minus A404D with V406R rebuilds step 8 background byte for byte
+2026-11-13T11:44:53+00:00  chicken 407 in this construct    : 1.070242e-03
+2026-11-13T11:44:53+00:00  the same variant in step 8      : 1.070241e-03, relative difference 5.23e-07
+2026-11-13T11:44:53+00:00  check           : the run reproduces step 8 at chicken 407
+2026-11-13T11:44:53+00:00  backgrounds 3, primaries 20, forward passes 60
+2026-11-13T11:45:01+00:00    48 of 60, 0.1 min elapsed
+2026-11-13T11:45:03+00:00    60 of 60, 0.2 min elapsed
+2026-11-13T11:45:03+00:00  sweep complete, 0.2 min
+2026-11-13T11:45:03+00:00  scale checks: wild type against step 1 worst 3.85e-06, primaries against step 5 worst 3.39e-07
+2026-11-13T11:45:03+00:00  
+2026-11-13T11:45:03+00:00  every primary with the other nineteen and all 6 rescuers in place
+2026-11-13T11:45:03+00:00  chicken  human    wild type   primaries     revised      step 7   fold over step 7
+2026-11-13T11:45:03+00:00       37      N    6.767e-03   3.504e-03   3.615e-03   3.933e-03              0.92
+2026-11-13T11:45:03+00:00       44      G    7.023e-01   4.888e-01   4.777e-01   4.714e-01              1.01
+2026-11-13T11:45:04+00:00      144      Q    5.381e-05   5.637e-05   1.884e-03   1.834e-03              1.03
+2026-11-13T11:45:04+00:00      165      F    3.294e-02   2.029e-01   1.976e-01   1.928e-01              1.02
+2026-11-13T11:45:04+00:00      166      G    2.432e-01   9.875e-02   8.909e-02   8.590e-02              1.04
+2026-11-13T11:45:04+00:00      167      G    1.250e-03   1.304e-03   1.412e-03   1.357e-03              1.04
+2026-11-13T11:45:04+00:00      196      I    2.415e-03   5.846e-03   5.313e-03   5.296e-03              1.00
+2026-11-13T11:45:04+00:00      236      F    6.542e-02   4.004e-02   2.734e-02   2.774e-02              0.99
+2026-11-13T11:45:04+00:00      238      F    7.479e-03   6.036e-03   4.997e-03   4.743e-03              1.05
+2026-11-13T11:45:04+00:00      239      G    5.511e-04   7.941e-04   2.127e-03   2.162e-03              0.98
+2026-11-13T11:45:04+00:00      286      I    1.808e-03   2.199e-03   2.465e-03   2.841e-03              0.87
+2026-11-13T11:45:04+00:00      293      Q    3.288e-03   1.997e-02   2.225e-02   2.441e-02              0.91
+2026-11-13T11:45:04+00:00      296      L    5.285e-03   5.695e-03   6.704e-03   7.114e-03              0.94
+2026-11-13T11:45:04+00:00      319      Q    8.524e-05   2.132e-03   1.305e-02   1.525e-02              0.86
+2026-11-13T11:45:04+00:00      320      H    3.430e-03   1.612e-02   1.713e-02   1.886e-02              0.91
+2026-11-13T11:45:04+00:00      322      P    1.536e-04   6.586e-05   6.382e-05   5.617e-05              1.14
+2026-11-13T11:45:04+00:00      407      N    1.352e-05   8.297e-06   1.070e-03   6.772e-04              1.58
+2026-11-13T11:45:04+00:00      411      M    2.319e-03   5.216e-03   2.948e-02   1.063e-02              2.77
+2026-11-13T11:45:04+00:00      415      S    8.328e-03   1.831e-02   1.391e-02   4.078e-03              3.41
+2026-11-13T11:45:04+00:00      430      K    6.799e-03   1.027e-02   2.095e-02   1.324e-02              1.58
+2026-11-13T11:45:04+00:00  
+2026-11-13T11:45:04+00:00  revised construct below 1e-03 at 1 of 20 primaries: [322]
+2026-11-13T11:45:04+00:00  the construct step 7 scored was below it at 2: [322, 407]
+2026-11-13T11:45:04+00:00  fold over step 7 across the primaries: median 1.02, lowest 0.86, highest 3.41
+2026-11-13T11:45:04+00:00  
+2026-11-13T11:45:04+00:00  does each rescue hold with the others present
+2026-11-13T11:45:04+00:00    chicken 144: L140G with I217R, chosen at 1.546481e-03 in wild-type chicken, here 1.884029e-03, holds
+2026-11-13T11:45:04+00:00    chicken 239: T241W, chosen at 2.362583e-03 in the construct, here 2.127424e-03, holds
+2026-11-13T11:45:04+00:00    chicken 319: A318P, chosen at 4.622915e-03 in wild-type chicken, here 1.305123e-02, holds
+2026-11-13T11:45:04+00:00    chicken 407: A404D with V406R, chosen at 1.070241e-03 in the construct, here 1.070235e-03, holds
+2026-11-13T11:45:04+00:00  rescues holding: [144, 239, 319, 407] of [144, 239, 319, 407]
+2026-11-13T11:45:04+00:00  still without an admissible rescue: [322]
+2026-11-13T11:45:04+00:00  
+2026-11-13T11:45:04+00:00  wrote revised_profile.tsv and step9_summary.json
+2026-11-13T11:45:04+00:00  copy data/esm2_step9/ from Drive into the local data/ and run codes/23_step9_read.py

@@ -1,0 +1,19 @@
+{
+ "source": "Parker JL et al., Nature 2021;595:130-134, chicken numbering with human in parentheses as the authors write it",
+ "residues": {
+  "43":  {"human": 39,  "role": "TM1, conserved polar pocket with Gln135", "where": "body text"},
+  "98":  {"human": 90,  "role": "TM2, gamma-carboxylate of pemetrexed", "where": "body text"},
+  "135": {"human": 127, "role": "TM3, conserved polar pocket with Gln43", "where": "body text"},
+  "156": {"human": 148, "role": "TM4, intrahelical salt bridge, gamma-carboxylate", "where": "body text"},
+  "164": {"human": 156, "role": "TM4, proton binding, HFM mutation site", "where": "body text"},
+  "166": {"human": 158, "role": "hydrogen-bond partner of the Glu407Asn variant", "where": "Extended Data Fig. 7"},
+  "193": {"human": 185, "role": "TM5, proton coupling, pyrimidine amine", "where": "body text"},
+  "289": {"human": 281, "role": "TM7, proton binding, gate hydrogen bond to Asn350", "where": "body text"},
+  "290": {"human": 282, "role": "TM7, pi stacking with the benzoyl group", "where": "body text"},
+  "323": {"human": 315, "role": "TM8, pyrimidine carbonyl and amide", "where": "body text"},
+  "350": {"human": 342, "role": "TM9, hydrogen bond to His289", "where": "body text"},
+  "384": {"human": 376, "role": "TM10, salt bridge to Glu193, HFM mutation site", "where": "body text"},
+  "407": {"human": 399, "role": "TM11, pyrrole amine of pemetrexed", "where": "body text"},
+  "411": {"human": 403, "role": "TM11, amide and carbonyl of the glutamate", "where": "body text"}
+ }
+}

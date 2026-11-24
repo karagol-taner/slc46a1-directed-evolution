@@ -1,0 +1,11 @@
+human_mutation	human_pos	human_aa	chicken_pos	chicken_aa	pubmed_ids	phenotype
+R113C/S	113	R	121	R	17446347	Trafficking impaired
+G147R	147	G	155	G	17446347	Impaired stability/no expression
+D156Y	156	D	164	D	20805364	Impaired stability/no expression
+S318R	318	S	326	S	17446347	Impaired stability/no expression
+A335D	335	A	343	A	22843796	Impaired stability/no expression
+G338R	338	G	346	G	22843796	Impaired stability/no expression
+R376Q/W	376	R	384	R	17446347,20686069	Impaired proton binding/reduced transport
+F392V	392	F	400	F	32893190	Transport defective, locked inward open
+N411K	411	N	419	N	29344585	Impaired transport
+P425R	425	P	433	P	22345511	Impaired transport

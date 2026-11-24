@@ -1,0 +1,64 @@
+{
+ "seed": 20261113,
+ "arms": [
+  "wt",
+  "primaries",
+  "construct"
+ ],
+ "length": 473,
+ "references": [
+  "7BC6",
+  "7BC7"
+ ],
+ "server_file": "data/af3/server/slc46a1_af3_jobs.json",
+ "local_files": [
+  "data/af3/local/wt.json",
+  "data/af3/local/primaries.json",
+  "data/af3/local/construct.json"
+ ],
+ "fasta": "data/construct_sequences.fasta",
+ "readme": "data/af3/README.txt",
+ "reader": "codes/26_af3_models_read.py",
+ "dialects": {
+  "server": [
+   "alphafoldserver",
+   1
+  ],
+  "local": [
+   "alphafold3",
+   4
+  ]
+ },
+ "substitutions": {
+  "primaries": [
+   37,
+   44,
+   144,
+   165,
+   166,
+   167,
+   196,
+   236,
+   238,
+   239,
+   286,
+   293,
+   296,
+   319,
+   320,
+   322,
+   407,
+   411,
+   415,
+   430
+  ],
+  "rescuers": {
+   "140": "G",
+   "217": "R",
+   "241": "W",
+   "318": "P",
+   "404": "D",
+   "406": "R"
+  }
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "state": "apo_pH7.5",
+ "entry": "7BC6",
+ "ligand_kept": false,
+ "coverage": {
+  "length": 473,
+  "observed": 432,
+  "unmodelled": 41,
+  "gaps": [
+   [
+    1,
+    25
+   ],
+   [
+    458,
+    473
+   ]
+  ],
+  "internal_gaps": [],
+  "set_positions": 67,
+  "set_observed": 66,
+  "set_missing": [
+   1
+  ],
+  "substituted": 26,
+  "substituted_observed": 26,
+  "substituted_missing": []
+ },
+ "truncation": "backbone, plus CB where the target residue has one",
+ "arms": {
+  "primaries": {
+   "file": "primaries__apo_pH7.5.pdb",
+   "substitutions": {
+    "37": "N",
+    "44": "G",
+    "144": "Q",
+    "165": "F",
+    "166": "G",
+    "167": "G",
+    "196": "I",
+    "236": "F",
+    "238": "F",
+    "239": "G",
+    "286": "I",
+    "293": "Q",
+    "296": "L",
+    "319": "Q",
+    "320": "H",
+    "322": "P",
+    "407": "N",
+    "411": "M",
+    "415": "S",
+    "430": "K"
+   },
+   "n_substitutions": 20,
+   "bytes": 258876
+  },
+  "construct": {
+   "file": "construct__apo_pH7.5.pdb",
+   "substitutions": {
+    "37": "N",
+    "44": "G",
+    "140": "G",
+    "144": "Q",
+    "165": "F",
+    "166": "G",
+    "167": "G",
+    "196": "I",
+    "217": "R",
+    "236": "F",
+    "238": "F",
+    "239": "G",
+    "241": "W",
+    "286": "I",
+    "293": "Q",
+    "296": "L",
+    "318": "P",
+    "319": "Q",
+    "320": "H",
+    "322": "P",
+    "404": "D",
+    "406": "R",
+    "407": "N",
+    "411": "M",
+    "415": "S",
+    "430": "K"
+   },
+   "n_substitutions": 26,
+   "bytes": 257904
+  },
+  "wt": {
+   "file": "wt__apo_pH7.5.pdb",
+   "substitutions": {},
+   "n_substitutions": 0,
+   "bytes": 265032,
+   "note": "written by codes/09_md_systems.py and reproduced by this script"
+  }
+ },
+ "construct_sequence": "MAAPSDPPTAATPPAPPPPARRCLPAPSVEPLLFLANLALGLQGPLATQYLWDRLGAERGYVGPNASSPHGCGNGSGAVDPLREEVEALVAHWNLCINLGGFFVGLFSVTLFGPWSDSVGRRPVLVLPAVGMAVQAAVYGLVMQLRLHVAYLLLGRIISGLLGDFGGILAGCFASVADSSNQRTRTFRVAILEACIGVAGMVASVGGGQWRKAEGYRNPFWLVLAASLAAALYAAFCFGEWVKQRRAAKLLTLQHYKAVYKLYTAPEDLSSRRKLALYSLAFFLLITVHFGTQDLLVLYELGSPLCWASDLIGYGSAPQHLPYLSSLGGLRLLQLCLEDTWVAEIGLISNIAGLVVISLATTTPLMFTGYGIMFLSMAATPVIRAKLSKLVSETEQGALFASVDCRNGLCMLVASGVFNSLYPSTLHFMKGFPFLFGAILLLIPAAIMGWIEIQDSNLQYSHFSDASSSPADG",
+ "rescuer_positions": {
+  "140": "G",
+  "217": "R",
+  "241": "W",
+  "318": "P",
+  "404": "D",
+  "406": "R"
+ },
+ "primaries": [
+  37,
+  44,
+  144,
+  165,
+  166,
+  167,
+  196,
+  236,
+  238,
+  239,
+  286,
+  293,
+  296,
+  319,
+  320,
+  322,
+  407,
+  411,
+  415,
+  430
+ ],
+ "next": "upload each file to CHARMM-GUI Membrane Builder with the settings in md/md_plan.json, then run the GROMACS notebook on the step3 output"
+}

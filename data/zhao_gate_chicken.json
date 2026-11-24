@@ -1,0 +1,37 @@
+[
+ {
+  "human_pos": 45,
+  "human_aa": "Q",
+  "chicken_pos": 49,
+  "chicken_aa": "Q",
+  "divergent": false
+ },
+ {
+  "human_pos": 90,
+  "human_aa": "N",
+  "chicken_pos": 98,
+  "chicken_aa": "N",
+  "divergent": false
+ },
+ {
+  "human_pos": 290,
+  "human_aa": "L",
+  "chicken_pos": 298,
+  "chicken_aa": "L",
+  "divergent": false
+ },
+ {
+  "human_pos": 407,
+  "human_aa": "S",
+  "chicken_pos": 415,
+  "chicken_aa": "T",
+  "divergent": true
+ },
+ {
+  "human_pos": 411,
+  "human_aa": "N",
+  "chicken_pos": 419,
+  "chicken_aa": "N",
+  "divergent": false
+ }
+]

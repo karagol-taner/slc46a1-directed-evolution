@@ -1,0 +1,30 @@
+human  Q96NT5        : 459 aa
+chicken 7BC6 chain A : 473 aa native part (construct entity 480 aa, C-terminal tag removed)
+
+alignment score 1338.0, 6 optimal path(s)
+aligned columns 459, identical 268 (58.4% over aligned positions)
+identity over full chicken length: 56.7%
+
+--- validation: Parker et al. 2021 stated pairs vs this alignment ---
+chick  stated_human  aligned_human  chick_aa  human_aa  offset  agree
+   43            39  39             Q         Q              4  yes
+   98            90  90             N         N              8  yes
+  135           127  127            Q         Q              8  yes
+  156           148  148            R         R              8  yes
+  164           156  156            D         D              8  yes
+  193           185  185            E         E              8  yes
+  289           281  281            H         H              8  yes
+  290           282  282            F         F              8  yes
+  323           315  315            Y         Y              8  yes
+  350           342  342            N         N              8  yes
+  384           376  376            R         R              8  yes
+  407           399  399            E         N              8  yes
+  411           403  403            S         M              8  yes
+13/13 stated pairs reproduced by the alignment
+distinct chicken-minus-human offsets among the stated pairs: [4, 8]
+
+offset changes along the chain (chicken position where offset becomes value):
+1->0, 11->2, 26->4, 71->6, 79->8, 470->14
+
+wrote pcft_residue_map.json
+wrote pcft_alignment.txt

@@ -1,0 +1,112 @@
+2026-11-11T07:34:17  start, project=/content/drive/MyDrive/MIT/All Project Files/SLC46A1 engraftment
+2026-11-11T07:34:38  torch 2.14.1+cu130, device Tesla T4
+2026-11-11T07:34:39  sequences ok: human 459, chicken 473, chicken_sha256 matches step 4
+2026-11-11T07:34:39  position set 67 positions, 20 primary humanising substitutions
+2026-11-11T07:34:40  part A target Y144 to Q at human 136, baseline 5.381e-05
+2026-11-11T07:34:40  part A candidates [145, 143, 221, 140, 146, 142, 217, 141, 218, 139], chosen by distance in the deposited coordinates
+2026-11-11T07:34:40  part A pairs 45, doubles 16245, singles 190
+2026-11-11T07:35:15  a144_singles_partial.tsv: 190 to score of 190
+2026-11-11T07:35:25    48 of 190, 0.2 min elapsed
+2026-11-11T07:35:55  a144_singles_partial.tsv complete, 0.7 min
+2026-11-11T07:35:55  a144_doubles_partial.tsv: 16245 to score of 16245
+2026-11-11T07:36:06    48 of 16245, 0.2 min elapsed
+2026-11-11T07:41:03    1248 of 16245, 5.1 min elapsed
+2026-11-11T07:45:59    2448 of 16245, 10.1 min elapsed
+2026-11-11T07:50:55    3648 of 16245, 15.0 min elapsed
+2026-11-11T07:55:50    4848 of 16245, 19.9 min elapsed
+2026-11-11T08:00:46    6048 of 16245, 24.8 min elapsed
+2026-11-11T08:05:42    7248 of 16245, 29.8 min elapsed
+2026-11-11T08:10:41    8448 of 16245, 34.8 min elapsed
+2026-11-11T08:15:37    9648 of 16245, 39.7 min elapsed
+2026-11-11T08:20:33    10848 of 16245, 44.6 min elapsed
+2026-11-11T08:25:30    12048 of 16245, 49.6 min elapsed
+2026-11-11T08:30:26    13248 of 16245, 54.5 min elapsed
+2026-11-11T08:35:21    14448 of 16245, 59.4 min elapsed
+2026-11-11T08:50:42  start, project=/content/drive/MyDrive/MIT/All Project Files/SLC46A1 engraftment
+2026-11-11T08:51:02  torch 2.14.1+cu130, device Tesla T4
+2026-11-11T08:51:03  sequences ok: human 459, chicken 473, chicken_sha256 matches step 4
+2026-11-11T08:51:04  position set 67 positions, 20 primary humanising substitutions
+2026-11-11T08:51:05  part A target Y144 to Q at human 136, baseline 5.381e-05
+2026-11-11T08:51:05  part A candidates [145, 143, 221, 140, 146, 142, 217, 141, 218, 139], chosen by distance in the deposited coordinates
+2026-11-11T08:51:05  part A pairs 45, doubles 16245, singles 190
+2026-11-11T08:51:39  resuming a144_singles_partial.tsv, already scored 190
+2026-11-11T08:51:39  a144_singles_partial.tsv: 0 to score of 190
+2026-11-11T08:51:39  a144_singles_partial.tsv complete, 0.0 min
+2026-11-11T08:51:39  a144_doubles_partial.tsv: 16245 to score of 16245
+2026-11-11T08:51:50    48 of 16245, 0.2 min elapsed
+2026-11-11T08:55:58    1248 of 16245, 4.3 min elapsed
+2026-11-11T09:00:09    2448 of 16245, 8.5 min elapsed
+2026-11-11T09:04:19    3648 of 16245, 12.7 min elapsed
+2026-11-11T09:08:31    4848 of 16245, 16.9 min elapsed
+2026-11-11T09:12:42    6048 of 16245, 21.0 min elapsed
+2026-11-11T09:16:53    7248 of 16245, 25.2 min elapsed
+2026-11-11T09:21:04    8448 of 16245, 29.4 min elapsed
+2026-11-11T09:25:16    9648 of 16245, 33.6 min elapsed
+2026-11-11T09:29:28    10848 of 16245, 37.8 min elapsed
+2026-11-11T09:33:40    12048 of 16245, 42.0 min elapsed
+2026-11-11T09:37:51    13248 of 16245, 46.2 min elapsed
+2026-11-11T09:42:02    14448 of 16245, 50.4 min elapsed
+2026-11-11T09:46:14    15648 of 16245, 54.6 min elapsed
+2026-11-11T09:48:20  a144_doubles_partial.tsv complete, 56.7 min
+2026-11-11T09:48:21  part A singles rechecked against step 2: 190 compared, worst relative difference 3.62e-05
+2026-11-11T09:48:21  part A doubles crossing 1e-03: 70 of 16245
+2026-11-11T09:48:21  part A best single Q217 at 3.022674e-04
+2026-11-11T09:48:21  part A best double L145P with R146V at 4.135892e-03, 76.9-fold over baseline, 35.92-fold over the better half
+2026-11-11T09:48:22  part A rescued chicken 144, so its pair joins the construct
+2026-11-11T09:48:22  
+2026-11-11T09:48:22  rescuers chosen
+2026-11-11T09:48:22    target  position  to  collision                      source
+2026-11-11T09:48:22       144       145   P  conserved position in the set double, part A
+2026-11-11T09:48:22       144       146   V  none                          double, part A
+2026-11-11T09:48:22       239       238   P  primary                       single, published policy
+2026-11-11T09:48:22       319       318   P  none                          single, published policy
+2026-11-11T09:48:22       322       323   P  conserved position in the set single, published policy
+2026-11-11T09:48:22       407       404   D  none                          double, step 4
+2026-11-11T09:48:22       407       380   P  conserved position in the set double, step 4
+2026-11-11T09:48:22  collisions with the position set: 4
+2026-11-11T09:48:22    chicken 238: the rescue for 239 wants P, the set has chicken L and human F, a primary humanising substitution
+2026-11-11T09:48:22    chicken 323: the rescue for 322 wants P, the set has chicken Y and human Y, conserved between the species
+2026-11-11T09:48:22    chicken 380: the rescue for 407 wants P, the set has chicken T and human T, conserved between the species
+2026-11-11T09:48:22    chicken 145: the rescue for 144 wants P, the set has chicken L and human L, conserved between the species
+2026-11-11T09:48:22  
+2026-11-11T09:48:22  background wt                                 differs from chicken at 0 positions
+2026-11-11T09:48:22  background primaries                          differs from chicken at 20 positions
+2026-11-11T09:48:22  background primaries_rescuers_primary_wins    differs from chicken at 26 positions
+2026-11-11T09:48:22  background primaries_rescuers_rescue_wins     differs from chicken at 26 positions
+2026-11-11T09:48:22  construct scoring: 80 of 80 to do
+2026-11-11T09:48:39  construct scoring complete, 0.3 min
+2026-11-11T09:48:39  wild-type background reproduces step 1 at all 20 primaries, worst relative difference 3.87e-06
+2026-11-11T09:48:39  
+2026-11-11T09:48:39  each primary scored with the others already written in
+2026-11-11T09:48:39  chicken  human   wild type   primaries  primary wins  rescue wins  fold, final over wild type
+2026-11-11T09:48:39       37      N   6.767e-03   3.504e-03     3.062e-03    2.918e-03           0.45
+2026-11-11T09:48:39       44      G   7.023e-01   4.888e-01     4.722e-01    4.728e-01           0.67
+2026-11-11T09:48:39      144      Q   5.381e-05   5.637e-05     1.224e-03    1.027e-03          22.74
+2026-11-11T09:48:39      165      F   3.294e-02   2.029e-01     2.015e-01    2.142e-01           6.12
+2026-11-11T09:48:39      166      G   2.432e-01   9.875e-02     9.551e-02    1.018e-01           0.39
+2026-11-11T09:48:39      167      G   1.250e-03   1.304e-03     1.629e-03    1.701e-03           1.30
+2026-11-11T09:48:39      196      I   2.415e-03   5.846e-03     8.506e-03    6.648e-03           3.52
+2026-11-11T09:48:39      236      F   6.542e-02   4.004e-02     3.955e-02    1.001e-02           0.60
+2026-11-11T09:48:39      238      F   7.479e-03   6.036e-03     5.367e-03    5.367e-03           0.72
+2026-11-11T09:48:39      239      G   5.511e-04   7.941e-04     7.046e-04    5.943e-03           1.28
+2026-11-11T09:48:39      286      I   1.808e-03   2.199e-03     3.553e-03    3.654e-03           1.97
+2026-11-11T09:48:39      293      Q   3.288e-03   1.997e-02     2.450e-02    3.819e-02           7.45
+2026-11-11T09:48:39      296      L   5.285e-03   5.695e-03     8.171e-03    9.888e-03           1.55
+2026-11-11T09:48:39      319      Q   8.524e-05   2.132e-03     5.161e-03    5.473e-03          60.55
+2026-11-11T09:48:39      320      H   3.430e-03   1.612e-02     3.069e-02    2.951e-02           8.95
+2026-11-11T09:48:39      322      P   1.536e-04   6.586e-05     1.645e-04    1.706e-04           1.07
+2026-11-11T09:48:39      407      N   1.352e-05   8.297e-06     6.342e-04    6.219e-04          46.89
+2026-11-11T09:48:39      411      M   2.319e-03   5.216e-03     1.234e-02    1.059e-02           5.32
+2026-11-11T09:48:39      415      S   8.328e-03   1.831e-02     6.129e-03    6.175e-03           0.74
+2026-11-11T09:48:39      430      K   6.799e-03   1.027e-02     1.511e-02    1.354e-02           2.22
+2026-11-11T09:48:39  background wt                                 below 1e-03 at 5 of 20 primaries
+2026-11-11T09:48:39     144, 239, 319, 322, 407
+2026-11-11T09:48:39  background primaries                          below 1e-03 at 4 of 20 primaries
+2026-11-11T09:48:39     144, 239, 322, 407
+2026-11-11T09:48:39  background primaries_rescuers_primary_wins    below 1e-03 at 3 of 20 primaries
+2026-11-11T09:48:39     239, 322, 407
+2026-11-11T09:48:39  background primaries_rescuers_rescue_wins     below 1e-03 at 2 of 20 primaries
+2026-11-11T09:48:39     322, 407
+2026-11-11T09:48:39  
+2026-11-11T09:48:39  wrote a144_double_rescue.tsv, a144_singles_recheck.tsv, construct_profile.tsv and construct_summary.json
+2026-11-11T09:48:39  copy esm2_step5/ from Drive into data/ and run codes/18_construct_read.py

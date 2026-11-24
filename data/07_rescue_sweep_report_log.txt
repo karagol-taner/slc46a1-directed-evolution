@@ -1,0 +1,52 @@
+protected positions for the annotated policy: 55
+scan rows 44935, rescuer positions 473, targets 5
+
+radius  policy      targets rescued  rescuers crossing  nearest rescuer
+     3  published                 3                 68  1
+     3  strict                    2                 31  1
+     3  annotated                 2                 37  1
+     5  published                 3                 69  1
+     5  strict                    2                 31  1
+     5  annotated                 2                 37  1
+     8  published                 3                 76  1
+     8  strict                    2                 31  1
+     8  annotated                 2                 40  1
+    12  published                 3                 77  1
+    12  strict                    2                 31  1
+    12  annotated                 3                 41  1
+    20  published                 3                 78  1
+    20  strict                    2                 31  1
+    20  annotated                 3                 42  1
+    35  published                 3                 78  1
+    35  strict                    2                 31  1
+    35  annotated                 3                 42  1
+    60  published                 3                 78  1
+    60  strict                    2                 31  1
+    60  annotated                 3                 42  1
+   all  published                 3                 78  1
+   all  strict                    2                 31  1
+   all  annotated                 3                 42  1
+
+strongest five rescuers per target, by policy, target position excluded
+  target Y144, baseline 5.38e-05
+    published  best I217Q  sep  73  p 3.023e-04  x5.6  crosses False  (0 of the top 5 cross)
+    strict     best I217Q  sep  73  p 3.023e-04  x5.6  crosses False  (0 of the top 5 cross)
+    annotated  best I217Q  sep  73  p 3.023e-04  x5.6  crosses False  (0 of the top 5 cross)
+  target Q239, baseline 5.51e-04
+    published  best L238P  sep   1  p 6.585e-03  x11.9  crosses True  (5 of the top 5 cross)
+    strict     best L238P  sep   1  p 6.585e-03  x11.9  crosses True  (5 of the top 5 cross)
+    annotated  best T241W  sep   2  p 2.037e-03  x3.7  crosses True  (5 of the top 5 cross)
+  target S319, baseline 8.52e-05
+    published  best A318P  sep   1  p 4.623e-03  x54.2  crosses True  (5 of the top 5 cross)
+    strict     best Y320G  sep   1  p 3.209e-03  x37.7  crosses True  (5 of the top 5 cross)
+    annotated  best A318P  sep   1  p 4.623e-03  x54.2  crosses True  (5 of the top 5 cross)
+  target A322, baseline 1.54e-04
+    published  best Y323P  sep   1  p 1.061e-03  x6.9  crosses True  (2 of the top 5 cross)
+    strict     best G328P  sep   6  p 4.975e-04  x3.2  crosses False  (0 of the top 5 cross)
+    annotated  best L332P  sep  10  p 1.000e-03  x6.5  crosses True  (1 of the top 5 cross)
+  target E407, baseline 1.35e-05
+    published  best A404D  sep   3  p 5.344e-04  x39.5  crosses False  (0 of the top 5 cross)
+    strict     best G408D  sep   1  p 3.353e-05  x2.5  crosses False  (0 of the top 5 cross)
+    annotated  best A404D  sep   3  p 5.344e-04  x39.5  crosses False  (0 of the top 5 cross)
+
+wrote data/rescue_sweep_report.json

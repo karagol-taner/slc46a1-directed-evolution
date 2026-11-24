@@ -1,0 +1,138 @@
+{
+ "purpose": "test the Glu407 with Asn166 coupling that Parker and colleagues quantified by alchemical transformation",
+ "systems": {
+  "wt": {
+   "mutations": []
+  },
+  "E407N": {
+   "mutations": [
+    "GLU407ASN"
+   ]
+  },
+  "N166G": {
+   "mutations": [
+    "ASN166GLY"
+   ]
+  },
+  "E407N_N166G": {
+   "mutations": [
+    "GLU407ASN",
+    "ASN166GLY"
+   ]
+  }
+ },
+ "states": {
+  "apo_pH7.5": {
+   "entry": "7BC6",
+   "ligand_kept": false
+  },
+  "pmx_pH6.0": {
+   "entry": "7BC7",
+   "ligand_kept": true
+  }
+ },
+ "measurements_chicken_numbering": [
+  [
+   "E407N_to_N166",
+   407,
+   "ND2",
+   166,
+   "OD1"
+  ],
+  [
+   "E407_to_N166_wildtype",
+   407,
+   "OE1",
+   166,
+   "ND2"
+  ],
+  [
+   "R156_to_D164_control",
+   156,
+   "NH1",
+   164,
+   "OD1"
+  ],
+  [
+   "E193_to_R384_control",
+   193,
+   "OE1",
+   384,
+   "NH1"
+  ]
+ ],
+ "measurement_note": "residue indices are chicken author numbering as deposited. CHARMM-GUI renumbers, so resolve these against step3_input.pdb before putting them in MEASUREMENTS in the analysis template.",
+ "files": [
+  "wt__apo_pH7.5.pdb",
+  "E407N__apo_pH7.5.pdb",
+  "N166G__apo_pH7.5.pdb",
+  "E407N_N166G__apo_pH7.5.pdb",
+  "wt__pmx_pH6.0.pdb",
+  "E407N__pmx_pH6.0.pdb",
+  "N166G__pmx_pH6.0.pdb",
+  "E407N_N166G__pmx_pH6.0.pdb"
+ ],
+ "run_budget": {
+  "temperature_k": 303.15,
+  "dt_ps": 0.002,
+  "steps_per_chunk": 2500000,
+  "ns_per_chunk": 5.0,
+  "chunks_per_replicate": 20,
+  "ns_per_replicate": 100.0,
+  "replicates": 2,
+  "ns_per_system": 200.0,
+  "ns_total_apo_set": 800.0,
+  "ns_total_both_states": 1600.0,
+  "arm_set": {
+   "arms": [
+    "construct",
+    "primaries",
+    "wt"
+   ],
+   "n_arms": 3,
+   "state": "apo_pH7.5",
+   "ns_per_arm": 200.0,
+   "ns_total": 600.0
+  },
+  "parker_set": {
+   "n_systems": 4,
+   "n_builds": 8,
+   "n_apo_builds": 4,
+   "ns_total_apo": 800.0,
+   "ns_total_both_states": 1600.0
+  },
+  "nstxout_compressed": 25000,
+  "ps_per_frame": 50.0,
+  "frames_per_chunk": 100
+ },
+ "build": {
+  "route": "CHARMM-GUI Membrane Builder, Bilayer Builder",
+  "force_field": "CHARMM36m",
+  "lipid": "POPC 70 percent with CHOL 30 percent",
+  "lipid_ratio": {
+   "POPC": 70,
+   "CHOL": 30
+  },
+  "lipid_counts_per_leaflet": {
+   "POPC": 63,
+   "CHOL": 27
+  },
+  "lipids_per_leaflet_target": 90,
+  "hydrogen_mass_repartitioning": false,
+  "salt": "0.15 M KCl",
+  "water_thickness_angstrom": 22.5,
+  "system_basename": "step5_input",
+  "production_mdp": "step7_production.mdp",
+  "minimization_mdp": "step6.0_minimization.mdp",
+  "equilibration_mdp_glob": "step6.?_equilibration.mdp",
+  "drive_builds_root": "/content/drive/MyDrive/MDs/SLC46A1_engraftment",
+  "template_requires": [
+   "step5_input.gro",
+   "step5_input.pdb",
+   "step5_input.psf",
+   "topol.top",
+   "index.ndx",
+   "step7_production.mdp"
+  ]
+ }
+}

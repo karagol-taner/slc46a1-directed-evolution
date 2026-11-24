@@ -1,0 +1,15 @@
+project seed 20261113, defined in codes/25_af3_jobs.py
+sequences derived from 7BC6.fasta and admissible_construct.json, checked against the stored construct
+
+arm          length   differs from chicken at      note
+wt           473      0 positions                  wild-type chicken transporter, chain A of 7BC6 as deposited
+primaries    473      20 positions                 the 20 humanising substitutions alone, no rescuers
+construct    473      26 positions                 the 20 humanising substitutions with the 6 rescuers the scans chose
+
+  data/af3/server/slc46a1_af3_jobs.json                         2.0 kB
+  data/af3/local/wt.json                                        0.6 kB
+  data/af3/local/primaries.json                                 0.6 kB
+  data/af3/local/construct.json                                 0.6 kB
+  data/af3/README.txt                                           1.2 kB
+  data/construct_sequences.fasta                                1.6 kB
+  data/af3_jobs_manifest.json                                   0.8 kB

@@ -1,0 +1,68 @@
+human_pos	human_aa	chicken_pos	chicken_aa	differs	in_parker_named	min_pemetrexed_dist_A	in_mutation_literature	reported_substitutions	source_pmids	role_or_note
+1	M	1	M	0	0		1	L	24534056,27938595	
+33	N	37	T	1	0	3.93	0			
+36	L	40	L	0	0	3.24	0			
+39	Q	43	Q	0	1		0			TM1, conserved polar pocket with Gln135
+40	G	44	V	1	0	3.10	0			
+45	Q	49	Q	0	0		1	C	26884338	
+48	W	52	W	0	0		1	C	27251438	
+85	W	93	W	0	0		1	C	27251438	
+90	N	98	N	0	1	3.11	1	C	26884338	TM2, gamma-carboxylate of pemetrexed
+93	G	101	G	0	0		1	L	25877470	
+107	W	115	W	0	0		1	C	27251438	
+109	D	117	D	0	0		1	A,E	20805364,30858177	
+112	G	120	G	0	0		1	K	30858177	
+113	R	121	R	0	0		1	C,H,S	18559978,19508863	
+127	Q	135	Q	0	1	4.91	0			TM3, conserved polar pocket with Gln43
+136	Q	144	Y	1	0		1	C	25877470	
+137	L	145	L	0	0		1	C	25877470	
+147	G	155	G	0	0		0			
+148	R	156	R	0	1	3.04	1	A,C	19403800,23552283	TM4, intrahelical salt bridge, gamma-carboxylate
+156	D	164	D	0	1	4.65	1	A,Y	19403800,20805364	TM4, proton binding, HFM mutation site
+157	F	165	Y	1	0	3.05	0			
+158	G	166	N	1	1		0			hydrogen-bond partner of the Glu407Asn variant
+159	G	167	L	1	0		1	L	25877470	
+161	L	169	L	0	0	3.85	0			
+172	S	180	S	0	0		1	A	19389703	
+185	E	193	E	0	1	2.91	1	A,D	19403800	TM5, proton coupling, pyrimidine amine
+188	I	196	L	1	0	3.68	1	C	22785121	
+193	M	201	M	0	0		1	C	22785121	
+196	S	204	S	0	0		1	L	32893190	
+202	W	210	W	0	0		1	C	27251438	
+213	W	221	W	0	0		1	C	25877470,27251438	
+214	L	222	L	0	0		1	C	25877470	
+224	L	232	L	0	0		1	C	25877470	
+227	A	235	A	0	0		1	C	25877470	
+228	F	236	L	1	0		1	C	25877470	
+230	F	238	L	1	0		1	C	25877470	
+231	G	239	Q	1	0		1	C	25877470	
+232	E	240	E	0	0		1	A	19403800	
+247	H	255	H	0	0		1	A	19389703	
+278	I	286	V	1	0	4.61	1	C	29167151	
+281	H	289	H	0	1		1	A,C	19389703,29167151	TM7, proton binding, gate hydrogen bond to Asn350
+282	F	290	F	0	1	3.14	0			TM7, pi stacking with the benzoyl group
+285	Q	293	K	1	0	3.19	0			
+288	L	296	Y	1	0		1	C	29167151	
+290	L	298	L	0	0		1	C	26884338	
+299	W	307	W	0	0		1	C,S	27251438	
+304	I	312	I	0	0		1	C	29167151	
+305	G	313	G	0	0		1	L	30858177,32893190	
+311	Q	319	S	1	0		1	C	29167151	
+312	H	320	Y	1	0	4.43	0			
+314	P	322	A	1	0		1	C	32893190	
+315	Y	323	Y	0	1	2.73	1	A	25608532	TM8, pyrimidine carbonyl and amide
+318	S	326	S	0	0		1	A,C	34619546	
+333	W	341	W	0	0		1	C	27251438	
+335	A	343	A	0	0		1	C,D	21333572,22843796	
+338	G	346	G	0	0		1	C,R	21333572,22843796	
+342	N	350	N	0	1		0			TM9, hydrogen bond to His289
+372	T	380	T	0	0	4.15	0			
+376	R	384	R	0	1	4.54	1	A,H,K,Q	19403800,20686069	TM10, salt bridge to Glu193, HFM mutation site
+392	F	400	F	0	0		1	H,M,V	32893190	
+399	N	407	E	1	1	2.50	0			TM11, pyrrole amine of pemetrexed
+403	M	411	S	1	1	2.44	0			TM11, amide and carbonyl of the glutamate
+407	S	415	T	1	0	4.21	1	C	26884338	
+411	N	419	N	0	0		1	C,K	26884338,29344585	
+413	L	421	L	0	0		1	P	27938595	
+422	K	430	R	1	0		1	C,E	21256110	
+425	P	433	P	0	0		1	C,K,R	22179615,22345511	

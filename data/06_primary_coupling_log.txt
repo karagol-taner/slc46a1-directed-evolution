@@ -1,0 +1,4 @@
+ 4.0 A  pairs  16  outside +/-3   7  max sep 159  coupled positions 16/20  components [5, 5, 3, 3]  isolated [44, 144, 286, 430]
+ 5.0 A  pairs  18  outside +/-3   9  max sep 159  coupled positions 17/20  components [5, 5, 4, 3]  isolated [44, 144, 430]
+ 6.0 A  pairs  22  outside +/-3  13  max sep 242  coupled positions 17/20  components [9, 5, 3]  isolated [44, 144, 430]
+ 8.0 A  pairs  33  outside +/-3  23  max sep 283  coupled positions 19/20  components [16, 3]  isolated [144]

@@ -1,0 +1,3333 @@
+{
+ "arms": {
+  "construct": {
+   "above_published_dcs_cut": 285,
+   "above_published_rcs_cut": 19,
+   "arm": "construct",
+   "dcs_0_10": {
+    "max": 10.0,
+    "mean": 2.207128405130728,
+    "min": 0.0,
+    "p10": 0.5360862104992099,
+    "p50": 1.7384119310225834,
+    "p90": 4.409428774808973
+   },
+   "dynamic_conserved": [
+    {
+     "chicken": 210,
+     "chicken_aa": "W",
+     "conservation": 0.569,
+     "dcs": 10.0,
+     "human": 202,
+     "human_aa": "W",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.5354999999999999
+    },
+    {
+     "chicken": 183,
+     "chicken_aa": "R",
+     "conservation": 0.275,
+     "dcs": 9.039001597935778,
+     "human": 175,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.4175
+    },
+    {
+     "chicken": 211,
+     "chicken_aa": "R",
+     "conservation": 0.255,
+     "dcs": 8.20916745205109,
+     "human": 203,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.3785
+    },
+    {
+     "chicken": 117,
+     "chicken_aa": "D",
+     "conservation": 0.868,
+     "dcs": 8.120357597738096,
+     "human": 109,
+     "human_aa": "D",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.0615
+    },
+    {
+     "chicken": 122,
+     "chicken_aa": "R",
+     "conservation": 0.671,
+     "dcs": 7.778357724324435,
+     "human": 114,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.1905000000000001
+    },
+    {
+     "chicken": 208,
+     "chicken_aa": "G",
+     "conservation": 0.638,
+     "dcs": 7.771967715281313,
+     "human": 200,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.2245
+    },
+    {
+     "chicken": 103,
+     "chicken_aa": "F",
+     "conservation": 0.393,
+     "dcs": 7.714414282407189,
+     "human": 95,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.654
+    },
+    {
+     "chicken": 415,
+     "chicken_aa": "T",
+     "conservation": 0.518,
+     "dcs": 7.711414359572835,
+     "human": 407,
+     "human_aa": "S",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.3805
+    },
+    {
+     "chicken": 419,
+     "chicken_aa": "N",
+     "conservation": 0.399,
+     "dcs": 7.268301480106438,
+     "human": 411,
+     "human_aa": "N",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.5725
+    },
+    {
+     "chicken": 182,
+     "chicken_aa": "Q",
+     "conservation": 0.229,
+     "dcs": 7.028663135543624,
+     "human": 174,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.292
+    },
+    {
+     "chicken": 212,
+     "chicken_aa": "K",
+     "conservation": 0.129,
+     "dcs": 6.969176226391866,
+     "human": 204,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 3.6375
+    },
+    {
+     "chicken": 95,
+     "chicken_aa": "L",
+     "conservation": 0.505,
+     "dcs": 6.808567640890164,
+     "human": 87,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.2995
+    },
+    {
+     "chicken": 207,
+     "chicken_aa": "G",
+     "conservation": 0.667,
+     "dcs": 6.708382356638807,
+     "human": 199,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.102
+    },
+    {
+     "chicken": 214,
+     "chicken_aa": "E",
+     "conservation": 0.166,
+     "dcs": 6.204690110572302,
+     "human": 206,
+     "human_aa": "Q",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.6775
+    },
+    {
+     "chicken": 243,
+     "chicken_aa": "K",
+     "conservation": 0.208,
+     "dcs": 6.1262239208297835,
+     "human": 235,
+     "human_aa": "K",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.2205
+    },
+    {
+     "chicken": 215,
+     "chicken_aa": "G",
+     "conservation": 0.385,
+     "dcs": 6.041896610173901,
+     "human": 207,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.427
+    },
+    {
+     "chicken": 219,
+     "chicken_aa": "P",
+     "conservation": 0.497,
+     "dcs": 5.9207552175681055,
+     "human": 211,
+     "human_aa": "P",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.209
+    },
+    {
+     "chicken": 178,
+     "chicken_aa": "D",
+     "conservation": 0.656,
+     "dcs": 5.767342978749969,
+     "human": 170,
+     "human_aa": "D",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.029
+    },
+    {
+     "chicken": 374,
+     "chicken_aa": "F",
+     "conservation": 0.217,
+     "dcs": 5.745962025832285,
+     "human": 366,
+     "human_aa": "F",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.049
+    },
+    {
+     "chicken": 338,
+     "chicken_aa": "E",
+     "conservation": 0.308,
+     "dcs": 5.672039071827345,
+     "human": 330,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.584
+    },
+    {
+     "chicken": 409,
+     "chicken_aa": "L",
+     "conservation": 0.402,
+     "dcs": 5.4408022452601665,
+     "human": 401,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.3025
+    },
+    {
+     "chicken": 181,
+     "chicken_aa": "N",
+     "conservation": 0.251,
+     "dcs": 5.416672808127192,
+     "human": 173,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.7665000000000002
+    },
+    {
+     "chicken": 430,
+     "chicken_aa": "R",
+     "conservation": 0.214,
+     "dcs": 5.399340884006165,
+     "human": 422,
+     "human_aa": "K",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.977
+    },
+    {
+     "chicken": 299,
+     "chicken_aa": "Y",
+     "conservation": 0.46,
+     "dcs": 5.376277893429913,
+     "human": 291,
+     "human_aa": "Y",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.1960000000000002
+    },
+    {
+     "chicken": 298,
+     "chicken_aa": "L",
+     "conservation": 0.342,
+     "dcs": 5.236616745985437,
+     "human": 290,
+     "human_aa": "L",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.4049999999999998
+    },
+    {
+     "chicken": 148,
+     "chicken_aa": "H",
+     "conservation": 0.278,
+     "dcs": 5.013512658200413,
+     "human": 140,
+     "human_aa": "H",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.562
+    },
+    {
+     "chicken": 313,
+     "chicken_aa": "G",
+     "conservation": 0.604,
+     "dcs": 4.870279348305782,
+     "human": 305,
+     "human_aa": "G",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 0.987
+    },
+    {
+     "chicken": 417,
+     "chicken_aa": "V",
+     "conservation": 0.341,
+     "dcs": 4.831037583137315,
+     "human": 409,
+     "human_aa": "I",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.339
+    },
+    {
+     "chicken": 222,
+     "chicken_aa": "L",
+     "conservation": 0.348,
+     "dcs": 4.812535168893056,
+     "human": 214,
+     "human_aa": "L",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.3195000000000001
+    },
+    {
+     "chicken": 421,
+     "chicken_aa": "L",
+     "conservation": 0.424,
+     "dcs": 4.71289611336587,
+     "human": 413,
+     "human_aa": "L",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.1629999999999998
+    },
+    {
+     "chicken": 220,
+     "chicken_aa": "F",
+     "conservation": 0.378,
+     "dcs": 4.594876027755357,
+     "human": 212,
+     "human_aa": "F",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.223
+    },
+    {
+     "chicken": 434,
+     "chicken_aa": "F",
+     "conservation": 0.461,
+     "dcs": 4.552590988266488,
+     "human": 426,
+     "human_aa": "F",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.0915
+    },
+    {
+     "chicken": 158,
+     "chicken_aa": "I",
+     "conservation": 0.38,
+     "dcs": 4.536819717643102,
+     "human": 150,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.2105
+    },
+    {
+     "chicken": 305,
+     "chicken_aa": "L",
+     "conservation": 0.471,
+     "dcs": 4.500248404015041,
+     "human": 297,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.073
+    },
+    {
+     "chicken": 271,
+     "chicken_aa": "S",
+     "conservation": 0.225,
+     "dcs": 4.481026355102427,
+     "human": 263,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.6704999999999999
+    },
+    {
+     "chicken": 164,
+     "chicken_aa": "D",
+     "conservation": 0.53,
+     "dcs": 4.457399795207582,
+     "human": 156,
+     "human_aa": "D",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.0070000000000001
+    },
+    {
+     "chicken": 416,
+     "chicken_aa": "G",
+     "conservation": 0.272,
+     "dcs": 4.436001501695477,
+     "human": 408,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.4625
+    },
+    {
+     "chicken": 125,
+     "chicken_aa": "L",
+     "conservation": 0.562,
+     "dcs": 4.414672570561046,
+     "human": 117,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 0.9749999999999999
+    }
+   ],
+   "groups": {
+    "position_set": {
+     "conservation_mean": 0.30282539682539683,
+     "dcs_mean": 2.343958699988849,
+     "not_scored": [
+      1,
+      144,
+      145,
+      169
+     ],
+     "positions": 63,
+     "rcs_mean": 2.967302435478812,
+     "rmsf_A_mean": 0.9948412698412696,
+     "share_in_top_dcs": 0.15873015873015872,
+     "share_in_top_rcs": 0.20634920634920634
+    },
+    "primaries": {
+     "conservation_mean": 0.29268421052631577,
+     "dcs_mean": 2.492482738236837,
+     "not_scored": [
+      301
+     ],
+     "positions": 19,
+     "rcs_mean": 2.8157419723542993,
+     "rmsf_A_mean": 1.106447368421053,
+     "share_in_top_dcs": 0.10526315789473684,
+     "share_in_top_rcs": 0.15789473684210525
+    },
+    "rescue_targets": {
+     "conservation_mean": 0.21133333333333335,
+     "dcs_mean": 1.0367276679877309,
+     "not_scored": [
+      144
+     ],
+     "positions": 3,
+     "rcs_mean": 2.0703027412417363,
+     "rmsf_A_mean": 0.8018333333333333,
+     "share_in_top_dcs": 0.0,
+     "share_in_top_rcs": 0.0
+    },
+    "rescuers": {
+     "conservation_mean": 0.2683333333333333,
+     "dcs_mean": 2.0204104576500783,
+     "not_scored": [],
+     "positions": 6,
+     "rcs_mean": 2.5990617188018734,
+     "rmsf_A_mean": 1.0646666666666669,
+     "share_in_top_dcs": 0.0,
+     "share_in_top_rcs": 0.0
+    }
+   },
+   "ns_per_run": 100.0,
+   "rcs_0_10": {
+    "max": 10.0,
+    "mean": 2.763315960888883,
+    "min": 0.0,
+    "p10": 0.9106445295199018,
+    "p50": 2.5933155051792185,
+    "p90": 4.628532554148823
+   },
+   "replicates": 2,
+   "residues": 432,
+   "rigid_conserved": [
+    {
+     "chicken": 120,
+     "chicken_aa": "G",
+     "conservation": 0.854,
+     "human": 112,
+     "human_aa": "G",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 10.0,
+     "rmsf_A": 0.593
+    },
+    {
+     "chicken": 121,
+     "chicken_aa": "R",
+     "conservation": 0.837,
+     "human": 113,
+     "human_aa": "R",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 9.569530032131041,
+     "rmsf_A": 0.68
+    },
+    {
+     "chicken": 397,
+     "chicken_aa": "G",
+     "conservation": 0.815,
+     "human": 389,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 9.518373325490959,
+     "rmsf_A": 0.5965
+    },
+    {
+     "chicken": 113,
+     "chicken_aa": "G",
+     "conservation": 0.811,
+     "human": 105,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 9.344982484832231,
+     "rmsf_A": 0.6465000000000001
+    },
+    {
+     "chicken": 117,
+     "chicken_aa": "D",
+     "conservation": 0.868,
+     "human": 109,
+     "human_aa": "D",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 8.916790975394344,
+     "rmsf_A": 1.0615
+    },
+    {
+     "chicken": 203,
+     "chicken_aa": "A",
+     "conservation": 0.789,
+     "human": 195,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 8.751267671725133,
+     "rmsf_A": 0.7825
+    },
+    {
+     "chicken": 199,
+     "chicken_aa": "A",
+     "conservation": 0.666,
+     "human": 191,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.638598903659415,
+     "rmsf_A": 0.633
+    },
+    {
+     "chicken": 160,
+     "chicken_aa": "G",
+     "conservation": 0.649,
+     "human": 152,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.453581608788841,
+     "rmsf_A": 0.6234999999999999
+    },
+    {
+     "chicken": 116,
+     "chicken_aa": "S",
+     "conservation": 0.659,
+     "human": 108,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.309926268222469,
+     "rmsf_A": 0.7535000000000001
+    },
+    {
+     "chicken": 401,
+     "chicken_aa": "A",
+     "conservation": 0.624,
+     "human": 393,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.231656060306589,
+     "rmsf_A": 0.5825
+    },
+    {
+     "chicken": 240,
+     "chicken_aa": "E",
+     "conservation": 0.605,
+     "human": 232,
+     "human_aa": "E",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 6.718280400127496,
+     "rmsf_A": 0.734
+    },
+    {
+     "chicken": 178,
+     "chicken_aa": "D",
+     "conservation": 0.656,
+     "human": 170,
+     "human_aa": "D",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.7182002920555455,
+     "rmsf_A": 1.029
+    },
+    {
+     "chicken": 207,
+     "chicken_aa": "G",
+     "conservation": 0.667,
+     "human": 199,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.686767117053761,
+     "rmsf_A": 1.102
+    },
+    {
+     "chicken": 122,
+     "chicken_aa": "R",
+     "conservation": 0.671,
+     "human": 114,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.546024937334691,
+     "rmsf_A": 1.1905000000000001
+    },
+    {
+     "chicken": 185,
+     "chicken_aa": "R",
+     "conservation": 0.608,
+     "human": 177,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.469544836718953,
+     "rmsf_A": 0.8855
+    },
+    {
+     "chicken": 313,
+     "chicken_aa": "G",
+     "conservation": 0.604,
+     "human": 305,
+     "human_aa": "G",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 6.235764834127764,
+     "rmsf_A": 0.987
+    },
+    {
+     "chicken": 174,
+     "chicken_aa": "A",
+     "conservation": 0.541,
+     "human": 166,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.191004448925019,
+     "rmsf_A": 0.6014999999999999
+    },
+    {
+     "chicken": 208,
+     "chicken_aa": "G",
+     "conservation": 0.638,
+     "human": 200,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.13984774228494,
+     "rmsf_A": 1.2245
+    },
+    {
+     "chicken": 204,
+     "chicken_aa": "S",
+     "conservation": 0.579,
+     "human": 196,
+     "human_aa": "S",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 6.102159975511579,
+     "rmsf_A": 0.909
+    },
+    {
+     "chicken": 238,
+     "chicken_aa": "L",
+     "conservation": 0.564,
+     "human": 230,
+     "human_aa": "F",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.842803930410119,
+     "rmsf_A": 0.962
+    },
+    {
+     "chicken": 125,
+     "chicken_aa": "L",
+     "conservation": 0.562,
+     "human": 117,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.798319301839668,
+     "rmsf_A": 0.9749999999999999
+    },
+    {
+     "chicken": 177,
+     "chicken_aa": "A",
+     "conservation": 0.524,
+     "human": 169,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.7770721762944515,
+     "rmsf_A": 0.7304999999999999
+    },
+    {
+     "chicken": 190,
+     "chicken_aa": "A",
+     "conservation": 0.482,
+     "human": 182,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.58638415425364,
+     "rmsf_A": 0.528
+    },
+    {
+     "chicken": 346,
+     "chicken_aa": "G",
+     "conservation": 0.477,
+     "human": 338,
+     "human_aa": "G",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.4667103974577405,
+     "rmsf_A": 0.5675
+    },
+    {
+     "chicken": 414,
+     "chicken_aa": "A",
+     "conservation": 0.509,
+     "human": 406,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.413373826936678,
+     "rmsf_A": 0.8505
+    },
+    {
+     "chicken": 131,
+     "chicken_aa": "G",
+     "conservation": 0.473,
+     "human": 123,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.406969802800116,
+     "rmsf_A": 0.575
+    },
+    {
+     "chicken": 164,
+     "chicken_aa": "D",
+     "conservation": 0.53,
+     "human": 156,
+     "human_aa": "D",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.395757753806636,
+     "rmsf_A": 1.0070000000000001
+    },
+    {
+     "chicken": 381,
+     "chicken_aa": "P",
+     "conservation": 0.47,
+     "human": 373,
+     "human_aa": "P",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.347261559479243,
+     "rmsf_A": 0.591
+    },
+    {
+     "chicken": 156,
+     "chicken_aa": "R",
+     "conservation": 0.472,
+     "human": 148,
+     "human_aa": "R",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.113389124497342,
+     "rmsf_A": 0.7685
+    },
+    {
+     "chicken": 176,
+     "chicken_aa": "V",
+     "conservation": 0.459,
+     "human": 168,
+     "human_aa": "V",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.0717005757459575,
+     "rmsf_A": 0.6915
+    },
+    {
+     "chicken": 210,
+     "chicken_aa": "W",
+     "conservation": 0.569,
+     "human": 202,
+     "human_aa": "W",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 4.892317035089339,
+     "rmsf_A": 1.5354999999999999
+    },
+    {
+     "chicken": 115,
+     "chicken_aa": "W",
+     "conservation": 0.437,
+     "human": 107,
+     "human_aa": "W",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 4.7584641495580735,
+     "rmsf_A": 0.731
+    },
+    {
+     "chicken": 219,
+     "chicken_aa": "P",
+     "conservation": 0.497,
+     "human": 211,
+     "human_aa": "P",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.728435946895127,
+     "rmsf_A": 1.209
+    },
+    {
+     "chicken": 189,
+     "chicken_aa": "V",
+     "conservation": 0.428,
+     "human": 181,
+     "human_aa": "M",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.68812001914583,
+     "rmsf_A": 0.7045
+    },
+    {
+     "chicken": 163,
+     "chicken_aa": "G",
+     "conservation": 0.415,
+     "human": 155,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.673067404318226,
+     "rmsf_A": 0.5965
+    },
+    {
+     "chicken": 415,
+     "chicken_aa": "T",
+     "conservation": 0.518,
+     "human": 407,
+     "human_aa": "S",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 4.669470243779648,
+     "rmsf_A": 1.3805
+    },
+    {
+     "chicken": 95,
+     "chicken_aa": "L",
+     "conservation": 0.505,
+     "human": 87,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.669431730283517,
+     "rmsf_A": 1.2995
+    },
+    {
+     "chicken": 305,
+     "chicken_aa": "L",
+     "conservation": 0.471,
+     "human": 297,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.65991889673931,
+     "rmsf_A": 1.073
+    }
+   ],
+   "rmsf_A": {
+    "max": 4.528,
+    "mean": 1.1580104166666656,
+    "min": 0.522,
+    "p10": 0.6493,
+    "p50": 0.98025,
+    "p90": 1.8449000000000004
+   },
+   "scored": 377,
+   "seeds": [
+    "20261101",
+    "20261102"
+   ],
+   "share_of_chain_in_top_dcs": 0.10079575596816977,
+   "top_n": 38,
+   "values_checked_against_run_reports": 142,
+   "watched": {
+    "238": {
+     "conservation": 0.564,
+     "dcs": 4.3032419108294615,
+     "in_top_dcs": false,
+     "in_top_rcs": true,
+     "norm_dynamics": 0.10983524712930605,
+     "rank_dcs": 42,
+     "rank_rcs": 20,
+     "rcs": 5.842803930410119,
+     "rmsf_A": 0.962
+    },
+    "239": {
+     "conservation": 0.433,
+     "dcs": 2.1549330089486136,
+     "in_top_dcs": false,
+     "in_top_rcs": false,
+     "norm_dynamics": 0.07164253619570643,
+     "rank_dcs": 145,
+     "rank_rcs": 39,
+     "rcs": 4.607608325755162,
+     "rmsf_A": 0.8089999999999999
+    },
+    "319": {
+     "conservation": 0.099,
+     "dcs": 0.7253137130287689,
+     "in_top_dcs": false,
+     "in_top_rcs": false,
+     "norm_dynamics": 0.10546679980029953,
+     "rank_dcs": 315,
+     "rank_rcs": 352,
+     "rcs": 0.7391263690970175,
+     "rmsf_A": 0.9444999999999999
+    },
+    "407": {
+     "conservation": 0.102,
+     "dcs": 0.22993628198581026,
+     "in_top_dcs": false,
+     "in_top_rcs": false,
+     "norm_dynamics": 0.03245132301547679,
+     "rank_dcs": 366,
+     "rank_rcs": 343,
+     "rcs": 0.8641735288730291,
+     "rmsf_A": 0.652
+    }
+   },
+   "with_enrichment": 303
+  },
+  "primaries": {
+   "above_published_dcs_cut": 254,
+   "above_published_rcs_cut": 19,
+   "arm": "primaries",
+   "dcs_0_10": {
+    "max": 10.0,
+    "mean": 1.6400543360609081,
+    "min": 0.0,
+    "p10": 0.4494932139432433,
+    "p50": 1.275687033018821,
+    "p90": 3.1629969268833884
+   },
+   "dynamic_conserved": [
+    {
+     "chicken": 210,
+     "chicken_aa": "W",
+     "conservation": 0.569,
+     "dcs": 10.0,
+     "human": 202,
+     "human_aa": "W",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.8290000000000002
+    },
+    {
+     "chicken": 183,
+     "chicken_aa": "R",
+     "conservation": 0.275,
+     "dcs": 7.1820600681387505,
+     "human": 175,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.4815
+    },
+    {
+     "chicken": 419,
+     "chicken_aa": "N",
+     "conservation": 0.399,
+     "dcs": 7.038418866775977,
+     "human": 411,
+     "human_aa": "N",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.834
+    },
+    {
+     "chicken": 117,
+     "chicken_aa": "D",
+     "conservation": 0.868,
+     "dcs": 6.743942949341028,
+     "human": 109,
+     "human_aa": "D",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.0799999999999998
+    },
+    {
+     "chicken": 215,
+     "chicken_aa": "G",
+     "conservation": 0.385,
+     "dcs": 6.604975241611109,
+     "human": 207,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.797
+    },
+    {
+     "chicken": 211,
+     "chicken_aa": "R",
+     "conservation": 0.255,
+     "dcs": 6.496156149669615,
+     "human": 203,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.4325
+    },
+    {
+     "chicken": 208,
+     "chicken_aa": "G",
+     "conservation": 0.638,
+     "dcs": 5.783808373670034,
+     "human": 200,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.179
+    },
+    {
+     "chicken": 207,
+     "chicken_aa": "G",
+     "conservation": 0.667,
+     "dcs": 5.771659908428324,
+     "human": 199,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.1475
+    },
+    {
+     "chicken": 421,
+     "chicken_aa": "L",
+     "conservation": 0.424,
+     "dcs": 5.389624713224873,
+     "human": 413,
+     "human_aa": "L",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.4575
+    },
+    {
+     "chicken": 103,
+     "chicken_aa": "F",
+     "conservation": 0.393,
+     "dcs": 5.170494153223826,
+     "human": 95,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.4915
+    },
+    {
+     "chicken": 122,
+     "chicken_aa": "R",
+     "conservation": 0.671,
+     "dcs": 4.712655414936198,
+     "human": 114,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.0230000000000001
+    },
+    {
+     "chicken": 243,
+     "chicken_aa": "K",
+     "conservation": 0.208,
+     "dcs": 4.265472765772222,
+     "human": 235,
+     "human_aa": "K",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.053
+    },
+    {
+     "chicken": 359,
+     "chicken_aa": "L",
+     "conservation": 0.31,
+     "dcs": 4.1292345354161135,
+     "human": 351,
+     "human_aa": "F",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.504
+    },
+    {
+     "chicken": 415,
+     "chicken_aa": "T",
+     "conservation": 0.518,
+     "dcs": 4.10598488641905,
+     "human": 407,
+     "human_aa": "S",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.092
+    },
+    {
+     "chicken": 305,
+     "chicken_aa": "L",
+     "conservation": 0.471,
+     "dcs": 4.0448105565973815,
+     "human": 297,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.1425
+    },
+    {
+     "chicken": 214,
+     "chicken_aa": "E",
+     "conservation": 0.166,
+     "dcs": 3.974616514974489,
+     "human": 206,
+     "human_aa": "Q",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.3155
+    },
+    {
+     "chicken": 204,
+     "chicken_aa": "S",
+     "conservation": 0.579,
+     "dcs": 3.9149149247430066,
+     "human": 196,
+     "human_aa": "S",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.0030000000000001
+    },
+    {
+     "chicken": 308,
+     "chicken_aa": "A",
+     "conservation": 0.303,
+     "dcs": 3.885263767660602,
+     "human": 300,
+     "human_aa": "D",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.4660000000000002
+    },
+    {
+     "chicken": 216,
+     "chicken_aa": "Y",
+     "conservation": 0.242,
+     "dcs": 3.8649923253903578,
+     "human": 208,
+     "human_aa": "Y",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.7065000000000001
+    },
+    {
+     "chicken": 95,
+     "chicken_aa": "L",
+     "conservation": 0.505,
+     "dcs": 3.864108681636245,
+     "human": 87,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.071
+    },
+    {
+     "chicken": 338,
+     "chicken_aa": "E",
+     "conservation": 0.308,
+     "dcs": 3.850592204952986,
+     "human": 330,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.4415
+    },
+    {
+     "chicken": 164,
+     "chicken_aa": "D",
+     "conservation": 0.53,
+     "dcs": 3.6495141595729703,
+     "human": 156,
+     "human_aa": "D",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.0125
+    },
+    {
+     "chicken": 182,
+     "chicken_aa": "Q",
+     "conservation": 0.229,
+     "dcs": 3.6139000435276376,
+     "human": 174,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.6920000000000002
+    },
+    {
+     "chicken": 313,
+     "chicken_aa": "G",
+     "conservation": 0.604,
+     "dcs": 3.577906287943498,
+     "human": 305,
+     "human_aa": "G",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 0.9390000000000001
+    },
+    {
+     "chicken": 206,
+     "chicken_aa": "G",
+     "conservation": 0.453,
+     "dcs": 3.575929544138004,
+     "human": 198,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.0895
+    },
+    {
+     "chicken": 181,
+     "chicken_aa": "N",
+     "conservation": 0.251,
+     "dcs": 3.550356239343093,
+     "human": 173,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.5670000000000002
+    },
+    {
+     "chicken": 309,
+     "chicken_aa": "S",
+     "conservation": 0.224,
+     "dcs": 3.536460123121029,
+     "human": 301,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.6925
+    },
+    {
+     "chicken": 212,
+     "chicken_aa": "K",
+     "conservation": 0.129,
+     "dcs": 3.3985920609517817,
+     "human": 204,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.4989999999999997
+    },
+    {
+     "chicken": 374,
+     "chicken_aa": "F",
+     "conservation": 0.217,
+     "dcs": 3.381914103281591,
+     "human": 366,
+     "human_aa": "F",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.677
+    },
+    {
+     "chicken": 222,
+     "chicken_aa": "L",
+     "conservation": 0.348,
+     "dcs": 3.3803104535056097,
+     "human": 214,
+     "human_aa": "L",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.2285
+    },
+    {
+     "chicken": 209,
+     "chicken_aa": "Q",
+     "conservation": 0.233,
+     "dcs": 3.359803372900936,
+     "human": 201,
+     "human_aa": "H",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.5879999999999999
+    },
+    {
+     "chicken": 236,
+     "chicken_aa": "L",
+     "conservation": 0.324,
+     "dcs": 3.316845195432543,
+     "human": 228,
+     "human_aa": "F",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.2685
+    },
+    {
+     "chicken": 422,
+     "chicken_aa": "Y",
+     "conservation": 0.409,
+     "dcs": 3.287495131777465,
+     "human": 414,
+     "human_aa": "Y",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.1005
+    },
+    {
+     "chicken": 228,
+     "chicken_aa": "L",
+     "conservation": 0.346,
+     "dcs": 3.268028787149855,
+     "human": 220,
+     "human_aa": "I",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.208
+    },
+    {
+     "chicken": 430,
+     "chicken_aa": "R",
+     "conservation": 0.214,
+     "dcs": 3.218898194421262,
+     "human": 422,
+     "human_aa": "K",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.6355
+    },
+    {
+     "chicken": 246,
+     "chicken_aa": "R",
+     "conservation": 0.116,
+     "dcs": 3.209472661044073,
+     "human": 238,
+     "human_aa": "K",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.5999999999999996
+    },
+    {
+     "chicken": 335,
+     "chicken_aa": "L",
+     "conservation": 0.204,
+     "dcs": 3.173969818656664,
+     "human": 327,
+     "human_aa": "Y",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.675
+    },
+    {
+     "chicken": 146,
+     "chicken_aa": "R",
+     "conservation": 0.256,
+     "dcs": 3.17200616586975,
+     "human": 138,
+     "human_aa": "Q",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.433
+    }
+   ],
+   "groups": {
+    "position_set": {
+     "conservation_mean": 0.30282539682539683,
+     "dcs_mean": 1.7956491999751265,
+     "not_scored": [
+      1,
+      144,
+      145,
+      169
+     ],
+     "positions": 63,
+     "rcs_mean": 2.806342974382759,
+     "rmsf_A_mean": 0.9458333333333333,
+     "share_in_top_dcs": 0.1746031746031746,
+     "share_in_top_rcs": 0.19047619047619047
+    },
+    "primaries": {
+     "conservation_mean": 0.29268421052631577,
+     "dcs_mean": 2.073459906257971,
+     "not_scored": [
+      301
+     ],
+     "positions": 19,
+     "rcs_mean": 2.612353891866654,
+     "rmsf_A_mean": 1.1629210526315787,
+     "share_in_top_dcs": 0.21052631578947367,
+     "share_in_top_rcs": 0.15789473684210525
+    },
+    "rescue_targets": {
+     "conservation_mean": 0.21133333333333335,
+     "dcs_mean": 1.5189356129160345,
+     "not_scored": [
+      144
+     ],
+     "positions": 3,
+     "rcs_mean": 1.7071768544591166,
+     "rmsf_A_mean": 1.0614999999999999,
+     "share_in_top_dcs": 0.0,
+     "share_in_top_rcs": 0.0
+    },
+    "rescuers": {
+     "conservation_mean": 0.2683333333333333,
+     "dcs_mean": 1.4148729243917308,
+     "not_scored": [],
+     "positions": 6,
+     "rcs_mean": 2.456626811243623,
+     "rmsf_A_mean": 0.9643333333333334,
+     "share_in_top_dcs": 0.0,
+     "share_in_top_rcs": 0.0
+    }
+   },
+   "ns_per_run": 100.0,
+   "rcs_0_10": {
+    "max": 10.0,
+    "mean": 2.6074393509435887,
+    "min": 0.0,
+    "p10": 0.6672712140716347,
+    "p50": 2.445333522771116,
+    "p90": 4.460117937267519
+   },
+   "replicates": 2,
+   "residues": 432,
+   "rigid_conserved": [
+    {
+     "chicken": 120,
+     "chicken_aa": "G",
+     "conservation": 0.854,
+     "human": 112,
+     "human_aa": "G",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 10.0,
+     "rmsf_A": 0.5775
+    },
+    {
+     "chicken": 121,
+     "chicken_aa": "R",
+     "conservation": 0.837,
+     "human": 113,
+     "human_aa": "R",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 9.72055885778816,
+     "rmsf_A": 0.6040000000000001
+    },
+    {
+     "chicken": 397,
+     "chicken_aa": "G",
+     "conservation": 0.815,
+     "human": 389,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 9.513491930317924,
+     "rmsf_A": 0.5780000000000001
+    },
+    {
+     "chicken": 113,
+     "chicken_aa": "G",
+     "conservation": 0.811,
+     "human": 105,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 9.265063059510002,
+     "rmsf_A": 0.6579999999999999
+    },
+    {
+     "chicken": 117,
+     "chicken_aa": "D",
+     "conservation": 0.868,
+     "human": 109,
+     "human_aa": "D",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 8.838629017540551,
+     "rmsf_A": 1.0799999999999998
+    },
+    {
+     "chicken": 203,
+     "chicken_aa": "A",
+     "conservation": 0.789,
+     "human": 195,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 8.788978150556495,
+     "rmsf_A": 0.744
+    },
+    {
+     "chicken": 199,
+     "chicken_aa": "A",
+     "conservation": 0.666,
+     "human": 191,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.615931635823829,
+     "rmsf_A": 0.5994999999999999
+    },
+    {
+     "chicken": 160,
+     "chicken_aa": "G",
+     "conservation": 0.649,
+     "human": 152,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.417476676493751,
+     "rmsf_A": 0.5935
+    },
+    {
+     "chicken": 116,
+     "chicken_aa": "S",
+     "conservation": 0.659,
+     "human": 108,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.22965003411105,
+     "rmsf_A": 0.748
+    },
+    {
+     "chicken": 401,
+     "chicken_aa": "A",
+     "conservation": 0.624,
+     "human": 393,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.164958460458743,
+     "rmsf_A": 0.5635000000000001
+    },
+    {
+     "chicken": 178,
+     "chicken_aa": "D",
+     "conservation": 0.656,
+     "human": 170,
+     "human_aa": "D",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.137645125059557,
+     "rmsf_A": 0.776
+    },
+    {
+     "chicken": 122,
+     "chicken_aa": "R",
+     "conservation": 0.671,
+     "human": 114,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.807674312359224,
+     "rmsf_A": 1.0230000000000001
+    },
+    {
+     "chicken": 240,
+     "chicken_aa": "E",
+     "conservation": 0.605,
+     "human": 232,
+     "human_aa": "E",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 6.723956795937539,
+     "rmsf_A": 0.6735
+    },
+    {
+     "chicken": 185,
+     "chicken_aa": "R",
+     "conservation": 0.608,
+     "human": 177,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.573300173556037,
+     "rmsf_A": 0.774
+    },
+    {
+     "chicken": 207,
+     "chicken_aa": "G",
+     "conservation": 0.667,
+     "human": 199,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.509084746053345,
+     "rmsf_A": 1.1475
+    },
+    {
+     "chicken": 313,
+     "chicken_aa": "G",
+     "conservation": 0.604,
+     "human": 305,
+     "human_aa": "G",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 6.2207744249195605,
+     "rmsf_A": 0.9390000000000001
+    },
+    {
+     "chicken": 208,
+     "chicken_aa": "G",
+     "conservation": 0.638,
+     "human": 200,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.137327898428687,
+     "rmsf_A": 1.179
+    },
+    {
+     "chicken": 174,
+     "chicken_aa": "A",
+     "conservation": 0.541,
+     "human": 166,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.112929618556412,
+     "rmsf_A": 0.573
+    },
+    {
+     "chicken": 125,
+     "chicken_aa": "L",
+     "conservation": 0.562,
+     "human": 117,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.074222457930729,
+     "rmsf_A": 0.7475
+    },
+    {
+     "chicken": 238,
+     "chicken_aa": "L",
+     "conservation": 0.564,
+     "human": 230,
+     "human_aa": "F",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.948682162187321,
+     "rmsf_A": 0.8340000000000001
+    },
+    {
+     "chicken": 204,
+     "chicken_aa": "S",
+     "conservation": 0.579,
+     "human": 196,
+     "human_aa": "S",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.823916560822388,
+     "rmsf_A": 1.0030000000000001
+    },
+    {
+     "chicken": 177,
+     "chicken_aa": "A",
+     "conservation": 0.524,
+     "human": 169,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.7728112281079955,
+     "rmsf_A": 0.653
+    },
+    {
+     "chicken": 414,
+     "chicken_aa": "A",
+     "conservation": 0.509,
+     "human": 406,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.408845723748272,
+     "rmsf_A": 0.769
+    },
+    {
+     "chicken": 190,
+     "chicken_aa": "A",
+     "conservation": 0.482,
+     "human": 182,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.400143425631177,
+     "rmsf_A": 0.558
+    },
+    {
+     "chicken": 346,
+     "chicken_aa": "G",
+     "conservation": 0.477,
+     "human": 338,
+     "human_aa": "G",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.379989123658371,
+     "rmsf_A": 0.529
+    },
+    {
+     "chicken": 131,
+     "chicken_aa": "G",
+     "conservation": 0.473,
+     "human": 123,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.3238314363017505,
+     "rmsf_A": 0.5329999999999999
+    },
+    {
+     "chicken": 164,
+     "chicken_aa": "D",
+     "conservation": 0.53,
+     "human": 156,
+     "human_aa": "D",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.262655076667185,
+     "rmsf_A": 1.0125
+    },
+    {
+     "chicken": 381,
+     "chicken_aa": "P",
+     "conservation": 0.47,
+     "human": 373,
+     "human_aa": "P",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.197586872941549,
+     "rmsf_A": 0.5945
+    },
+    {
+     "chicken": 156,
+     "chicken_aa": "R",
+     "conservation": 0.472,
+     "human": 148,
+     "human_aa": "R",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.08289842256302,
+     "rmsf_A": 0.691
+    },
+    {
+     "chicken": 219,
+     "chicken_aa": "P",
+     "conservation": 0.497,
+     "human": 211,
+     "human_aa": "P",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.056558813694883,
+     "rmsf_A": 0.907
+    },
+    {
+     "chicken": 415,
+     "chicken_aa": "T",
+     "conservation": 0.518,
+     "human": 407,
+     "human_aa": "S",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.003230444937908,
+     "rmsf_A": 1.092
+    },
+    {
+     "chicken": 176,
+     "chicken_aa": "V",
+     "conservation": 0.459,
+     "human": 168,
+     "human_aa": "V",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.981881950049668,
+     "rmsf_A": 0.651
+    },
+    {
+     "chicken": 95,
+     "chicken_aa": "L",
+     "conservation": 0.505,
+     "human": 87,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.894430284242412,
+     "rmsf_A": 1.071
+    },
+    {
+     "chicken": 434,
+     "chicken_aa": "F",
+     "conservation": 0.461,
+     "human": 426,
+     "human_aa": "F",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.757170056745599,
+     "rmsf_A": 0.8275000000000001
+    },
+    {
+     "chicken": 189,
+     "chicken_aa": "V",
+     "conservation": 0.428,
+     "human": 181,
+     "human_aa": "M",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.620176226129922,
+     "rmsf_A": 0.6379999999999999
+    },
+    {
+     "chicken": 115,
+     "chicken_aa": "W",
+     "conservation": 0.437,
+     "human": 107,
+     "human_aa": "W",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 4.554530829161824,
+     "rmsf_A": 0.7695
+    },
+    {
+     "chicken": 163,
+     "chicken_aa": "G",
+     "conservation": 0.415,
+     "human": 155,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.522462156332714,
+     "rmsf_A": 0.5895
+    },
+    {
+     "chicken": 299,
+     "chicken_aa": "Y",
+     "conservation": 0.46,
+     "human": 291,
+     "human_aa": "Y",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.520831623698177,
+     "rmsf_A": 0.987
+    }
+   ],
+   "rmsf_A": {
+    "max": 4.641,
+    "mean": 1.0838425925925923,
+    "min": 0.48650000000000004,
+    "p10": 0.6179999999999999,
+    "p50": 0.9537500000000001,
+    "p90": 1.6590000000000003
+   },
+   "scored": 377,
+   "seeds": [
+    "20261101",
+    "20261102"
+   ],
+   "share_of_chain_in_top_dcs": 0.10079575596816977,
+   "top_n": 38,
+   "values_checked_against_run_reports": 142,
+   "watched": {
+    "238": {
+     "conservation": 0.564,
+     "dcs": 2.5657087313821165,
+     "in_top_dcs": false,
+     "in_top_rcs": true,
+     "norm_dynamics": 0.08364424118425805,
+     "rank_dcs": 72,
+     "rank_rcs": 20,
+     "rcs": 5.948682162187321,
+     "rmsf_A": 0.8340000000000001
+    },
+    "239": {
+     "conservation": 0.433,
+     "dcs": 2.981584209613388,
+     "in_top_dcs": false,
+     "in_top_rcs": false,
+     "norm_dynamics": 0.12660970032494884,
+     "rank_dcs": 49,
+     "rank_rcs": 47,
+     "rcs": 4.1849281218346235,
+     "rmsf_A": 1.0125
+    },
+    "319": {
+     "conservation": 0.099,
+     "dcs": 0.8508311160420613,
+     "in_top_dcs": false,
+     "in_top_rcs": false,
+     "norm_dynamics": 0.15802142255385726,
+     "rank_dcs": 270,
+     "rank_rcs": 360,
+     "rcs": 0.43443207246975035,
+     "rmsf_A": 1.143
+    },
+    "407": {
+     "conservation": 0.102,
+     "dcs": 0.7243915130926547,
+     "in_top_dcs": false,
+     "in_top_rcs": false,
+     "norm_dynamics": 0.13058129738837404,
+     "rank_dcs": 284,
+     "rank_rcs": 353,
+     "rcs": 0.5021703690729757,
+     "rmsf_A": 1.029
+    }
+   },
+   "with_enrichment": 303
+  },
+  "wt": {
+   "above_published_dcs_cut": 278,
+   "above_published_rcs_cut": 19,
+   "arm": "wt",
+   "dcs_0_10": {
+    "max": 10.0,
+    "mean": 1.8722245456889859,
+    "min": 0.0,
+    "p10": 0.4579592803030302,
+    "p50": 1.5314472853535355,
+    "p90": 3.704684343434344
+   },
+   "dynamic_conserved": [
+    {
+     "chicken": 183,
+     "chicken_aa": "R",
+     "conservation": 0.275,
+     "dcs": 10.0,
+     "human": 175,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.7664999999999997
+    },
+    {
+     "chicken": 415,
+     "chicken_aa": "T",
+     "conservation": 0.518,
+     "dcs": 8.919476010101011,
+     "human": 407,
+     "human_aa": "S",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.5535
+    },
+    {
+     "chicken": 122,
+     "chicken_aa": "R",
+     "conservation": 0.671,
+     "dcs": 6.57126736111111,
+     "human": 114,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.083
+    },
+    {
+     "chicken": 243,
+     "chicken_aa": "K",
+     "conservation": 0.208,
+     "dcs": 6.419570707070708,
+     "human": 235,
+     "human_aa": "K",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.418
+    },
+    {
+     "chicken": 181,
+     "chicken_aa": "N",
+     "conservation": 0.251,
+     "dcs": 6.296788194444444,
+     "human": 173,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.0519999999999996
+    },
+    {
+     "chicken": 239,
+     "chicken_aa": "Q",
+     "conservation": 0.433,
+     "dcs": 6.095896464646465,
+     "human": 231,
+     "human_aa": "G",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.3545
+    },
+    {
+     "chicken": 238,
+     "chicken_aa": "L",
+     "conservation": 0.564,
+     "dcs": 5.9150568181818155,
+     "human": 230,
+     "human_aa": "F",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.1269999999999998
+    },
+    {
+     "chicken": 103,
+     "chicken_aa": "F",
+     "conservation": 0.393,
+     "dcs": 5.827391098484847,
+     "human": 95,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.402
+    },
+    {
+     "chicken": 419,
+     "chicken_aa": "N",
+     "conservation": 0.399,
+     "dcs": 5.7998579545454545,
+     "human": 411,
+     "human_aa": "N",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.3835
+    },
+    {
+     "chicken": 182,
+     "chicken_aa": "Q",
+     "conservation": 0.229,
+     "dcs": 5.759335542929294,
+     "human": 174,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.056
+    },
+    {
+     "chicken": 430,
+     "chicken_aa": "R",
+     "conservation": 0.214,
+     "dcs": 5.162547348484848,
+     "human": 422,
+     "human_aa": "K",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.991
+    },
+    {
+     "chicken": 338,
+     "chicken_aa": "E",
+     "conservation": 0.308,
+     "dcs": 5.155208333333335,
+     "human": 330,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.5230000000000001
+    },
+    {
+     "chicken": 413,
+     "chicken_aa": "V",
+     "conservation": 0.369,
+     "dcs": 5.148295454545453,
+     "human": 405,
+     "human_aa": "T",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.3464999999999998
+    },
+    {
+     "chicken": 117,
+     "chicken_aa": "D",
+     "conservation": 0.868,
+     "dcs": 5.000315656565655,
+     "human": 109,
+     "human_aa": "D",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 0.8274999999999999
+    },
+    {
+     "chicken": 204,
+     "chicken_aa": "S",
+     "conservation": 0.579,
+     "dcs": 4.943797348484849,
+     "human": 196,
+     "human_aa": "S",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.0035
+    },
+    {
+     "chicken": 417,
+     "chicken_aa": "V",
+     "conservation": 0.341,
+     "dcs": 4.84105902777778,
+     "human": 409,
+     "human_aa": "I",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.362
+    },
+    {
+     "chicken": 246,
+     "chicken_aa": "R",
+     "conservation": 0.116,
+     "dcs": 4.64659090909091,
+     "human": 238,
+     "human_aa": "K",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 3.0005
+    },
+    {
+     "chicken": 416,
+     "chicken_aa": "G",
+     "conservation": 0.272,
+     "dcs": 4.608459595959596,
+     "human": 408,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.536
+    },
+    {
+     "chicken": 245,
+     "chicken_aa": "R",
+     "conservation": 0.129,
+     "dcs": 4.53108428030303,
+     "human": 237,
+     "human_aa": "P",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.6879999999999997
+    },
+    {
+     "chicken": 232,
+     "chicken_aa": "L",
+     "conservation": 0.379,
+     "dcs": 4.44140625,
+     "human": 224,
+     "human_aa": "L",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.205
+    },
+    {
+     "chicken": 305,
+     "chicken_aa": "L",
+     "conservation": 0.471,
+     "dcs": 4.382173295454546,
+     "human": 297,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.052
+    },
+    {
+     "chicken": 214,
+     "chicken_aa": "E",
+     "conservation": 0.166,
+     "dcs": 4.20239898989899,
+     "human": 206,
+     "human_aa": "Q",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 2.0665
+    },
+    {
+     "chicken": 158,
+     "chicken_aa": "I",
+     "conservation": 0.38,
+     "dcs": 4.20123106060606,
+     "human": 150,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.1629999999999998
+    },
+    {
+     "chicken": 298,
+     "chicken_aa": "L",
+     "conservation": 0.342,
+     "dcs": 4.1643465909090915,
+     "human": 290,
+     "human_aa": "L",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.234
+    },
+    {
+     "chicken": 215,
+     "chicken_aa": "G",
+     "conservation": 0.385,
+     "dcs": 4.156249999999999,
+     "human": 207,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.1464999999999999
+    },
+    {
+     "chicken": 208,
+     "chicken_aa": "G",
+     "conservation": 0.638,
+     "dcs": 4.153645833333333,
+     "human": 200,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 0.875
+    },
+    {
+     "chicken": 307,
+     "chicken_aa": "W",
+     "conservation": 0.375,
+     "dcs": 4.080847537878787,
+     "human": 299,
+     "human_aa": "W",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.152
+    },
+    {
+     "chicken": 236,
+     "chicken_aa": "L",
+     "conservation": 0.324,
+     "dcs": 4.055113636363637,
+     "human": 228,
+     "human_aa": "F",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 1.2555
+    },
+    {
+     "chicken": 95,
+     "chicken_aa": "L",
+     "conservation": 0.505,
+     "dcs": 3.9891493055555567,
+     "human": 87,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 0.9630000000000001
+    },
+    {
+     "chicken": 146,
+     "chicken_aa": "R",
+     "conservation": 0.256,
+     "dcs": 3.981818181818182,
+     "human": 138,
+     "human_aa": "Q",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.448
+    },
+    {
+     "chicken": 148,
+     "chicken_aa": "H",
+     "conservation": 0.278,
+     "dcs": 3.94447601010101,
+     "human": 140,
+     "human_aa": "H",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.3615
+    },
+    {
+     "chicken": 152,
+     "chicken_aa": "L",
+     "conservation": 0.409,
+     "dcs": 3.921519886363635,
+     "human": 144,
+     "human_aa": "F",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.0699999999999998
+    },
+    {
+     "chicken": 335,
+     "chicken_aa": "L",
+     "conservation": 0.204,
+     "dcs": 3.8749053030303027,
+     "human": 327,
+     "human_aa": "Y",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.666
+    },
+    {
+     "chicken": 313,
+     "chicken_aa": "G",
+     "conservation": 0.604,
+     "dcs": 3.841729797979798,
+     "human": 305,
+     "human_aa": "G",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rmsf_A": 0.8655
+    },
+    {
+     "chicken": 207,
+     "chicken_aa": "G",
+     "conservation": 0.667,
+     "dcs": 3.831881313131313,
+     "human": 199,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 0.8265
+    },
+    {
+     "chicken": 220,
+     "chicken_aa": "F",
+     "conservation": 0.378,
+     "dcs": 3.80625,
+     "human": 212,
+     "human_aa": "F",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.1005
+    },
+    {
+     "chicken": 203,
+     "chicken_aa": "A",
+     "conservation": 0.789,
+     "dcs": 3.7295691287878787,
+     "human": 195,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 0.762
+    },
+    {
+     "chicken": 412,
+     "chicken_aa": "L",
+     "conservation": 0.277,
+     "dcs": 3.709509154040404,
+     "human": 404,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rmsf_A": 1.311
+    }
+   ],
+   "groups": {
+    "position_set": {
+     "conservation_mean": 0.30282539682539683,
+     "dcs_mean": 2.090483205066538,
+     "not_scored": [
+      1,
+      144,
+      145,
+      169
+     ],
+     "positions": 63,
+     "rcs_mean": 2.91898698600309,
+     "rmsf_A_mean": 0.9220317460317462,
+     "share_in_top_dcs": 0.19047619047619047,
+     "share_in_top_rcs": 0.19047619047619047
+    },
+    "primaries": {
+     "conservation_mean": 0.29268421052631577,
+     "dcs_mean": 2.619543710127591,
+     "not_scored": [
+      301
+     ],
+     "positions": 19,
+     "rcs_mean": 2.667498974095405,
+     "rmsf_A_mean": 1.1544736842105263,
+     "share_in_top_dcs": 0.2631578947368421,
+     "share_in_top_rcs": 0.10526315789473684
+    },
+    "rescue_targets": {
+     "conservation_mean": 0.21133333333333335,
+     "dcs_mean": 2.439833228114478,
+     "not_scored": [
+      144
+     ],
+     "positions": 3,
+     "rcs_mean": 1.7046183052745156,
+     "rmsf_A_mean": 1.0175,
+     "share_in_top_dcs": 0.3333333333333333,
+     "share_in_top_rcs": 0.0
+    },
+    "rescuers": {
+     "conservation_mean": 0.2683333333333333,
+     "dcs_mean": 1.212863005050505,
+     "not_scored": [],
+     "positions": 6,
+     "rcs_mean": 2.7017741740494436,
+     "rmsf_A_mean": 0.7712500000000001,
+     "share_in_top_dcs": 0.0,
+     "share_in_top_rcs": 0.0
+    }
+   },
+   "ns_per_run": 100.0,
+   "rcs_0_10": {
+    "max": 10.0,
+    "mean": 2.7423474415655504,
+    "min": 0.0,
+    "p10": 0.924050823404771,
+    "p50": 2.582886002495121,
+    "p90": 4.56419818298653
+   },
+   "replicates": 2,
+   "residues": 432,
+   "rigid_conserved": [
+    {
+     "chicken": 120,
+     "chicken_aa": "G",
+     "conservation": 0.854,
+     "human": 112,
+     "human_aa": "G",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 10.0,
+     "rmsf_A": 0.5345
+    },
+    {
+     "chicken": 397,
+     "chicken_aa": "G",
+     "conservation": 0.815,
+     "human": 389,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 9.669464271471504,
+     "rmsf_A": 0.48850000000000005
+    },
+    {
+     "chicken": 121,
+     "chicken_aa": "R",
+     "conservation": 0.837,
+     "human": 113,
+     "human_aa": "R",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 9.644861075369791,
+     "rmsf_A": 0.582
+    },
+    {
+     "chicken": 113,
+     "chicken_aa": "G",
+     "conservation": 0.811,
+     "human": 105,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 9.59446957623586,
+     "rmsf_A": 0.497
+    },
+    {
+     "chicken": 117,
+     "chicken_aa": "D",
+     "conservation": 0.868,
+     "human": 109,
+     "human_aa": "D",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 9.212456941114857,
+     "rmsf_A": 0.8274999999999999
+    },
+    {
+     "chicken": 203,
+     "chicken_aa": "A",
+     "conservation": 0.789,
+     "human": 195,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 8.53871612663413,
+     "rmsf_A": 0.762
+    },
+    {
+     "chicken": 116,
+     "chicken_aa": "S",
+     "conservation": 0.659,
+     "human": 108,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.754897689530578,
+     "rmsf_A": 0.489
+    },
+    {
+     "chicken": 199,
+     "chicken_aa": "A",
+     "conservation": 0.666,
+     "human": 191,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.322068421678352,
+     "rmsf_A": 0.696
+    },
+    {
+     "chicken": 401,
+     "chicken_aa": "A",
+     "conservation": 0.624,
+     "human": 393,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.2787386549525435,
+     "rmsf_A": 0.509
+    },
+    {
+     "chicken": 160,
+     "chicken_aa": "G",
+     "conservation": 0.649,
+     "human": 152,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.259908622612292,
+     "rmsf_A": 0.6415
+    },
+    {
+     "chicken": 178,
+     "chicken_aa": "D",
+     "conservation": 0.656,
+     "human": 170,
+     "human_aa": "D",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.167737401372768,
+     "rmsf_A": 0.712
+    },
+    {
+     "chicken": 207,
+     "chicken_aa": "G",
+     "conservation": 0.667,
+     "human": 199,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 7.006073767074945,
+     "rmsf_A": 0.8265
+    },
+    {
+     "chicken": 240,
+     "chicken_aa": "E",
+     "conservation": 0.605,
+     "human": 232,
+     "human_aa": "E",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 6.659085744555656,
+     "rmsf_A": 0.6795
+    },
+    {
+     "chicken": 208,
+     "chicken_aa": "G",
+     "conservation": 0.638,
+     "human": 200,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.570853593018478,
+     "rmsf_A": 0.875
+    },
+    {
+     "chicken": 122,
+     "chicken_aa": "R",
+     "conservation": 0.671,
+     "human": 114,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.4025213808339245,
+     "rmsf_A": 1.083
+    },
+    {
+     "chicken": 185,
+     "chicken_aa": "R",
+     "conservation": 0.608,
+     "human": 177,
+     "human_aa": "R",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.356326665131671,
+     "rmsf_A": 0.827
+    },
+    {
+     "chicken": 174,
+     "chicken_aa": "A",
+     "conservation": 0.541,
+     "human": 166,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.240692207790254,
+     "rmsf_A": 0.522
+    },
+    {
+     "chicken": 313,
+     "chicken_aa": "G",
+     "conservation": 0.604,
+     "human": 305,
+     "human_aa": "G",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 6.224873851951175,
+     "rmsf_A": 0.8655
+    },
+    {
+     "chicken": 125,
+     "chicken_aa": "L",
+     "conservation": 0.562,
+     "human": 117,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 6.144621420412733,
+     "rmsf_A": 0.6880000000000001
+    },
+    {
+     "chicken": 177,
+     "chicken_aa": "A",
+     "conservation": 0.524,
+     "human": 169,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.900274944807878,
+     "rmsf_A": 0.59
+    },
+    {
+     "chicken": 210,
+     "chicken_aa": "W",
+     "conservation": 0.569,
+     "human": 202,
+     "human_aa": "W",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.834541013729181,
+     "rmsf_A": 0.8705
+    },
+    {
+     "chicken": 204,
+     "chicken_aa": "S",
+     "conservation": 0.579,
+     "human": 196,
+     "human_aa": "S",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.6530992615467035,
+     "rmsf_A": 1.0035
+    },
+    {
+     "chicken": 190,
+     "chicken_aa": "A",
+     "conservation": 0.482,
+     "human": 182,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.526311631203753,
+     "rmsf_A": 0.521
+    },
+    {
+     "chicken": 346,
+     "chicken_aa": "G",
+     "conservation": 0.477,
+     "human": 338,
+     "human_aa": "G",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.453933576825779,
+     "rmsf_A": 0.5275000000000001
+    },
+    {
+     "chicken": 381,
+     "chicken_aa": "P",
+     "conservation": 0.47,
+     "human": 373,
+     "human_aa": "P",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.429226919007911,
+     "rmsf_A": 0.4935
+    },
+    {
+     "chicken": 131,
+     "chicken_aa": "G",
+     "conservation": 0.473,
+     "human": 123,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.424146008183634,
+     "rmsf_A": 0.517
+    },
+    {
+     "chicken": 164,
+     "chicken_aa": "D",
+     "conservation": 0.53,
+     "human": 156,
+     "human_aa": "D",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.343466561925788,
+     "rmsf_A": 0.905
+    },
+    {
+     "chicken": 414,
+     "chicken_aa": "A",
+     "conservation": 0.509,
+     "human": 406,
+     "human_aa": "A",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.268178411640685,
+     "rmsf_A": 0.827
+    },
+    {
+     "chicken": 238,
+     "chicken_aa": "L",
+     "conservation": 0.564,
+     "human": 230,
+     "human_aa": "F",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.236133496464243,
+     "rmsf_A": 1.1269999999999998
+    },
+    {
+     "chicken": 219,
+     "chicken_aa": "P",
+     "conservation": 0.497,
+     "human": 211,
+     "human_aa": "P",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.210140151121826,
+     "rmsf_A": 0.7874999999999999
+    },
+    {
+     "chicken": 156,
+     "chicken_aa": "R",
+     "conservation": 0.472,
+     "human": 148,
+     "human_aa": "R",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 5.109217949817681,
+     "rmsf_A": 0.6875
+    },
+    {
+     "chicken": 176,
+     "chicken_aa": "V",
+     "conservation": 0.459,
+     "human": 168,
+     "human_aa": "V",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 5.088158787774813,
+     "rmsf_A": 0.613
+    },
+    {
+     "chicken": 95,
+     "chicken_aa": "L",
+     "conservation": 0.505,
+     "human": 87,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.965821892348648,
+     "rmsf_A": 0.9630000000000001
+    },
+    {
+     "chicken": 434,
+     "chicken_aa": "F",
+     "conservation": 0.461,
+     "human": 426,
+     "human_aa": "F",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.945249940932766,
+     "rmsf_A": 0.7090000000000001
+    },
+    {
+     "chicken": 115,
+     "chicken_aa": "W",
+     "conservation": 0.437,
+     "human": 107,
+     "human_aa": "W",
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rcs": 4.8023298073580465,
+     "rmsf_A": 0.629
+    },
+    {
+     "chicken": 206,
+     "chicken_aa": "G",
+     "conservation": 0.453,
+     "human": 198,
+     "human_aa": "L",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.6194264232946125,
+     "rmsf_A": 0.8464999999999999
+    },
+    {
+     "chicken": 163,
+     "chicken_aa": "G",
+     "conservation": 0.415,
+     "human": 155,
+     "human_aa": "G",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.57926070396104,
+     "rmsf_A": 0.6065
+    },
+    {
+     "chicken": 388,
+     "chicken_aa": "S",
+     "conservation": 0.396,
+     "human": 380,
+     "human_aa": "S",
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rcs": 4.5692004629065295,
+     "rmsf_A": 0.4625
+    }
+   ],
+   "rmsf_A": {
+    "max": 3.7485,
+    "mean": 1.0270381944444442,
+    "min": 0.4625,
+    "p10": 0.594,
+    "p50": 0.8935,
+    "p90": 1.5405000000000002
+   },
+   "scored": 377,
+   "seeds": [
+    "20261101",
+    "20261102"
+   ],
+   "share_of_chain_in_top_dcs": 0.10079575596816977,
+   "top_n": 38,
+   "values_checked_against_run_reports": 142,
+   "watched": {
+    "238": {
+     "conservation": 0.564,
+     "dcs": 5.9150568181818155,
+     "in_top_dcs": true,
+     "in_top_rcs": true,
+     "norm_dynamics": 0.20222154595252578,
+     "rank_dcs": 7,
+     "rank_rcs": 29,
+     "rcs": 5.236133496464243,
+     "rmsf_A": 1.1269999999999998
+    },
+    "239": {
+     "conservation": 0.433,
+     "dcs": 6.095896464646465,
+     "in_top_dcs": true,
+     "in_top_rcs": false,
+     "norm_dynamics": 0.2714546561168594,
+     "rank_dcs": 6,
+     "rank_rcs": 87,
+     "rcs": 3.5735074800939652,
+     "rmsf_A": 1.3545
+    },
+    "319": {
+     "conservation": 0.099,
+     "dcs": 0.6867187499999999,
+     "in_top_dcs": false,
+     "in_top_rcs": false,
+     "norm_dynamics": 0.1337492391965916,
+     "rank_dcs": 311,
+     "rank_rcs": 351,
+     "rcs": 0.7337711833161025,
+     "rmsf_A": 0.902
+    },
+    "407": {
+     "conservation": 0.102,
+     "dcs": 0.5368844696969697,
+     "in_top_dcs": false,
+     "in_top_rcs": false,
+     "norm_dynamics": 0.10149117468046258,
+     "rank_dcs": 328,
+     "rank_rcs": 348,
+     "rcs": 0.8065762524134796,
+     "rmsf_A": 0.796
+    }
+   },
+   "with_enrichment": 303
+  }
+ },
+ "between_arms": {
+  "construct_against_wt": {
+   "dcs_rank_correlation": 0.8481138980038466,
+   "delta_rmsf_A_mean": 0.09411140583554378,
+   "delta_rmsf_A_mean_abs": 0.1595358090185677,
+   "moved_most_in_dcs_rank": [
+    {
+     "chicken": 116,
+     "chicken_aa": "S",
+     "human": 108,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_construct": 261,
+     "rank_in_wt": 17,
+     "rmsf_A_construct": 0.7535000000000001,
+     "rmsf_A_wt": 0.489
+    },
+    {
+     "chicken": 245,
+     "chicken_aa": "R",
+     "human": 237,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_construct": 117,
+     "rank_in_wt": 359,
+     "rmsf_A_construct": 1.0699999999999998,
+     "rmsf_A_wt": 2.6879999999999997
+    },
+    {
+     "chicken": 166,
+     "chicken_aa": "N",
+     "human": 158,
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rank_in_construct": 6,
+     "rank_in_wt": 225,
+     "rmsf_A_construct": 0.5860000000000001,
+     "rmsf_A_wt": 1.1635
+    },
+    {
+     "chicken": 196,
+     "chicken_aa": "L",
+     "human": 188,
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rank_in_construct": 61,
+     "rank_in_wt": 277,
+     "rmsf_A_construct": 0.6995,
+     "rmsf_A_wt": 1.0985
+    },
+    {
+     "chicken": 213,
+     "chicken_aa": "A",
+     "human": 205,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_construct": 279,
+     "rank_in_wt": 100,
+     "rmsf_A_construct": 2.831,
+     "rmsf_A_wt": 1.2785
+    },
+    {
+     "chicken": 265,
+     "chicken_aa": "A",
+     "human": 257,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_construct": 282,
+     "rank_in_wt": 107,
+     "rmsf_A_construct": 1.8575,
+     "rmsf_A_wt": 0.948
+    },
+    {
+     "chicken": 197,
+     "chicken_aa": "G",
+     "human": 189,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_construct": 14,
+     "rank_in_wt": 185,
+     "rmsf_A_construct": 0.5774999999999999,
+     "rmsf_A_wt": 0.7635000000000001
+    },
+    {
+     "chicken": 271,
+     "chicken_aa": "S",
+     "human": 263,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_construct": 343,
+     "rank_in_wt": 173,
+     "rmsf_A_construct": 1.6704999999999999,
+     "rmsf_A_wt": 0.8495
+    },
+    {
+     "chicken": 189,
+     "chicken_aa": "V",
+     "human": 181,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_construct": 137,
+     "rank_in_wt": 302,
+     "rmsf_A_construct": 0.7045,
+     "rmsf_A_wt": 0.884
+    },
+    {
+     "chicken": 217,
+     "chicken_aa": "I",
+     "human": 209,
+     "in_position_set": false,
+     "is_rescuer": true,
+     "rank_in_construct": 314,
+     "rank_in_wt": 154,
+     "rmsf_A_construct": 2.0875000000000004,
+     "rmsf_A_wt": 1.0950000000000002
+    }
+   ],
+   "positions": 377,
+   "rank_shift_mean": 41.724137931034484,
+   "rmsf_correlation": 0.7869533295520237
+  },
+  "primaries_against_wt": {
+   "dcs_rank_correlation": 0.8508788431752482,
+   "delta_rmsf_A_mean": 0.05314190981432363,
+   "delta_rmsf_A_mean_abs": 0.14396684350132624,
+   "moved_most_in_dcs_rank": [
+    {
+     "chicken": 116,
+     "chicken_aa": "S",
+     "human": 108,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_primaries": 290,
+     "rank_in_wt": 17,
+     "rmsf_A_primaries": 0.748,
+     "rmsf_A_wt": 0.489
+    },
+    {
+     "chicken": 166,
+     "chicken_aa": "N",
+     "human": 158,
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rank_in_primaries": 5,
+     "rank_in_wt": 225,
+     "rmsf_A_primaries": 0.5765,
+     "rmsf_A_wt": 1.1635
+    },
+    {
+     "chicken": 113,
+     "chicken_aa": "G",
+     "human": 105,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_primaries": 253,
+     "rank_in_wt": 34,
+     "rmsf_A_primaries": 0.6579999999999999,
+     "rmsf_A_wt": 0.497
+    },
+    {
+     "chicken": 196,
+     "chicken_aa": "L",
+     "human": 188,
+     "in_position_set": true,
+     "is_rescuer": false,
+     "rank_in_primaries": 65,
+     "rank_in_wt": 277,
+     "rmsf_A_primaries": 0.6829999999999999,
+     "rmsf_A_wt": 1.0985
+    },
+    {
+     "chicken": 396,
+     "chicken_aa": "Q",
+     "human": 388,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_primaries": 223,
+     "rank_in_wt": 24,
+     "rmsf_A_primaries": 0.8515,
+     "rmsf_A_wt": 0.5335000000000001
+    },
+    {
+     "chicken": 189,
+     "chicken_aa": "V",
+     "human": 181,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_primaries": 107,
+     "rank_in_wt": 302,
+     "rmsf_A_primaries": 0.6379999999999999,
+     "rmsf_A_wt": 0.884
+    },
+    {
+     "chicken": 173,
+     "chicken_aa": "F",
+     "human": 165,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_primaries": 219,
+     "rank_in_wt": 41,
+     "rmsf_A_primaries": 1.2715,
+     "rmsf_A_wt": 0.669
+    },
+    {
+     "chicken": 197,
+     "chicken_aa": "G",
+     "human": 189,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_primaries": 25,
+     "rank_in_wt": 185,
+     "rmsf_A_primaries": 0.5750000000000001,
+     "rmsf_A_wt": 0.7635000000000001
+    },
+    {
+     "chicken": 413,
+     "chicken_aa": "V",
+     "human": 405,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_primaries": 207,
+     "rank_in_wt": 365,
+     "rmsf_A_primaries": 0.7775000000000001,
+     "rmsf_A_wt": 1.3464999999999998
+    },
+    {
+     "chicken": 109,
+     "chicken_aa": "V",
+     "human": 101,
+     "in_position_set": false,
+     "is_rescuer": false,
+     "rank_in_primaries": 19,
+     "rank_in_wt": 174,
+     "rmsf_A_primaries": 0.5625,
+     "rmsf_A_wt": 0.7295
+    }
+   ],
+   "positions": 377,
+   "rank_shift_mean": 41.88859416445624,
+   "rmsf_correlation": 0.8260325864209641
+  },
+  "what": "each arm is rescaled over itself, so the comparison is on the ranking within an arm and on the fluctuation, not on a difference of rescaled scores"
+ },
+ "method": {
+  "alignment_sequences": 43074,
+  "conservation": "EVcouplings column conservation of the human alignment",
+  "covered_columns": 377,
+  "definition": "DCS = conservation * norm_dynamics, RCS = conservation * (1 - norm_dynamics), DCopS and RCopS the same two products of the coupling enrichment, each rescaled 0 to 10 over the scored positions",
+  "dynamics": "per-residue RMSF of the production run, averaged over the replicates of the arm",
+  "enrichment": "EVcouplings coupling enrichment of the human alignment",
+  "minimum_column_coverage": 0.7,
+  "normalisation": "min-max over the whole simulated chain",
+  "published_cuts": {
+   "applied": false,
+   "dcs": 0.95,
+   "rcs": 6.0,
+   "why": "calibrated over a set of many proteins, and the rescaling here runs over one"
+  },
+  "replicas": 2,
+  "replicas_in_published_method": 3,
+  "scored_region_source": "the columns the EVcouplings run covers, checked against its own alignment statistics",
+  "top_fraction": 0.1
+ },
+ "not_scored": {
+  "position_set": [
+   {
+    "chicken": 1,
+    "gap_frequency": 1.0,
+    "human": 1,
+    "simulated": false,
+    "why": "outside the simulated span"
+   },
+   {
+    "chicken": 144,
+    "gap_frequency": 0.623,
+    "human": 136,
+    "simulated": true,
+    "why": "human column gapped in 62.3 per cent of the alignment"
+   },
+   {
+    "chicken": 145,
+    "gap_frequency": 0.357,
+    "human": 137,
+    "simulated": true,
+    "why": "human column gapped in 35.7 per cent of the alignment"
+   },
+   {
+    "chicken": 169,
+    "gap_frequency": 0.563,
+    "human": 161,
+    "simulated": true,
+    "why": "human column gapped in 56.3 per cent of the alignment"
+   }
+  ],
+  "primaries": [
+   {
+    "chicken": 301,
+    "gap_frequency": 0.747,
+    "human": 293,
+    "simulated": true,
+    "why": "human column gapped in 74.7 per cent of the alignment"
+   }
+  ],
+  "rescue_targets": [
+   {
+    "chicken": 144,
+    "gap_frequency": 0.623,
+    "human": 136,
+    "simulated": true,
+    "why": "human column gapped in 62.3 per cent of the alignment"
+   }
+  ],
+  "rescuers": []
+ },
+ "single_replicate_direction": {
+  "positions": {
+   "238": {
+    "dcs": {
+     "change_by_replicate": [
+      0.056019731367408454,
+      -4.237536023152034
+     ],
+     "every_replicate_agrees": false,
+     "pooled_change": -1.611814907352354
+    },
+    "rcs": {
+     "change_by_replicate": [
+      0.28471718312283567,
+      0.708673030008149
+     ],
+     "every_replicate_agrees": true,
+     "pooled_change": 0.6066704339458759
+    }
+   },
+   "239": {
+    "dcs": {
+     "change_by_replicate": [
+      -3.2107768262688454,
+      -5.391432422932013
+     ],
+     "every_replicate_agrees": true,
+     "pooled_change": -3.9409634556978514
+    },
+    "rcs": {
+     "change_by_replicate": [
+      0.7890562898822124,
+      0.9072226815046536
+     ],
+     "every_replicate_agrees": true,
+     "pooled_change": 1.034100845661197
+    }
+   },
+   "319": {
+    "dcs": {
+     "change_by_replicate": [
+      0.3735818272917508,
+      -0.4385800629999157
+     ],
+     "every_replicate_agrees": false,
+     "pooled_change": 0.03859496302876897
+    },
+    "rcs": {
+     "change_by_replicate": [
+      0.30514805500285713,
+      -0.15203825260797832
+     ],
+     "every_replicate_agrees": false,
+     "pooled_change": 0.005355185780914984
+    }
+   },
+   "407": {
+    "dcs": {
+     "change_by_replicate": [
+      -0.1584403372883595,
+      -0.48069426074263155
+     ],
+     "every_replicate_agrees": true,
+     "pooled_change": -0.3069481877111594
+    },
+    "rcs": {
+     "change_by_replicate": [
+      0.37169924666304244,
+      -0.13722241431562354
+     ],
+     "every_replicate_agrees": false,
+     "pooled_change": 0.057597276459549485
+    }
+   }
+  },
+  "replicates": [
+   1,
+   2
+  ],
+  "what": "the change in each score from the wt arm to the construct arm, recomputed with one replicate under the normalisation, beside the change the pooled score gives"
+ }
+}

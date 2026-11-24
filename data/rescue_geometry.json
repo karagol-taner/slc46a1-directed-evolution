@@ -1,0 +1,96 @@
+{
+ "cutoff_A": 6.0,
+ "distance_max": 3.83,
+ "distance_min": 1.33,
+ "entries": [
+  "7BC6",
+  "7BC7"
+ ],
+ "n_beyond_window": 2,
+ "n_pairs": 6,
+ "n_targets": 4,
+ "n_touching": 6,
+ "pairs": [
+  {
+   "beyond_window": true,
+   "distance": {
+    "7BC6": 2.89,
+    "7BC7": 2.93
+   },
+   "distance_max": 2.93,
+   "label": "L140G with I217R",
+   "rescuer": 140,
+   "separation": 4,
+   "target": 144,
+   "touching": true
+  },
+  {
+   "beyond_window": true,
+   "distance": {
+    "7BC6": 3.46,
+    "7BC7": 3.83
+   },
+   "distance_max": 3.83,
+   "label": "L140G with I217R",
+   "rescuer": 217,
+   "separation": 73,
+   "target": 144,
+   "touching": true
+  },
+  {
+   "beyond_window": false,
+   "distance": {
+    "7BC6": 3.64,
+    "7BC7": 3.72
+   },
+   "distance_max": 3.72,
+   "label": "T241W",
+   "rescuer": 241,
+   "separation": 2,
+   "target": 239,
+   "touching": true
+  },
+  {
+   "beyond_window": false,
+   "distance": {
+    "7BC6": 1.33,
+    "7BC7": 1.33
+   },
+   "distance_max": 1.33,
+   "label": "A318P",
+   "rescuer": 318,
+   "separation": 1,
+   "target": 319,
+   "touching": true
+  },
+  {
+   "beyond_window": false,
+   "distance": {
+    "7BC6": 3.21,
+    "7BC7": 3.21
+   },
+   "distance_max": 3.21,
+   "label": "A404D with V406R",
+   "rescuer": 404,
+   "separation": 3,
+   "target": 407,
+   "touching": true
+  },
+  {
+   "beyond_window": false,
+   "distance": {
+    "7BC6": 1.33,
+    "7BC7": 1.33
+   },
+   "distance_max": 1.33,
+   "label": "A404D with V406R",
+   "rescuer": 406,
+   "separation": 1,
+   "target": 407,
+   "touching": true
+  }
+ ],
+ "separation_max": 73,
+ "separation_min": 1,
+ "window": 3
+}

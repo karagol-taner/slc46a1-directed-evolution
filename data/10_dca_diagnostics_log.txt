@@ -1,0 +1,26 @@
+alignment: 1047 sequences, Meff 401.1, length 459
+Meff / L = 0.874 (usable from about 1.0)
+verdict: underdetermined
+
+separation profile of the strongest couplings
+ top N   median sep   fraction with sep <= 8
+    20            1                   1.00
+    50            1                   1.00
+   100            1                   1.00
+   200            1                   1.00
+   500            2                   1.00
+for reference, all 105111 pairs: median sep 135, fraction local 0.03
+
+measured pairs against the whole distribution
+pair                      sep    score  percentile
+cross-link 45/290          245   -1.757        15.5
+cross-link 90/407          317   -1.496        34.8
+cross-link 290/411         121   -0.436        78.5
+F392V with S196L           196   -1.411        40.7
+F392D with G305L            87    1.078        89.7
+D109A with G305L           196   -1.179        54.4
+
+median percentile of the measured pairs: 47.5 against all pairs, 49.2 against pairs separated by more than 8
+a set with no detectable enrichment sits near 50
+
+wrote data/dca_diagnostics.json

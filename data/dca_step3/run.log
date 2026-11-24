@@ -1,0 +1,9 @@
+2026-11-10T08:35:18  start, project=/content/drive/MyDrive/MIT/All Project Files/SLC46A1 engraftment
+2026-11-10T08:35:18  query length 459
+2026-11-10T08:35:18  msa ticket jNtvMaOlUQnzdhUDUiigkPisscgFGvldOS21Nw
+2026-11-10T08:39:26  a3m 558156 bytes
+2026-11-10T08:39:26  alignment matrix 1047 sequences x 459 columns
+2026-11-10T08:39:27  effective sequences 401.1 from 1047
+2026-11-10T08:40:19  coupling matrix computed over 105111 pairs
+2026-11-10T08:40:20  wrote coupling_report.json; primary pairs 190 of which 5 above the 99th percentile
+2026-11-10T08:40:20  compensatory pair percentiles: F392V with S196L 40.7, F392D with G305L 89.7, D109A with G305L 54.4

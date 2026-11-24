@@ -1,0 +1,45 @@
+alignment          : data/evcouplings/Q96NT5_b0.3/align/Q96NT5_b0.3.a2m
+statistics         : Q96NT5_b0.3_alignment_statistics.csv
+  stated          : 43074 sequences, target length 459, 377 covered columns, region 24 to 442
+  N_eff in the run: blank, which is why this script exists
+sequences          : 43074, matching the statistics file
+match states       : 377, matching the 377 covered columns of 459
+target row         : Q96NT5/1-459
+symbols after encoding: -ACDEFGHIKLMNPQRSTVWY
+gap fraction       : 0.049
+identity cut       : 301.6 of 377 columns
+one-hot blocks     : 3, 1364 MB
+  rows      0 to   2048 done, 11 s elapsed
+  rows   2048 to   4096 done, 21 s elapsed
+  rows   4096 to   6144 done, 31 s elapsed
+  rows   6144 to   8192 done, 40 s elapsed
+  rows   8192 to  10240 done, 50 s elapsed
+  rows  10240 to  12288 done, 59 s elapsed
+  rows  12288 to  14336 done, 69 s elapsed
+  rows  14336 to  16384 done, 79 s elapsed
+  rows  16384 to  18432 done, 89 s elapsed
+  rows  18432 to  20480 done, 99 s elapsed
+  rows  20480 to  22528 done, 109 s elapsed
+  rows  22528 to  24576 done, 118 s elapsed
+  rows  24576 to  26624 done, 128 s elapsed
+  rows  26624 to  28672 done, 139 s elapsed
+  rows  28672 to  30720 done, 149 s elapsed
+  rows  30720 to  32768 done, 158 s elapsed
+  rows  32768 to  34816 done, 168 s elapsed
+  rows  34816 to  36864 done, 177 s elapsed
+  rows  36864 to  38912 done, 187 s elapsed
+  rows  38912 to  40960 done, 197 s elapsed
+  rows  40960 to  43008 done, 207 s elapsed
+  rows  43008 to  43074 done, 207 s elapsed
+
+effective sequences: 22427.3
+Meff / L           : 59.489 over the 377 fitted columns
+Meff / L           : 48.861 over the full 459 residues of Q96NT5
+neighbour counts   : median 2, max 452, singletons 15900
+computed in        : 207 s
+
+against the shallow alignment of step 3: 1047 sequences, Meff 401.1, Meff/L 0.874
+the step 3 ratio used the full length as its denominator, so 48.861 is the comparable figure
+fold change in Meff: 55.9
+
+wrote data/evcouplings_depth.json

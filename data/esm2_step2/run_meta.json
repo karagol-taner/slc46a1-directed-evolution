@@ -1,0 +1,85 @@
+{
+  "model": "facebook/esm2_t33_650M_UR50D",
+  "schema": "v2-primary-and-gate",
+  "threshold": 0.001,
+  "n_variants": 8987,
+  "n_targets": 5,
+  "n_gates": 5,
+  "n_crossing_threshold": 143,
+  "targets": [
+    {
+      "chicken_pos": 144,
+      "chicken_aa": "Y",
+      "human_pos": 136,
+      "human_aa": "Q",
+      "p_baseline": 5.3811298130312935e-05
+    },
+    {
+      "chicken_pos": 239,
+      "chicken_aa": "Q",
+      "human_pos": 231,
+      "human_aa": "G",
+      "p_baseline": 0.0005511019844561815
+    },
+    {
+      "chicken_pos": 319,
+      "chicken_aa": "S",
+      "human_pos": 311,
+      "human_aa": "Q",
+      "p_baseline": 8.524019358446822e-05
+    },
+    {
+      "chicken_pos": 322,
+      "chicken_aa": "A",
+      "human_pos": 314,
+      "human_aa": "P",
+      "p_baseline": 0.00015364473802037537
+    },
+    {
+      "chicken_pos": 407,
+      "chicken_aa": "E",
+      "human_pos": 399,
+      "human_aa": "N",
+      "p_baseline": 1.3523906090995297e-05
+    }
+  ],
+  "gates": [
+    {
+      "human_pos": 45,
+      "human_aa": "Q",
+      "chicken_pos": 49,
+      "chicken_aa": "Q",
+      "divergent": false
+    },
+    {
+      "human_pos": 90,
+      "human_aa": "N",
+      "chicken_pos": 98,
+      "chicken_aa": "N",
+      "divergent": false
+    },
+    {
+      "human_pos": 290,
+      "human_aa": "L",
+      "chicken_pos": 298,
+      "chicken_aa": "L",
+      "divergent": false
+    },
+    {
+      "human_pos": 407,
+      "human_aa": "S",
+      "chicken_pos": 415,
+      "chicken_aa": "T",
+      "divergent": true
+    },
+    {
+      "human_pos": 411,
+      "human_aa": "N",
+      "chicken_pos": 419,
+      "chicken_aa": "N",
+      "divergent": false
+    }
+  ],
+  "chicken_sha256": "5d68e7c91dc3af3cd898a3f459617f3b22670f3dbdf9f798e8d740d8669a8aea",
+  "finished_utc": "2026-11-10T07:25:50"
+}

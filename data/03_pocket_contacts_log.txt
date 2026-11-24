@@ -1,0 +1,16 @@
+deposited entity 7BC6_1 (chain A) length: 480
+observed chain A: 432 residues, author 26..457
+observed substring found in entity at 0-based index 25 (1-based entity position 26)
+=> author number 26 corresponds to entity position 26; offset author - entity = 0
+wrote 7BC6_chainA_authornum.tsv
+
+LYA copies in 7BC7: [('A', 501)]
+
+--- chain A residues within 4.0 A of pemetrexed: 14 ---
+T37(3.93), L40(3.24), V44(3.1), N98(3.11), R156(3.04), Y165(3.05), L169(3.85), E193(2.91), L196(3.68), F290(3.14), K293(3.19), Y323(2.73), E407(2.5), S411(2.44)
+
+--- chain A residues within 4.5 A of pemetrexed: 17 ---
+T37(3.93), L40(3.24), V44(3.1), N98(3.11), R156(3.04), Y165(3.05), L169(3.85), E193(2.91), L196(3.68), F290(3.14), K293(3.19), Y320(4.43), Y323(2.73), T380(4.15), E407(2.5), S411(2.44), T415(4.21)
+
+--- chain A residues within 5.0 A of pemetrexed: 21 ---
+T37(3.93), L40(3.24), V44(3.1), N98(3.11), Q135(4.91), R156(3.04), D164(4.65), Y165(3.05), L169(3.85), E193(2.91), L196(3.68), V286(4.61), F290(3.14), K293(3.19), Y320(4.43), Y323(2.73), T380(4.15), R384(4.54), E407(2.5), S411(2.44), T415(4.21)
